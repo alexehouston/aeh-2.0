@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Surfing Capital';
+  src: url('/public/assets/Surfing Capital.ttf');
+}
+
+@font-face {
+  font-family: 'Heaters';
+  src: url('/public/assets/Heaters.otf');
+}
+
+@font-face {
+  font-family: 'StretchPro';
+  src: url('/public/assets/StretchPro.otf');
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  background-image: url('/public/assets/aeh-bg.png');
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #C2DECD;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Helvetica', sans-serif;
+  text-transform: uppercase;
+}

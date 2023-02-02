@@ -1,0 +1,25 @@
+.hamburger-react {
+    float: right;
+    margin: 2vmin;
+    animation: fadeIn 2s;
+}
+
+.nav {
+    height: 100vh;
+    width: 100vw;
+    animation: fadeInLeft 1s;
+}
+
+.nav ul {
+    display: flex;
+    column-gap: 5vmin;
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    position: absolute;
+    right: 8%;
+    top: 1.5%;
+    font-weight: 600;
+    color: #84A491;
+    line-height: 1.5;
+}
