@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Stretch Pro;
+  src: url('../../../public/fonts/StretchPro.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #0d0d11;
+  color: #fff;
+}
