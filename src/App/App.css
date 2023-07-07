@@ -1,6 +1,20 @@
 @font-face {
   font-family: Stretch Pro;
-  src: url('../../../public/fonts/StretchPro.otf');
+  src: url("/fonts/StretchPro.otf");
+}
+
+@font-face {
+  font-family: Mondwest;
+  src: url("/fonts/PPMondwest.otf");
+}
+
+@font-face {
+  font-family: Neue Bit;
+  src: url("/fonts/PPNeueBit.otf");
+}
+
+:root {
+  --neon: #39FF14;
 }
 
 * {
@@ -9,7 +23,51 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   background-color: #0d0d11;
   color: #fff;
+  font-family: 'Neue Bit';
+  text-transform: uppercase;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 80%;
+  z-index: 0;
+}
+
+.text-neon {
+  color: var(--neon);
+}
+
+.slide-in, .slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+}
+
+.slide-in {
+  transform-origin: bottom;
+}
+
+.slide-out {
+  transform-origin: top;
 }
