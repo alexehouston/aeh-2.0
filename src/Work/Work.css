@@ -137,7 +137,8 @@
 }
 
 img {
-  max-width: 60vh;
+  max-width: 65vh;
+  height: 35vh;
   transition: 0.5s;
   filter: saturate(40%);
   border-radius: 5px;
