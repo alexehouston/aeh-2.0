@@ -11,7 +11,6 @@
 iframe {
   width: 50vmin;
   height: 65vmin;
-  border: 2px solid white;
+  border: 2px solid var(--aeh-txt);
   border-radius: 15px;
-  opacity: 85%;
 }

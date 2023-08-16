@@ -12,7 +12,8 @@ export default function Work() {
             </div>
             <img src="/assets/squiz/gameplay.gif" alt="Squiz" />
             <div className="img-links">
-              <a href="https://github.com/alexehouston/squiz">repo</a> | <a href="https://squiz.herokuapp.com/">demo</a>
+              <a href="https://github.com/alexehouston/squiz">repo</a> |{" "}
+              <a href="https://squiz.herokuapp.com/">demo</a>
             </div>
           </div>
           <div className="img-wrapper faster">
@@ -22,7 +23,8 @@ export default function Work() {
             </div>
             <img src="/assets/eliagal/eg-desktop-home.gif" alt="Elia Gal" />
             <div className="img-links">
-              <a href="https://github.com/alexehouston/elia-gal">repo</a> | <a href="https://eliagal.com">demo</a>
+              <a href="https://github.com/alexehouston/elia-gal">repo</a> |{" "}
+              <a href="https://eliagal.com">demo</a>
             </div>
           </div>
           <div className="img-wrapper slower vertical">
@@ -35,7 +37,8 @@ export default function Work() {
               alt="KP Hair Color"
             />
             <div className="img-links">
-              <a href="https://github.com/alexehouston/kphaircolor">repo</a> | <a href="https://kphaircolor.netlify.app/">demo</a>
+              <a href="https://github.com/alexehouston/kphaircolor">repo</a> |{" "}
+              <a href="https://kphaircolor.netlify.app/">demo</a>
             </div>
           </div>
           <div className="img-wrapper slower slower-down">
@@ -45,7 +48,8 @@ export default function Work() {
             </div>
             <img src="/assets/kpxaeh/desktop-home.png" alt="" />
             <div className="img-links">
-              <a href="https://github.com/alexehouston/kpxaeh">repo</a> | <a href="https://kpxaeh.com/">demo</a>
+              <a href="https://github.com/alexehouston/kpxaeh">repo</a> |{" "}
+              <a href="https://kpxaeh.com/">demo</a>
             </div>
           </div>
           <div className="img-wrapper">
@@ -55,7 +59,10 @@ export default function Work() {
             </div>
             <img src="/assets/danielsunghoonkim/dsk-desktop-home.gif" alt="" />
             <div className="img-links">
-              <a href="https://github.com/alexehouston/danielsunghoonkim">repo</a> | <a href="https://danielsunghoonkim.com/">demo</a>
+              <a href="https://github.com/alexehouston/danielsunghoonkim">
+                repo
+              </a>{" "}
+              | <a href="https://danielsunghoonkim.com/">demo</a>
             </div>
           </div>
           <div className="img-wrapper slower">
@@ -65,7 +72,8 @@ export default function Work() {
             </div>
             <img src="/assets/cineflix/home-screenshot.gif" alt="" />
             <div className="img-links">
-              <a href="https://github.com/alexehouston/cineflix">repo</a> | <a href="https://cineflixapp.herokuapp.com/">demo</a>
+              <a href="https://github.com/alexehouston/cineflix">repo</a> |{" "}
+              <a href="https://cineflixapp.herokuapp.com/">demo</a>
             </div>
           </div>
           <div className="img-wrapper faster1">
@@ -85,7 +93,8 @@ export default function Work() {
             </div>
             <img src="/assets/pokebank/home.png" alt="" />
             <div className="img-links">
-              <a href="https://github.com/alexehouston/pokebank">repo</a> | <a href="https://poke-bank.herokuapp.com/">demo</a>
+              <a href="https://github.com/alexehouston/pokebank">repo</a> |{" "}
+              <a href="https://poke-bank.herokuapp.com/">demo</a>
             </div>
           </div>
           <div className="img-wrapper">
@@ -95,7 +104,8 @@ export default function Work() {
             </div>
             <img src="/assets/concentration/after-screen.png" alt="" />
             <div className="img-links">
-              <a href="https://github.com/alexehouston/concentration">repo</a> | <a href="https://alexehouston.github.io/concentration/">demo</a>
+              <a href="https://github.com/alexehouston/concentration">repo</a> |{" "}
+              <a href="https://alexehouston.github.io/concentration/">demo</a>
             </div>
           </div>
           {/* <div className="img-wrapper slower">
@@ -108,4 +118,4 @@ export default function Work() {
       </div>
     </div>
   );
-};
+}

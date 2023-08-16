@@ -132,7 +132,7 @@
 }
 
 .img-description {
-  color: #fff;
+  color: var(--aeh-txt);
   font-size: 2vmin;
 }
 

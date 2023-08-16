@@ -1,12 +1,19 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faCode, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./Nav.css";
 
-export default function Nav() {
+export default function Nav({ darkMode, setDarkMode }) {
   const [navOpen, setNavOpen] = useState(false);
+
+  function toggleDarkMode() {
+    setDarkMode(darkMode => !darkMode);
+    document.documentElement.style.backgroundColor = darkMode ? "#fff" : "#000";
+    document.body.style.backgroundColor = darkMode ? "#000" : "#fff";
+  }
 
   return (
     <div className="Nav">
@@ -15,12 +22,21 @@ export default function Nav() {
           <div className="logo">
             <Link to="/">AaaeeHh</Link>
           </div>
-          <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
-            <div className={navOpen ? "hamBox hamBoxOpen" : "hamBox"}>
-              <span className={navOpen ? "lineTop spin" : "lineTop"}></span>
-              <span
-                className={navOpen ? "lineBottom spin" : "lineBottom"}
-              ></span>
+          <div className="nav-left">
+            <label className="switch">
+              <input
+                onChange={toggleDarkMode}
+                type="checkbox"
+              ></input>
+              <span className="slider"></span>
+            </label>
+            <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
+              <div className={navOpen ? "hamBox hamBoxOpen" : "hamBox"}>
+                <span className={navOpen ? "lineTop spin" : "lineTop"}></span>
+                <span
+                  className={navOpen ? "lineBottom spin" : "lineBottom"}
+                ></span>
+              </div>
             </div>
           </div>
         </div>
@@ -94,7 +110,7 @@ export default function Nav() {
                 transitionDelay: navOpen ? "1.2s" : "0s",
               }}
             >
-              <span>
+              <span className="profession">
                 Sooftware{" "}
                 <span className="text-neon">
                   <FontAwesomeIcon icon={faCode} />
@@ -153,3 +169,8 @@ export default function Nav() {
     </div>
   );
 }
+
+Nav.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+  setDarkMode: PropTypes.func.isRequired,
+};
