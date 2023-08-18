@@ -6,11 +6,11 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faCode, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./Nav.css";
 
-export default function Nav({ darkMode, setDarkMode }) {
+export default function Nav({ darkMode, setDarkMode, handleMouseEnter }) {
   const [navOpen, setNavOpen] = useState(false);
 
   function toggleDarkMode() {
-    setDarkMode(darkMode => !darkMode);
+    setDarkMode((darkMode) => !darkMode);
     document.documentElement.style.backgroundColor = darkMode ? "#fff" : "#000";
     document.body.style.backgroundColor = darkMode ? "#000" : "#fff";
   }
@@ -20,14 +20,18 @@ export default function Nav({ darkMode, setDarkMode }) {
       <div className="nav-container">
         <div className="navbar">
           <div className="logo">
-            <Link to="/">AaaeeHh</Link>
+            <Link
+              className="shuffle"
+              data-text="AaaeeHh"
+              onMouseEnter={handleMouseEnter}
+              to="/"
+            >
+              AaaeeHh
+            </Link>
           </div>
           <div className="nav-left">
             <label className="switch">
-              <input
-                onChange={toggleDarkMode}
-                type="checkbox"
-              ></input>
+              <input onChange={toggleDarkMode} type="checkbox"></input>
               <span className="slider"></span>
             </label>
             <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
@@ -56,6 +60,9 @@ export default function Nav({ darkMode, setDarkMode }) {
                   top: navOpen ? "0" : "120px",
                   transitionDelay: navOpen ? "0.8s" : "0s",
                 }}
+                className="shuffle"
+                data-text="Hhome"
+                onMouseEnter={handleMouseEnter}
               >
                 Hhome
               </Link>
@@ -69,6 +76,9 @@ export default function Nav({ darkMode, setDarkMode }) {
                   top: navOpen ? "0" : "120px",
                   transitionDelay: navOpen ? "0.9s" : "0s",
                 }}
+                className="shuffle"
+                data-text="Resumee"
+                onMouseEnter={handleMouseEnter}
               >
                 Resumee
               </Link>
@@ -82,6 +92,9 @@ export default function Nav({ darkMode, setDarkMode }) {
                   top: navOpen ? "0" : "120px",
                   transitionDelay: navOpen ? "1s" : "0s",
                 }}
+                className="shuffle"
+                data-text="Woork"
+                onMouseEnter={handleMouseEnter}
               >
                 Woork
               </Link>
@@ -95,6 +108,9 @@ export default function Nav({ darkMode, setDarkMode }) {
                   top: navOpen ? "0" : "120px",
                   transitionDelay: navOpen ? "1.1s" : "0s",
                 }}
+                className="shuffle"
+                data-text="Abbouut"
+                onMouseEnter={handleMouseEnter}
               >
                 Abbouut
               </Link>
@@ -173,4 +189,5 @@ export default function Nav({ darkMode, setDarkMode }) {
 Nav.propTypes = {
   darkMode: PropTypes.bool.isRequired,
   setDarkMode: PropTypes.func.isRequired,
+  handleMouseEnter: PropTypes.func.isRequired,
 };

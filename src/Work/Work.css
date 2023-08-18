@@ -179,19 +179,21 @@ img:hover {
   }
 
   .img-text {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
 
   .img-title,
   .img-description {
     display: flex;
-    background-color:rgba(100, 100, 100, 0.5);
+    background-color: rgba(100, 100, 100, 0.5);
+    backdrop-filter: blur(2px);
+    padding: 0 0.5rem 0.1rem;
   }
 
   .img-title {
     font-size: 5vmin;
   }
-  
+
   .img-description {
     font-size: 4vmin;
   }

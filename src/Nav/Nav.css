@@ -10,7 +10,7 @@ li {
 
 .navbar {
   position: fixed;
-  top: 0;
+  top: 1%;
   left: 0;
   width: 100%;
   display: flex;
@@ -25,6 +25,10 @@ li {
   font-family: "Stretch Pro";
   font-weight: bolder;
   text-transform: uppercase;
+  background-color: rgba(100, 100, 100, 0.1);
+  backdrop-filter: blur(5px);
+  padding: .5rem 1rem;
+  border-radius: 20px;
 }
 
 .nav-left {
@@ -50,12 +54,15 @@ li {
 }
 
 .hamBox {
-  position: relative;
-  width: 44px;
-  height: 44px;
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
   cursor: pointer;
   transition: 0.3s ease;
-  padding: 2.4em 0;
+  background-color: rgba(100, 100, 100, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
 }
 
 .lineTop,
@@ -82,14 +89,14 @@ li {
 }
 
 .lineTop.spin {
-  top: 2.35em;
+  top: 1.7rem;
   transform: rotate(135deg);
   background: var(--neon);
   height: .2em
 }
 
 .lineBottom.spin {
-  top: 2.35em;
+  top: 1.7rem;
   transform: rotate(225deg);
   background: var(--neon);
   height: .2em
@@ -223,8 +230,28 @@ input:checked + .slider:before {
 
 
 @media (max-width: 900px) {
+  .navbar {
+    top: 0;
+    padding: 0 1.5em 0 2em;
+    background-color: rgba(100, 100, 100, 0.1);
+    backdrop-filter: blur(5px);
+  }
+
+  .logo, .hamBox {
+    background: none;
+    padding: 0;
+  }
+
+  .nav-left {
+    margin-right: -1rem;
+  }
+
+  .nav-item {
+    padding: 1rem 0;
+  }
+  
   ul.nav-links li a {
-    font-size: 5em;
+    font-size: 2.75rem;
   }
 
   .description {

@@ -33,7 +33,7 @@ export default function Work() {
               <p className="img-description">React.JS Web Application</p>
             </div>
             <img
-              src="/assets/kphaircolor/kp-desktop-home.png"
+              src="/assets/kphaircolor/kphaircolor.gif"
               alt="KP Hair Color"
             />
             <div className="img-links">
@@ -91,7 +91,7 @@ export default function Work() {
               <p className="img-title">Pokébank</p>
               <p className="img-description">Node.JS Web Application</p>
             </div>
-            <img src="/assets/pokebank/home.png" alt="" />
+            <img src="/assets/pokebank/pokebank.gif" alt="" />
             <div className="img-links">
               <a href="https://github.com/alexehouston/pokebank">repo</a> |{" "}
               <a href="https://poke-bank.herokuapp.com/">demo</a>
@@ -102,7 +102,7 @@ export default function Work() {
               <p className="img-title">Concentration</p>
               <p className="img-description">JavaScript Game</p>
             </div>
-            <img src="/assets/concentration/after-screen.png" alt="" />
+            <img src="/assets/concentration/concentration.gif" alt="" />
             <div className="img-links">
               <a href="https://github.com/alexehouston/concentration">repo</a> |{" "}
               <a href="https://alexehouston.github.io/concentration/">demo</a>
