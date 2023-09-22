@@ -1,26 +1,40 @@
+// import PropTypes from "prop-types";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown, faCode } from "@fortawesome/free-solid-svg-icons";
+import Portfolio from "../Portfolio/Portfolio";
 import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="Home">
-      <img className="img1" src="/assets/3d/16.png" alt="" />
-      <img className="img2" src="/assets/3d/1.png" alt="" />
-      <img className="img3" src="/assets/3d/9.png" alt="" />
-      <img className="img4" src="/assets/3d/2.png" alt="" />
-      <img className="img5" src="/assets/3d/17.png" alt="" />
-      <img className="img6" src="/assets/3d/8.png" alt="" />
-      <img className="img7" src="/assets/3d/7.png" alt="" />
-      <img className="img8" src="/assets/3d/10.png" alt="" />
-
-      <svg>
-        <filter id="pixelate" x="0" y="0">
-          <feFlood x="4" y="4" height="2" width="2" />
-          <feComposite width="10" height="10" />
-          <feTile result="a" />
-          <feComposite in="SourceGraphic" in2="a" operator="in" />
-          <feMorphology operator="dilate" radius="5" />
-        </filter>
-      </svg>
+    <div className="Home p-4">
+      <div className="mb-5 d-flex justify-content-center align-items-center border-bottom border-dark">
+        <div className="col-6">
+          <img className="aeh-ai w-100" src="/assets/aeh-ai-2.png" alt="" />
+        </div>
+        <div className="col-6 ms-5 p-0 text-start d-flex flex-column align-items-start">
+          <h1 className="lh-1">
+            Software
+            <br />
+            Developer <FontAwesomeIcon icon={faCode} className="fs-1 opacity-50" />
+            <br />
+            + Artist
+          </h1>
+          <p className="w-75">
+            I&apos;m a passionate Web Developer based in Houston, Texas. For me, coding is a canvas for art, and I thrive at
+            the intersection of technology and creativity. Explore my portfolio
+            and join me on GitHub as we embark on an exciting journey of
+            innovation.
+          </p>
+          <p className="border border-black col-3 rounded-pill text-center pb-1 pt-2 mb-0">
+            Scroll Down <FontAwesomeIcon icon={faChevronDown} />
+          </p>
+        </div>
+      </div>
+      <Portfolio />
     </div>
   );
 }
+
+// Home.propTypes = {
+//   handleMouseEnter: PropTypes.func.isRequired,
+// };

@@ -1,184 +1,72 @@
-import { useState } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faCode, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./Nav.css";
 
-export default function Nav({ darkMode, setDarkMode, handleMouseEnter }) {
-  const [navOpen, setNavOpen] = useState(false);
-
-  function toggleDarkMode() {
-    setDarkMode((darkMode) => !darkMode);
-    document.documentElement.style.backgroundColor = darkMode ? "#fff" : "#000";
-    document.body.style.backgroundColor = darkMode ? "#000" : "#fff";
-  }
-
+export default function Nav({ handleMouseEnter }) {
   return (
     <div className="Nav">
-      <div className="nav-container">
-        <div className="navbar">
-          <div className="logo">
+      <div className="navbar m-0 px-4 py-2 border-bottom border-dark position-fixed top-0 bg-aeh">
+        <div className="container-fluid p-0">
+          <Link to="/" className="col-10">
+            <img className="aeh-img" src="/assets/aeh.png" alt="" />
+          </Link>
+          <div className="d-flex col-lg-2 justify-content-between m-0">
             <Link
-              className="shuffle"
-              data-text="AaaeeHh"
+              to="#Portfolio"
+              data-text="Portfolio"
               onMouseEnter={handleMouseEnter}
-              to="/"
+              className="col-4 text-end"
             >
-              AaaeeHh
+              Portfolio
+            </Link>
+            <Link
+              to="/resume"
+              data-text="Resume"
+              onMouseEnter={handleMouseEnter}
+              className="col-4 text-end"
+            >
+              Resume
+            </Link>
+            <Link
+              to="/about"
+              className="col-4 text-end"
+              data-text="About"
+              onMouseEnter={handleMouseEnter}
+            >
+              About
             </Link>
           </div>
-          <div className="nav-left">
-            <label className="switch">
-              <input onChange={toggleDarkMode} type="checkbox"></input>
-              <span className="slider"></span>
-            </label>
-            <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
-              <div className={navOpen ? "hamBox hamBoxOpen" : "hamBox"}>
-                <span className={navOpen ? "lineTop spin" : "lineTop"}></span>
-                <span
-                  className={navOpen ? "lineBottom spin" : "lineBottom"}
-                ></span>
-              </div>
-            </div>
-          </div>
         </div>
-        <div
-          className="nav-overlay"
-          style={{
-            top: navOpen ? "0" : "-100%",
-            transitionDelay: navOpen ? "0s" : "0s",
-          }}
-        >
-          <ul className="nav-links">
-            <li className="nav-item">
-              <Link
-                to="/"
-                onClick={() => setNavOpen(!navOpen)}
-                style={{
-                  top: navOpen ? "0" : "120px",
-                  transitionDelay: navOpen ? "0.8s" : "0s",
-                }}
-                className="shuffle"
-                data-text="Hhome"
-                onMouseEnter={handleMouseEnter}
-              >
-                Hhome
-              </Link>
-              <div className="nav-item-wrapper"></div>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/resume"
-                onClick={() => setNavOpen(!navOpen)}
-                style={{
-                  top: navOpen ? "0" : "120px",
-                  transitionDelay: navOpen ? "0.9s" : "0s",
-                }}
-                className="shuffle"
-                data-text="Resumee"
-                onMouseEnter={handleMouseEnter}
-              >
-                Resumee
-              </Link>
-              <div className="nav-item-wrapper"></div>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/work"
-                onClick={() => setNavOpen(!navOpen)}
-                style={{
-                  top: navOpen ? "0" : "120px",
-                  transitionDelay: navOpen ? "1s" : "0s",
-                }}
-                className="shuffle"
-                data-text="Woork"
-                onMouseEnter={handleMouseEnter}
-              >
-                Woork
-              </Link>
-              <div className="nav-item-wrapper"></div>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="about"
-                onClick={() => setNavOpen(!navOpen)}
-                style={{
-                  top: navOpen ? "0" : "120px",
-                  transitionDelay: navOpen ? "1.1s" : "0s",
-                }}
-                className="shuffle"
-                data-text="Abbouut"
-                onMouseEnter={handleMouseEnter}
-              >
-                Abbouut
-              </Link>
-              <div className="nav-item-wrapper"></div>
-            </li>
-          </ul>
-          <div className="nav-footer">
-            <div
-              className="description"
-              style={{
-                bottom: navOpen ? "0" : "-20px",
-                opacity: navOpen ? "1" : "0",
-                transitionDelay: navOpen ? "1.2s" : "0s",
-              }}
+      </div>
+      <div className="navbar m-0 px-4 py-2 border-top border-dark position-fixed bottom-0 bg-aeh container-fluid">
+        <div className="container-fluid p-0 py-1">
+          <a href="mailto:alexehouston@gmail.com" className="col-lg-10">
+            Get In Touch <FontAwesomeIcon icon={faEnvelope} className="ms-1" />
+          </a>
+          <div className="d-flex col-lg-1 justify-content-between m-0">
+            <a
+              href="https://github.com/alexehouston"
+              target="_blank"
+              rel="noreferrer"
             >
-              <span className="profession">
-                Sooftware{" "}
-                <span className="text-neon">
-                  <FontAwesomeIcon icon={faCode} />
-                </span>
-                <br />
-                Deveelooper
+              <FontAwesomeIcon className="text-black" icon={faGithub} />{" "}
+              <span data-text="GitHub" onMouseEnter={handleMouseEnter}>
+                GitHub
               </span>
-            </div>
-            <div className="nav-social-media">
-              <ul>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/alexehouston/"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{
-                      bottom: navOpen ? "0" : "-20px",
-                      opacity: navOpen ? "1" : "0",
-                      transitionDelay: navOpen ? "1.3s" : "0s",
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faLinkedin} />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/alexehouston/"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{
-                      bottom: navOpen ? "0" : "-20px",
-                      opacity: navOpen ? "1" : "0",
-                      transitionDelay: navOpen ? "1.4s" : "0s",
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faGithub} />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="mailto:alexehouston@gmail.com"
-                    style={{
-                      bottom: navOpen ? "0" : "-20px",
-                      opacity: navOpen ? "1" : "0",
-                      transitionDelay: navOpen ? "1.5s" : "0s",
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faEnvelope} />
-                  </a>
-                </li>
-              </ul>
-            </div>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/alexehouston/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} className="linkedin" />{" "}
+              <span data-text="LinkedIn" onMouseEnter={handleMouseEnter}>
+                LinkedIn
+              </span>
+            </a>
           </div>
         </div>
       </div>
@@ -187,7 +75,5 @@ export default function Nav({ darkMode, setDarkMode, handleMouseEnter }) {
 }
 
 Nav.propTypes = {
-  darkMode: PropTypes.bool.isRequired,
-  setDarkMode: PropTypes.func.isRequired,
   handleMouseEnter: PropTypes.func.isRequired,
 };

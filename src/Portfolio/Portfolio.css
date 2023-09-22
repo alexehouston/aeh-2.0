@@ -1,0 +1,48 @@
+.portfolio-img {
+  height: 25rem;
+  overflow: hidden;
+}
+
+.portfolio-img img {
+  height: 100%;
+  margin-left: -5rem;
+}
+
+.bg-react,
+.bg-mongo,
+.bg-express,
+.bg-js,
+.bg-node,
+.bg-python,
+.bg-react,
+.bg-django {
+  font-size: 0.75rem;
+}
+
+.bg-react {
+  background-color: #8aedff;
+}
+
+.bg-mongo {
+  background-color: #52ff9a;
+}
+
+.bg-node {
+  background-color: #b9e95a;
+}
+
+.bg-express {
+  background-color: #d19aff;
+}
+
+.bg-django {
+  background-color: #ffa3a3;
+}
+
+.bg-python {
+  background-color: #8eccff;
+}
+
+.bg-js {
+  background-color: rgb(255, 255, 143);
+}

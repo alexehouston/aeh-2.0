@@ -1,30 +1,17 @@
 @font-face {
-  font-family: Stretch Pro;
-  src: url("/fonts/StretchPro.otf");
+  font-family: "Helvetica Bold";
+  src: url(/fonts/Helvetica-Bold.ttf);
 }
 
 @font-face {
-  font-family: Mondwest;
-  src: url("/fonts/PPMondwest.otf");
-}
-
-@font-face {
-  font-family: Neue Bit;
-  src: url("/fonts/PPNeueBit.otf");
+  font-family: "Stretch Pro";
+  src: url(/fonts/StretchPro.otf);
 }
 
 :root {
-  --neon: #39FF14;
-}
-
-.dark-mode {
-  --aeh-bg: #000;
-  --aeh-txt: #fff;
-}
-
-.light-mode {
-  --aeh-bg: #fff;
-  --aeh-txt: #000;
+  --aeh-bg: #eee;
+  --aeh-txt: #333;
+  --neon: #d9f149;
 }
 
 * {
@@ -37,9 +24,14 @@ html,
 body {
   background-color: var(--aeh-bg);
   color: var(--aeh-txt);
-  font-family: 'Neue Bit';
+  font-family: 'Helvetica Bold', sans-serif;
   text-transform: uppercase;
+  font-size: .9rem;
 }
+
+/* h1, h2, h3, h4, h5, h6 {
+  font-family: 'Stretch Pro';
+} */
 
 a {
   color: var(--aeh-txt);
@@ -50,45 +42,14 @@ ul, li {
   list-style: none;
 }
 
-video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
+.bg-aeh {
+  background-color: var(--aeh-bg);
 }
 
-.text-neon {
+.neon-txt {
   color: var(--neon);
 }
 
-.slide-in, .slide-out {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: var(--aeh-bg);
-}
-
-.slide-in {
-  transform-origin: bottom;
-}
-
-.slide-out {
-  transform-origin: top;
-}
-
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-20px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
+.neon-bg {
+  background-color: var(--neon);
 }
