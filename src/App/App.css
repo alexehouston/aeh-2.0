@@ -27,6 +27,7 @@ body {
   font-family: 'Helvetica Bold', sans-serif;
   text-transform: uppercase;
   font-size: .9rem;
+  scroll-behavior: smooth;
 }
 
 /* h1, h2, h3, h4, h5, h6 {

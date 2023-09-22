@@ -14,14 +14,13 @@ export default function Nav({ handleMouseEnter }) {
             <img className="aeh-img" src="/assets/aeh.png" alt="" />
           </Link>
           <div className="d-flex col-lg-2 justify-content-between m-0">
-            <Link
-              to="#Portfolio"
+            <a href="#portfolio"
               data-text="Portfolio"
               onMouseEnter={handleMouseEnter}
               className="col-4 text-end"
             >
               Portfolio
-            </Link>
+            </a>
             <Link
               to="/resume"
               data-text="Resume"

@@ -1,3 +1,7 @@
+#portfolio {
+    scroll-margin-top: 6rem;
+}
+
 .portfolio-img {
   height: 25rem;
   overflow: hidden;
