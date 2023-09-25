@@ -5,7 +5,7 @@ export default function Portfolio() {
     <div id="portfolio" className="Portfolio">
       <h4 className="mb-4">+ Portfolio</h4>
       <div className="d-flex flex-wrap">
-        <div className="col-lg-6">
+        <div className="portfolio-item col-lg-6">
           <div className="border border-dark bg-white me-2 d-flex align-items-center">
             <div className="portfolio-img col-6 border-end border-dark">
               <img src="/assets/squiz/gameplay.gif" alt="" />
