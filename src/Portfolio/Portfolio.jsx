@@ -210,7 +210,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-lg-6">
-          <div className="border border-dark bg-white me-2 mt-3 d-flex align-items-center">
+          <div className="border border-dark bg-white ms-2 mt-3 d-flex align-items-center">
             <div className="portfolio-img col-6 border-end border-dark">
               <img
                 src="/assets/cineflix/home-screenshot.gif"
@@ -285,7 +285,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-lg-6">
-          <div className="border border-dark bg-white me-2 mt-3 d-flex align-items-center">
+          <div className="border border-dark bg-white ms-2 mt-3 d-flex align-items-center">
             <div className="portfolio-img col-6 border-end border-dark">
               <img src="/assets/pokebank/pokebank.gif" alt="" />
             </div>

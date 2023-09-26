@@ -1,16 +1,16 @@
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faFile, faFolder } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope, faFile, faFolder, faUser } from "@fortawesome/free-regular-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./Nav.css";
 
 export default function Nav({ handleMouseEnter }) {
   return (
     <div className="Nav">
-      <div className="navbar m-0 px-4 py-2 border-bottom border-dark position-fixed top-0 bg-aeh">
+      <div className="navbar m-0 px-4 py-1 border-bottom border-dark position-fixed top-0 bg-aeh vw-100">
         <div className="container-fluid p-0">
           <a href="/" className="col-10">
-            <img className="aeh-img" src="/assets/aeh.png" alt="" />
+            <img className="aeh-img" src="/assets/aeh-small.png" alt="" />
           </a>
           <div className="d-flex col-lg-2 justify-content-between m-0">
             <a
@@ -20,7 +20,7 @@ export default function Nav({ handleMouseEnter }) {
               <span data-text="Portfolio" onMouseEnter={handleMouseEnter}>
                 Portfolio
               </span>
-              <FontAwesomeIcon icon={faFolder} className="ps-1" />
+              <FontAwesomeIcon icon={faFolder} className="ps-2" />
             </a>
             <a
               href="https://www.canva.com/design/DAFjNXUPcG8/Y344syC_rtzTXLXdx7zTpw/view?utm_content=DAFjNXUPcG8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
@@ -31,7 +31,18 @@ export default function Nav({ handleMouseEnter }) {
               <span data-text="Resume" onMouseEnter={handleMouseEnter}>
                 Resume
               </span>
-              <FontAwesomeIcon icon={faFile} className="ps-1" />
+              <FontAwesomeIcon icon={faFile} className="ps-2" />
+            </a>
+            <a
+              href="https://www.canva.com/design/DAFjNXUPcG8/Y344syC_rtzTXLXdx7zTpw/view?utm_content=DAFjNXUPcG8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+              className="col-4 text-end"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span data-text="About" onMouseEnter={handleMouseEnter}>
+                About
+              </span>
+              <FontAwesomeIcon icon={faUser} className="ps-2" />
             </a>
           </div>
         </div>

@@ -13,9 +13,13 @@ export default function Home() {
         </div>
         <div className="col-6 ms-5 p-0 text-start d-flex flex-column align-items-start">
           <h1 className="lh-1">
+            <span className="fs-4 opacity-50">Alex E. Houston</span>
+            <br />
             Software <FontAwesomeIcon icon={faCode} className="fs-1 opacity-50" />
             <br />
             Developer
+            <br />
+            + Artist
           </h1>
           <p className="w-75">
             I&apos;m a passionate Web Developer based in Houston, Texas. For me, coding is a canvas for art, and I thrive at
