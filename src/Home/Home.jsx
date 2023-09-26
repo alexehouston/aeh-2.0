@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faCode } from "@fortawesome/free-solid-svg-icons";
 import Portfolio from "../Portfolio/Portfolio";
+import Resume from "../Resume/Resume";
 import "./Home.css";
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
         </div>
       </div>
       <Portfolio />
+      <Resume />
     </div>
   );
 }
