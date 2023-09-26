@@ -50,3 +50,18 @@
 .bg-js {
   background-color: rgb(255, 255, 143);
 }
+
+@media screen and (max-width: 567px) {
+  .portfolio-item {
+    flex-direction: column;
+  }
+
+  .portfolio-img {
+    height: 15rem;
+    width: 100% !important;
+  }
+  
+  .portfolio-img img {
+    margin-left: 0rem;
+  }
+}

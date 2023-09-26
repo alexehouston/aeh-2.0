@@ -5,3 +5,9 @@
 .aeh-img {
   width: 10%;
 }
+
+@media screen and (max-width: 567px) {
+  .aeh-img {
+    width: 100%;
+  }
+}

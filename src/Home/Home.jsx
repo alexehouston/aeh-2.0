@@ -1,4 +1,3 @@
-// import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faCode } from "@fortawesome/free-solid-svg-icons";
 import Portfolio from "../Portfolio/Portfolio";
@@ -7,11 +6,11 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="Home p-4">
-      <div className="mb-5 d-flex justify-content-center align-items-center border-bottom border-dark">
-        <div className="col-6">
-          <img className="aeh-ai w-100" src="/assets/aeh-ai-2.png" alt="" />
+      <div className="home-inner mb-5 d-flex justify-content-center align-items-center border-bottom border-dark">
+        <div className="col-12 col-lg-6">
+          <img className="aeh-ai" src="/assets/aeh-ai-2.png" alt="" />
         </div>
-        <div className="col-6 ms-5 p-0 text-start d-flex flex-column align-items-start">
+        <div className="col-12 col-lg-6 ms-5 p-0 text-start d-flex flex-column align-items-start">
           <h1 className="lh-1">
             <span className="fs-4 opacity-50">Alex E. Houston</span>
             <br />
@@ -27,7 +26,7 @@ export default function Home() {
             and join me on GitHub as we embark on an exciting journey of
             innovation.
           </p>
-          <p className="border border-black col-3 rounded-pill text-center pb-1 pt-2 mb-0">
+          <p className="border border-black col-6 col-lg-3 rounded-pill text-center pb-1 pt-2 mb-0">
             Scroll Down <FontAwesomeIcon icon={faChevronDown} />
           </p>
         </div>
@@ -36,7 +35,3 @@ export default function Home() {
     </div>
   );
 }
-
-// Home.propTypes = {
-//   handleMouseEnter: PropTypes.func.isRequired,
-// };

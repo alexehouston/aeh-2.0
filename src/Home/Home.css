@@ -8,4 +8,12 @@
 
 .aeh-ai {
   filter: saturate(50%);
+  width: 100%;
+}
+
+@media screen and (max-width: 567px) {
+  .home-inner {
+    flex-direction: column-reverse;
+    text-align: center !important;
+  }
 }
