@@ -1,9 +1,11 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 import "./Portfolio.css";
 
 export default function Portfolio() {
   return (
     <div id="portfolio" className="Portfolio border-bottom border-black pb-5">
-      <h4 className="mb-4">+ Portfolio</h4>
+      <h4 className="mb-4"><FontAwesomeIcon icon={faCode} className="opacity-50" /> Portfolio</h4>
       <div className="d-flex flex-wrap">
         <div className="col-12 col-lg-6">
           <div className="portfolio-item border border-dark bg-white me-2 d-flex align-items-center">
