@@ -60,8 +60,16 @@
     height: 15rem;
     width: 100% !important;
   }
-  
+
   .portfolio-img img {
     margin-left: 0rem;
+  }
+
+  .technology {
+    margin-top: 2rem;
+  }
+
+  .item-inner {
+    padding-bottom: 1.5rem;
   }
 }

@@ -25,7 +25,7 @@ export default function Resume() {
         </h6>
       </div>
       <div className="row bg-white border border-black m-0 p-3 mt-2">
-        <div className="d-flex justify-content-between fs-2">
+        <div className="d-flex flex-wrap justify-content-between fs-2">
           <i className="devicon-html5-plain colored"></i>
           <i className="devicon-css3-plain colored"></i>
           <i className="devicon-javascript-plain colored"></i>

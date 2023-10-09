@@ -15,5 +15,10 @@
   .home-inner {
     flex-direction: column-reverse;
     text-align: center !important;
+    margin-top: 5rem;
+  }
+
+  .Home h1 {
+    font-size: 3rem !important;
   }
 }

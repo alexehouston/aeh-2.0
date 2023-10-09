@@ -5,29 +5,33 @@ import "./Portfolio.css";
 export default function Portfolio() {
   return (
     <div id="portfolio" className="Portfolio border-bottom border-black pb-5">
-      <h4 className="mb-4"><FontAwesomeIcon icon={faCode} className="opacity-50" /> Portfolio</h4>
+      <h4 className="mb-4">
+        <FontAwesomeIcon icon={faCode} className="opacity-50" /> Portfolio
+      </h4>
       <div className="d-flex flex-wrap">
         <div className="col-12 col-lg-6">
           <div className="portfolio-item border border-dark bg-white me-2 d-flex align-items-center">
             <div className="portfolio-img col-6 border-end border-dark">
               <img src="/assets/squiz/gameplay.gif" alt="" />
             </div>
-            <div className="col-12 col-lg-6 px-4">
-              <p className="bg-mongo rounded-pill text-center pt-2 pb-1 px-2 mb-0 d-inline">
-                MongoDB
-              </p>
-              <p className="bg-express rounded-pill text-center pt-2 pb-1 px-2 ms-1 mb-0 d-inline">
-                Express.js
-              </p>
-              <p className="bg-react rounded-pill text-center pt-2 pb-1 px-2 ms-1 mb-0 d-inline">
-                React.js
-              </p>
-              <p className="bg-node rounded-pill text-center pt-2 pb-1 px-2 ms-1 mb-0 d-inline">
-                Node.js
-              </p>
-              <p className="bg-js rounded-pill text-center pt-2 pb-1 px-2 ms-1 mb-0 d-inline">
-                JavaScript
-              </p>
+            <div className="item-inner col-12 col-lg-6 px-4">
+              <div className="technology d-flex flex-wrap">
+                <p className="bg-mongo rounded-pill text-center py-2 pb-1 px-2 mb-2">
+                  MongoDB
+                </p>
+                <p className="bg-express rounded-pill text-center py-2 pb-1 px-2 ms-1 mb-2">
+                  Express.js
+                </p>
+                <p className="bg-react rounded-pill text-center py-2 pb-1 px-2 ms-1 mb-2">
+                  React.js
+                </p>
+                <p className="bg-node rounded-pill text-center py-2 pb-1 px-2 ms-1 mb-2">
+                  Node.js
+                </p>
+                <p className="bg-js rounded-pill text-center py-2 pb-1 px-2 ms-1 mb-2">
+                  JavaScript
+                </p>
+              </div>
               <h5 className="my-4">Squiz</h5>
               <p className="opacity-50">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -61,13 +65,15 @@ export default function Portfolio() {
             <div className="portfolio-img col-6 border-end border-dark">
               <img src="/assets/eliagal/eg-desktop.gif" alt="" />
             </div>
-            <div className="col-12 col-lg-6 px-4">
-              <p className="bg-react rounded-pill text-center pt-2 pb-1 px-2 mb-0 d-inline">
-                React.js
-              </p>
-              <p className="bg-js rounded-pill text-center pt-2 pb-1 px-2 ms-1 mb-0 d-inline">
-                JavaScript
-              </p>
+            <div className="item-inner col-12 col-lg-6 px-4">
+              <div className="technology d-flex flex-wrap">
+                <p className="bg-react rounded-pill text-center py-2 pb-1 px-2 mb-2">
+                  React.js
+                </p>
+                <p className="bg-js rounded-pill text-center py-2 pb-1 px-2 ms-1 mb-2">
+                  JavaScript
+                </p>
+              </div>
               <h5 className="my-4">Elia Gal</h5>
               <p className="opacity-50">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -97,13 +103,15 @@ export default function Portfolio() {
             <div className="portfolio-img col-6 border-end border-dark">
               <img src="/assets/kphaircolor/kphaircolor.gif" alt="" />
             </div>
-            <div className="col-12 col-lg-6 px-4">
-              <p className="bg-react rounded-pill text-center pt-2 pb-1 px-2 mb-0 d-inline">
-                React.js
-              </p>
-              <p className="bg-js rounded-pill text-center pt-2 pb-1 px-2 ms-1 mb-0 d-inline">
-                JavaScript
-              </p>
+            <div className="item-inner col-12 col-lg-6 px-4">
+              <div className="technology d-flex flex-wrap">
+                <p className="bg-react rounded-pill text-center py-2 pb-1 px-2 mb-2">
+                  React.js
+                </p>
+                <p className="bg-js rounded-pill text-center py-2 pb-1 px-2 ms-1 mb-2">
+                  JavaScript
+                </p>
+              </div>
               <h5 className="my-4">KP Hair Color</h5>
               <p className="opacity-50">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -137,13 +145,15 @@ export default function Portfolio() {
             <div className="portfolio-img col-6 border-end border-dark">
               <img src="/assets/kpxaeh/desktop-home.png" alt="" />
             </div>
-            <div className="col-12 col-lg-6 px-4">
-              <p className="bg-react rounded-pill text-center pt-2 pb-1 px-2 mb-0 d-inline">
-                React.js
-              </p>
-              <p className="bg-js rounded-pill text-center pt-2 pb-1 px-2 ms-1 mb-0 d-inline">
-                JavaScript
-              </p>
+            <div className="item-inner col-12 col-lg-6 px-4">
+              <div className="technology d-flex flex-wrap">
+                <p className="bg-react rounded-pill text-center py-2 pb-1 px-2 mb-2">
+                  React.js
+                </p>
+                <p className="bg-js rounded-pill text-center py-2 pb-1 px-2 ms-1 mb-2">
+                  JavaScript
+                </p>
+              </div>
               <h5 className="my-4">KP x AEH</h5>
               <p className="opacity-50">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -176,13 +186,15 @@ export default function Portfolio() {
                 alt=""
               />
             </div>
-            <div className="col-12 col-lg-6 px-4">
-              <p className="bg-react rounded-pill text-center pt-2 pb-1 px-2 mb-0 d-inline">
-                React.js
-              </p>
-              <p className="bg-js rounded-pill text-center pt-2 pb-1 px-2 ms-1 mb-0 d-inline">
-                JavaScript
-              </p>
+            <div className="item-inner col-12 col-lg-6 px-4">
+              <div className="technology d-flex flex-wrap">
+                <p className="bg-react rounded-pill text-center py-2 pb-1 px-2 mb-2">
+                  React.js
+                </p>
+                <p className="bg-js rounded-pill text-center py-2 pb-1 px-2 ms-1 mb-2">
+                  JavaScript
+                </p>
+              </div>
               <h5 className="my-4">Daniel Sunghoon Kim</h5>
               <p className="opacity-50">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -214,18 +226,17 @@ export default function Portfolio() {
         <div className="col-12 col-lg-6">
           <div className="portfolio-item border border-dark bg-white ms-2 mt-3 d-flex align-items-center">
             <div className="portfolio-img col-6 border-end border-dark">
-              <img
-                src="/assets/cineflix/home-screenshot.gif"
-                alt=""
-              />
+              <img src="/assets/cineflix/home-screenshot.gif" alt="" />
             </div>
-            <div className="col-12 col-lg-6 px-4">
-              <p className="bg-django rounded-pill text-center pt-2 pb-1 px-2 mb-0 d-inline">
-                Django
-              </p>
-              <p className="bg-python rounded-pill text-center pt-2 pb-1 px-2 mb-0 ms-1 d-inline">
-                Python
-              </p>
+            <div className="item-inner col-12 col-lg-6 px-4">
+              <div className="technology d-flex flex-wrap">
+                <p className="bg-django rounded-pill text-center py-2 pb-1 px-2 mb-2">
+                  Django
+                </p>
+                <p className="bg-python rounded-pill text-center py-2 pb-1 px-2 mb-2 ms-1">
+                  Python
+                </p>
+              </div>
               <h5 className="my-4">Cinéflix</h5>
               <p className="opacity-50">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -259,13 +270,15 @@ export default function Portfolio() {
             <div className="portfolio-img col-6 border-end border-dark">
               <img src="/assets/hamstera/home.png" alt="" />
             </div>
-            <div className="col-12 col-lg-6 px-4">
-              <p className="bg-django rounded-pill text-center pt-2 pb-1 px-2 mb-0 d-inline">
-                Django
-              </p>
-              <p className="bg-python rounded-pill text-center pt-2 pb-1 px-2 mb-0 ms-1 d-inline">
-                Python
-              </p>
+            <div className="item-inner col-12 col-lg-6 px-4">
+              <div className="technology d-flex flex-wrap">
+                <p className="bg-django rounded-pill text-center py-2 pb-1 px-2 mb-2">
+                  Django
+                </p>
+                <p className="bg-python rounded-pill text-center py-2 pb-1 px-2 mb-2 ms-1">
+                  Python
+                </p>
+              </div>
               <h5 className="my-4">Hamstera</h5>
               <p className="opacity-50">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -291,13 +304,15 @@ export default function Portfolio() {
             <div className="portfolio-img col-6 border-end border-dark">
               <img src="/assets/pokebank/pokebank.gif" alt="" />
             </div>
-            <div className="col-12 col-lg-6 px-4">
-              <p className="bg-node rounded-pill text-center pt-2 pb-1 px-2 mb-0 d-inline">
-                Node.js
-              </p>
-              <p className="bg-js rounded-pill text-center pt-2 pb-1 px-2 ms-1 mb-0 d-inline">
-                JavaScript
-              </p>
+            <div className="item-inner col-12 col-lg-6 px-4">
+              <div className="technology d-flex flex-wrap">
+                <p className="bg-node rounded-pill text-center py-2 pb-1 px-2 mb-2">
+                  Node.js
+                </p>
+                <p className="bg-js rounded-pill text-center py-2 pb-1 px-2 ms-1 mb-2">
+                  JavaScript
+                </p>
+              </div>
               <h5 className="my-4">Pokébank</h5>
               <p className="opacity-50">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -331,10 +346,12 @@ export default function Portfolio() {
             <div className="portfolio-img col-6 border-end border-dark">
               <img src="/assets/concentration/concentration.gif" alt="" />
             </div>
-            <div className="col-12 col-lg-6 px-4">
-              <p className="bg-js rounded-pill text-center pt-2 pb-1 px-2 mb-0 d-inline">
-                JavaScript
-              </p>
+            <div className="item-inner col-12 col-lg-6 px-4">
+              <div className="technology d-flex flex-wrap">
+                <p className="bg-js rounded-pill text-center py-2 pb-1 px-2 mb-2">
+                  JavaScript
+                </p>
+              </div>
               <h5 className="my-4">Concentration</h5>
               <p className="opacity-50">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.

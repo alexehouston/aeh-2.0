@@ -17,13 +17,13 @@ export default function Nav({ handleMouseEnter }) {
             <img className="aeh-img" src="/assets/aeh-small.png" alt="" />
           </a>
           <div className="d-flex col-7 col-lg-2 m-0 d-flex justify-content-end">
-            <a href="#portfolio" className="col-4 text-end">
+            <a href="#portfolio" className="col-6 text-end">
               <FontAwesomeIcon icon={faFolder} className="pe-1" />
               <span data-text="Portfolio" onMouseEnter={handleMouseEnter}>
                 Portfolio
               </span>
             </a>
-            <a href="#resume" className="col-4 text-end">
+            <a href="#resume" className="col-6 text-end">
               <FontAwesomeIcon icon={faFile} className="pe-1" />
               <span data-text="Resume" onMouseEnter={handleMouseEnter}>
                 Resume
