@@ -34,10 +34,16 @@ export default function Portfolio() {
               </div>
               <h5 className="my-4">Squiz</h5>
               <p className="opacity-50">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas voluptatem, nihil laudantium illum dolorum obcaecati,
-                voluptatibus veniam nesciunt quas minima facilis. Unde porro
-                libero repudiandae.
+                Squiz is a full MERN-stack single-page web application & quiz
+                game created with React.js. Squiz tests your knowledge on
+                software development and makes learning fun. This application
+                was created as my final project during my time at{" "}
+                <a
+                  href="https://generalassemb.ly/"
+                  target="_blank"
+                  rel="noreferrer"
+                ></a>
+                General Assembly.
               </p>
               <hr />
               <div>
@@ -76,10 +82,10 @@ export default function Portfolio() {
               </div>
               <h5 className="my-4">Cr8tive Elements Hair Studio</h5>
               <p className="opacity-50">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas voluptatem, nihil laudantium illum dolorum obcaecati,
-                voluptatibus veniam nesciunt quas minima facilis. Unde porro
-                libero repudiandae.
+                Here you can view the website of Cr8tive Elements Hair Studio in
+                Scottsdale, Arizona. This website was created using React.js and
+                provides the salon&apos; clients a place to browse past works
+                and book appointments.
               </p>
               <hr />
               <div>
@@ -91,7 +97,11 @@ export default function Portfolio() {
                   repo
                 </a>{" "}
                 /{" "}
-                <a href="https://cr8tiveelements.com" target="_blank" rel="noreferrer">
+                <a
+                  href="https://cr8tiveelements.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   demo
                 </a>
               </div>
@@ -114,10 +124,9 @@ export default function Portfolio() {
               </div>
               <h5 className="my-4">Elia Gal</h5>
               <p className="opacity-50">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas voluptatem, nihil laudantium illum dolorum obcaecati,
-                voluptatibus veniam nesciunt quas minima facilis. Unde porro
-                libero repudiandae.
+                Here you can view the personal website of hair stylist Elia Gal.
+                This website was created using React.js and provides Elia&apos;s
+                clients a place to browse past works and book appointments.
               </p>
               <hr />
               <div>
@@ -152,10 +161,10 @@ export default function Portfolio() {
               </div>
               <h5 className="my-4">KP Hair Color</h5>
               <p className="opacity-50">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas voluptatem, nihil laudantium illum dolorum obcaecati,
-                voluptatibus veniam nesciunt quas minima facilis. Unde porro
-                libero repudiandae.
+                Here you can view the personal website of hair colorist Kristen
+                Pennington. This website was created using React.js and provides
+                Kristen&apos;s clients a place to browse past works and book
+                appointments.
               </p>
               <hr />
               <div>
@@ -194,10 +203,10 @@ export default function Portfolio() {
               </div>
               <h5 className="my-4">KP x AEH</h5>
               <p className="opacity-50">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas voluptatem, nihil laudantium illum dolorum obcaecati,
-                voluptatibus veniam nesciunt quas minima facilis. Unde porro
-                libero repudiandae.
+                Here you can view the React.js application that houses the
+                collaboration between hair stylists Alex Houston and Kristen
+                Pennington. Clients are able to navigate to the site in order to
+                book appointments.
               </p>
               <hr />
               <div>
@@ -235,10 +244,10 @@ export default function Portfolio() {
               </div>
               <h5 className="my-4">Daniel Sunghoon Kim</h5>
               <p className="opacity-50">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas voluptatem, nihil laudantium illum dolorum obcaecati,
-                voluptatibus veniam nesciunt quas minima facilis. Unde porro
-                libero repudiandae.
+                Here you can view the personal website of hair stylist Daniel
+                Sung Hoon Kim. This website was created using React.js and
+                provides Daniel&apos;s clients a place to browse past works and
+                book appointments.
               </p>
               <hr />
               <div>
@@ -277,10 +286,15 @@ export default function Portfolio() {
               </div>
               <h5 className="my-4">Cinéflix</h5>
               <p className="opacity-50">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas voluptatem, nihil laudantium illum dolorum obcaecati,
-                voluptatibus veniam nesciunt quas minima facilis. Unde porro
-                libero repudiandae.
+                Cinéflix is a social media-based web application designed for
+                bringing movie-lovers together to share their passion & opinions
+                on cinema. This application was created during my time at{" "}
+                <a
+                  href="https://generalassemb.ly/"
+                  target="_blank"
+                  rel="noreferrer"
+                ></a>
+                General Assembly.
               </p>
               <hr />
               <div>
@@ -319,10 +333,15 @@ export default function Portfolio() {
               </div>
               <h5 className="my-4">Hamstera</h5>
               <p className="opacity-50">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas voluptatem, nihil laudantium illum dolorum obcaecati,
-                voluptatibus veniam nesciunt quas minima facilis. Unde porro
-                libero repudiandae.
+                Hamstera is a Django-based web application designed to collect
+                all of the cute hamsters from the Hamtaro animated series. This
+                application was created during my time at{" "}
+                <a
+                  href="https://generalassemb.ly/"
+                  target="_blank"
+                  rel="noreferrer"
+                ></a>
+                General Assembly.
               </p>
               <hr />
               <div>
@@ -353,10 +372,15 @@ export default function Portfolio() {
               </div>
               <h5 className="my-4">Pokébank</h5>
               <p className="opacity-50">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas voluptatem, nihil laudantium illum dolorum obcaecati,
-                voluptatibus veniam nesciunt quas minima facilis. Unde porro
-                libero repudiandae.
+                Pokébank is a full-stack Node.js web page application where
+                users can log & store their Pokémon-related data. This
+                application was created during my time at{" "}
+                <a
+                  href="https://generalassemb.ly/"
+                  target="_blank"
+                  rel="noreferrer"
+                ></a>
+                General Assembly.
               </p>
               <hr />
               <div>
@@ -392,10 +416,16 @@ export default function Portfolio() {
               </div>
               <h5 className="my-4">Concentration</h5>
               <p className="opacity-50">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas voluptatem, nihil laudantium illum dolorum obcaecati,
-                voluptatibus veniam nesciunt quas minima facilis. Unde porro
-                libero repudiandae.
+                Concentration is a Javascript-based browser game (with a Sailor
+                Moon twist) in which cards are face down until all pairs of
+                matching cards have been flipped. This application was created
+                during my time at{" "}
+                <a
+                  href="https://generalassemb.ly/"
+                  target="_blank"
+                  rel="noreferrer"
+                ></a>
+                General Assembly.
               </p>
               <hr />
               <div>
