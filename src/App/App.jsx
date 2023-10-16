@@ -4,7 +4,7 @@ import Home from "../Home/Home";
 import Resume from "../Resume/Resume";
 import About from "../About/About";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.js";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import "animate.css";
 import "./App.css";
 

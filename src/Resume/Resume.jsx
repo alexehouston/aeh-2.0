@@ -1,3 +1,4 @@
+import { Tooltip } from "react-tooltip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile, faFileCode } from "@fortawesome/free-regular-svg-icons";
 import { faBriefcase, faSchool } from "@fortawesome/free-solid-svg-icons";
@@ -26,29 +27,144 @@ export default function Resume() {
       </div>
       <div className="row bg-white border border-black m-0 p-3 mt-2">
         <div className="d-flex flex-wrap justify-content-between fs-2">
-          <i className="devicon-html5-plain colored"></i>
-          <i className="devicon-css3-plain colored"></i>
-          <i className="devicon-javascript-plain colored"></i>
-          <i className="devicon-java-plain colored"></i>
-          <i className="devicon-jquery-plain colored"></i>
-          <i className="devicon-cplusplus-plain colored"></i>
-          <i className="devicon-typescript-plain colored"></i>
-          <i className="devicon-python-plain colored"></i>
-          <i className="devicon-django-plain colored"></i>
-          <i className="devicon-nodejs-plain colored"></i>
-          <i className="devicon-express-original colored"></i>
-          <i className="devicon-react-plain colored"></i>
-          <i className="devicon-mongodb-plain colored"></i>
-          <i className="devicon-postgresql-plain colored"></i>
-          <i className="devicon-amazonwebservices-plain colored"></i>
-          <i className="devicon-git-plain colored"></i>
-          <i className="devicon-tortoisegit-plain colored"></i>
-          <i className="devicon-gitlab-plain colored"></i>
-          <i className="devicon-vscode-plain colored"></i>
-          <i className="devicon-git-plain colored"></i>
-          <i className="devicon-figma-plain colored"></i>
-          <i className="devicon-illustrator-plain colored"></i>
-          <i className="devicon-photoshop-plain colored"></i>
+          <Tooltip id="html" />
+          <i
+            className="devicon-html5-plain colored"
+            data-tooltip-id="html"
+            data-tooltip-content="HTML5"
+          ></i>
+          <Tooltip id="css" />
+          <i
+            className="devicon-css3-plain colored"
+            data-tooltip-id="css"
+            data-tooltip-content="CSS3"
+          ></i>
+          <Tooltip id="js" />
+          <i
+            className="devicon-javascript-plain colored"
+            data-tooltip-id="js"
+            data-tooltip-content="JavaScript"
+          ></i>
+          <Tooltip id="java" />
+          <i
+            className="devicon-java-plain colored"
+            data-tooltip-id="java"
+            data-tooltip-content="Java"
+          ></i>
+          <Tooltip id="jquery" />
+          <i
+            className="devicon-jquery-plain colored"
+            data-tooltip-id="jquery"
+            data-tooltip-content="JQuery"
+          ></i>
+          <Tooltip id="cplus" />
+          <i
+            className="devicon-cplusplus-plain colored"
+            data-tooltip-id="cplus"
+            data-tooltip-content="C++"
+          ></i>
+          <Tooltip id="type" />
+          <i
+            className="devicon-typescript-plain colored"
+            data-tooltip-id="type"
+            data-tooltip-content="TypeScript"
+          ></i>
+          <Tooltip id="python" />
+          <i
+            className="devicon-python-plain colored"
+            data-tooltip-id="python"
+            data-tooltip-content="Python"
+          ></i>
+          <Tooltip id="django" />
+          <i
+            className="devicon-django-plain colored"
+            data-tooltip-id="django"
+            data-tooltip-content="Django"
+          ></i>
+          <Tooltip id="node" />
+          <i
+            className="devicon-nodejs-plain colored"
+            data-tooltip-id="node"
+            data-tooltip-content="Node"
+          ></i>
+          <Tooltip id="express" />
+          <i
+            className="devicon-express-original colored"
+            data-tooltip-id="express"
+            data-tooltip-content="Express"
+          ></i>
+          <Tooltip id="react" />
+          <i
+            className="devicon-react-plain colored"
+            data-tooltip-id="react"
+            data-tooltip-content="React"
+          ></i>
+          <Tooltip id="mongo" />
+          <i
+            className="devicon-mongodb-plain colored"
+            data-tooltip-id="mongo"
+            data-tooltip-content="MongoDB"
+          ></i>
+          <Tooltip id="postgresql" />
+          <i
+            className="devicon-postgresql-plain colored"
+            data-tooltip-id="postgresql"
+            data-tooltip-content="PostgreSQL"
+          ></i>
+          <Tooltip id="aws" />
+          <i
+            className="devicon-amazonwebservices-plain colored"
+            data-tooltip-id="aws"
+            data-tooltip-content="AWS"
+          ></i>
+          <Tooltip id="git" />
+          <i
+            className="devicon-git-plain colored"
+            data-tooltip-id="git"
+            data-tooltip-content="Git"
+          ></i>
+          <Tooltip id="tortoise" />
+          <i
+            className="devicon-tortoisegit-plain colored"
+            data-tooltip-id="tortoise"
+            data-tooltip-content="TortoiseGit"
+          ></i>
+          <Tooltip id="gitlab" />
+          <i
+            className="devicon-gitlab-plain colored"
+            data-tooltip-id="gitlab"
+            data-tooltip-content="GitLab"
+          ></i>
+          <Tooltip id="vscode" />
+          <i
+            className="devicon-vscode-plain colored"
+            data-tooltip-id="vscode"
+            data-tooltip-content="VS Code"
+          ></i>
+          <Tooltip id="git" />
+          <i
+            className="devicon-git-plain colored"
+            data-tooltip-id="git"
+            data-tooltip-content="Git"
+          ></i>
+          <Tooltip id="figma" />
+          <i
+            className="devicon-figma-plain colored"
+            data-tooltip-id="figma"
+            data-tooltip-content="Figma"
+          ></i>
+          <Tooltip id="ai" />
+          <i
+            className="devicon-illustrator-plain colored"
+            data-tooltip-id="ai"
+            data-tooltip-content="Illustrator"
+          ></i>
+          <Tooltip id="ps" />
+          <i
+            className="devicon-photoshop-plain colored"
+            data-tooltip-id="ps"
+            data-tooltip-content="Photoshop"
+          ></i>
         </div>
       </div>
       <div className="row">

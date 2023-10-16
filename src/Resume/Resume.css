@@ -1,3 +1,7 @@
 #resume {
     scroll-margin-top: 5.5rem;
 }
+
+.react-tooltip {
+    font-size: .9rem !important;
+}
