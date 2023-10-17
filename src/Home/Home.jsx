@@ -28,7 +28,7 @@ export default function Home({ handleMouseEnter }) {
             and join me on GitHub as we embark on an exciting journey of
             innovation.
           </p>
-          <p className="border border-black col-6 col-lg-3 rounded-pill text-center pb-1 pt-2 mb-0">
+          <p className="border border-black col-6 col-md-3 col-lg-3 rounded-pill text-center pb-1 pt-2 mb-0">
             Scroll Down <FontAwesomeIcon icon={faChevronDown} />
           </p>
         </div>
