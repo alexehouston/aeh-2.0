@@ -11,19 +11,19 @@ import "./Nav.css";
 export default function Nav({ handleMouseEnter }) {
   return (
     <div className="Nav">
-      <div className="navbar m-0 ps-4 pe-5 py-1 border-bottom border-dark position-fixed top-0 bg-aeh vw-100">
+      <div className="navbar m-0 px-4 py-1 border-bottom border-dark position-fixed top-0 bg-aeh vw-100">
         <div className="container-fluid p-0">
           <a href="/" className="col-4 col-lg-10">
             <img className="aeh-img" src="/assets/aeh-small.png" alt="" />
           </a>
           <div className="d-flex col-7 col-lg-2 m-0 d-flex justify-content-end">
-            <a href="#portfolio" className="col-6 text-end">
+            <a href="#portfolio" className="text-end">
               <FontAwesomeIcon icon={faFolder} className="pe-1" />
               <span data-text="Portfolio" onMouseEnter={handleMouseEnter}>
                 Portfolio
               </span>
             </a>
-            <a href="#resume" className="col-6 text-end">
+            <a href="#resume" className="text-end ms-4">
               <FontAwesomeIcon icon={faFile} className="pe-1" />
               <span data-text="Resume" onMouseEnter={handleMouseEnter}>
                 Resume
@@ -32,7 +32,7 @@ export default function Nav({ handleMouseEnter }) {
           </div>
         </div>
       </div>
-      <div className="navbar m-0 ps-4 pe-5 py-2 border-top border-dark position-fixed bottom-0 bg-aeh vw-100">
+      <div className="navbar m-0 px-4 py-2 border-top border-dark position-fixed bottom-0 bg-aeh vw-100">
         <div className="container-fluid p-0">
           <a href="mailto:alexehouston@gmail.com" className="col-6 col-lg-10">
             Get In Touch <FontAwesomeIcon icon={faEnvelope} className="ms-1" />

@@ -1,10 +1,11 @@
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faCode } from "@fortawesome/free-solid-svg-icons";
 import Portfolio from "../Portfolio/Portfolio";
 import Resume from "../Resume/Resume";
 import "./Home.css";
 
-export default function Home() {
+export default function Home({ handleMouseEnter }) {
   return (
     <div className="Home p-4">
       <div className="home-inner mb-5 d-flex justify-content-center align-items-center border-bottom border-dark">
@@ -32,8 +33,12 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <Portfolio />
-      <Resume />
+      <Portfolio handleMouseEnter={handleMouseEnter} />
+      <Resume handleMouseEnter={handleMouseEnter} />
     </div>
   );
 }
+
+Home.propTypes = {
+  handleMouseEnter: PropTypes.func.isRequired,
+};

@@ -1,10 +1,11 @@
+import PropTypes from "prop-types";
 import { Tooltip } from "react-tooltip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile, faFileCode } from "@fortawesome/free-regular-svg-icons";
 import { faBriefcase, faSchool } from "@fortawesome/free-solid-svg-icons";
 import "./Resume.css";
 
-export default function Resume() {
+export default function Resume({ handleMouseEnter }) {
   return (
     <div id="resume" className="Resume my-4">
       <div className="row">
@@ -16,7 +17,10 @@ export default function Resume() {
             rel="noreferrer"
             className="text-uppercase"
           >
-            <FontAwesomeIcon icon={faFile} /> View PDF
+            <FontAwesomeIcon icon={faFile} />{" "}
+            <span data-text="View PDF" onMouseEnter={handleMouseEnter}>
+              View PDF
+            </span>
           </a>
         </h6>
       </div>
@@ -184,8 +188,18 @@ export default function Resume() {
                   rel="noreferrer"
                   className="text-secondary"
                 >
-                  <u>Industrial Info Resources</u>
-                  <img className="ms-2" src="/assets/experience/iir.png" alt="Industrial Info Resources" width="30" />
+                  <u
+                    data-text="Industrial Info Resources"
+                    onMouseEnter={handleMouseEnter}
+                  >
+                    Industrial Info Resources
+                  </u>
+                  <img
+                    className="ms-2"
+                    src="/assets/experience/iir.png"
+                    alt="Industrial Info Resources"
+                    width="30"
+                  />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">May 2023 - Present</h6>
@@ -254,8 +268,15 @@ export default function Resume() {
                   rel="noreferrer"
                   className="text-secondary"
                 >
-                  <u>ACT, Inc.</u>
-                  <img className="ms-2" src="/assets/experience/act.png" alt="ACT, Inc." width="20" />
+                  <u data-text="ACT, Inc." onMouseEnter={handleMouseEnter}>
+                    ACT, Inc.
+                  </u>
+                  <img
+                    className="ms-2"
+                    src="/assets/experience/act.png"
+                    alt="ACT, Inc."
+                    width="20"
+                  />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Jul 2019 - Aug 2022</h6>
@@ -312,8 +333,15 @@ export default function Resume() {
                   rel="noreferrer"
                   className="text-secondary"
                 >
-                  <u>Fresh</u>
-                  <img className="ms-2" src="/assets/experience/fresh.png" alt="Fresh, Inc." width="40" />
+                  <u data-text="Fresh" onMouseEnter={handleMouseEnter}>
+                    Fresh
+                  </u>
+                  <img
+                    className="ms-2"
+                    src="/assets/experience/fresh.png"
+                    alt="Fresh, Inc."
+                    width="40"
+                  />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Sep 2016 - Aug 2018</h6>
@@ -372,8 +400,18 @@ export default function Resume() {
                   rel="noreferrer"
                   className="text-secondary"
                 >
-                  <u>General Assembly</u>
-                  <img className="ms-2" src="/assets/experience/ga.png" alt="General Assembly" width="25" />
+                  <u
+                    data-text="General Assembly"
+                    onMouseEnter={handleMouseEnter}
+                  >
+                    General Assembly
+                  </u>
+                  <img
+                    className="ms-2"
+                    src="/assets/experience/ga.png"
+                    alt="General Assembly"
+                    width="25"
+                  />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Sep 2022 - Dec 2022</h6>
@@ -408,8 +446,18 @@ export default function Resume() {
                   rel="noreferrer"
                   className="text-secondary"
                 >
-                  <u>Fashion Institute of Technology</u>
-                  <img className="ms-2" src="/assets/experience/fit.png" alt="Fashion Institute of Technology" width="25" />
+                  <u
+                    data-text="Fashion Institute of Technology"
+                    onMouseEnter={handleMouseEnter}
+                  >
+                    Fashion Institute of Technology
+                  </u>
+                  <img
+                    className="ms-2"
+                    src="/assets/experience/fit.png"
+                    alt="Fashion Institute of Technology"
+                    width="25"
+                  />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Jul 2019 - Aug 2022</h6>
@@ -438,3 +486,7 @@ export default function Resume() {
     </div>
   );
 }
+
+Resume.propTypes = {
+  handleMouseEnter: PropTypes.func.isRequired,
+};

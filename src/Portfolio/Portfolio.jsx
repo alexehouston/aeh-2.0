@@ -1,8 +1,9 @@
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import "./Portfolio.css";
 
-export default function Portfolio() {
+export default function Portfolio({ handleMouseEnter }) {
   return (
     <div id="portfolio" className="Portfolio border-bottom border-black pb-5">
       <h4 className="mb-4">
@@ -51,6 +52,8 @@ export default function Portfolio() {
                   href="https://github.com/alexehouston/squiz"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="repo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   Repo
                 </a>{" "}
@@ -59,6 +62,8 @@ export default function Portfolio() {
                   href="https://squiz.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="demo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   Demo
                 </a>
@@ -93,6 +98,8 @@ export default function Portfolio() {
                   href="https://github.com/alexehouston/cr8tivehair"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="repo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   repo
                 </a>{" "}
@@ -101,6 +108,8 @@ export default function Portfolio() {
                   href="https://cr8tiveelements.com"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="demo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   demo
                 </a>
@@ -134,6 +143,8 @@ export default function Portfolio() {
                   href="https://github.com/alexehouston/elia-gal"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="repo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   repo
                 </a>{" "}
@@ -172,6 +183,8 @@ export default function Portfolio() {
                   href="https://github.com/alexehouston/kphaircolor"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="repo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   repo
                 </a>{" "}
@@ -180,6 +193,8 @@ export default function Portfolio() {
                   href="https://kphaircolor.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="demo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   demo
                 </a>
@@ -214,6 +229,8 @@ export default function Portfolio() {
                   href="https://github.com/alexehouston/kpxaeh"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="repo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   repo
                 </a>{" "}
@@ -255,6 +272,8 @@ export default function Portfolio() {
                   href="https://github.com/alexehouston/danielsunghoonkim"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="repo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   repo
                 </a>{" "}
@@ -263,6 +282,8 @@ export default function Portfolio() {
                   href="https://danielsunghoonkim.com/"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="demo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   demo
                 </a>
@@ -302,6 +323,8 @@ export default function Portfolio() {
                   href="https://github.com/alexehouston/cineflix"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="repo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   repo
                 </a>{" "}
@@ -310,6 +333,8 @@ export default function Portfolio() {
                   href="https://cineflixapp.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="demo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   demo
                 </a>
@@ -349,6 +374,8 @@ export default function Portfolio() {
                   href="https://github.com/alexehouston/hamstera"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="repo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   repo
                 </a>
@@ -388,6 +415,8 @@ export default function Portfolio() {
                   href="https://github.com/alexehouston/pokebank"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="repo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   repo
                 </a>{" "}
@@ -396,6 +425,8 @@ export default function Portfolio() {
                   href="https://poke-bank.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="demo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   demo
                 </a>
@@ -433,6 +464,8 @@ export default function Portfolio() {
                   href="https://github.com/alexehouston/concentration"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="repo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   repo
                 </a>{" "}
@@ -441,6 +474,8 @@ export default function Portfolio() {
                   href="https://alexehouston.github.io/concentration/"
                   target="_blank"
                   rel="noreferrer"
+                  data-text="demo"
+                  onMouseEnter={handleMouseEnter}
                 >
                   demo
                 </a>
@@ -452,3 +487,7 @@ export default function Portfolio() {
     </div>
   );
 }
+
+Portfolio.propTypes = {
+  handleMouseEnter: PropTypes.func.isRequired,
+};

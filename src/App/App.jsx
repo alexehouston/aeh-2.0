@@ -1,8 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import Nav from "../Nav/Nav";
 import Home from "../Home/Home";
-import Resume from "../Resume/Resume";
-import About from "../About/About";
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import "animate.css";
@@ -12,6 +10,7 @@ export default function App() {
   const location = useLocation();
 
   const velocity = 50;
+  
   const shuffle = (o) => {
     for (
       let j, x, i = o.length;
@@ -58,8 +57,6 @@ export default function App() {
 
       <Routes location={location} key={location.pathname}>
         <Route path="/" index element={<Home handleMouseEnter={handleMouseEnter} />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );
