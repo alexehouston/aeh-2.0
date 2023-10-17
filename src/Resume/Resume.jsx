@@ -185,6 +185,7 @@ export default function Resume() {
                   className="text-secondary"
                 >
                   <u>Industrial Info Resources</u>
+                  <img className="ms-2" src="/assets/experience/iir.png" alt="Industrial Info Resources" width="30" />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">May 2023 - Present</h6>
@@ -254,6 +255,7 @@ export default function Resume() {
                   className="text-secondary"
                 >
                   <u>ACT, Inc.</u>
+                  <img className="ms-2" src="/assets/experience/act.png" alt="ACT, Inc." width="20" />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Jul 2019 - Aug 2022</h6>
@@ -311,6 +313,7 @@ export default function Resume() {
                   className="text-secondary"
                 >
                   <u>Fresh</u>
+                  <img className="ms-2" src="/assets/experience/fresh.png" alt="Fresh, Inc." width="40" />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Sep 2016 - Aug 2018</h6>
@@ -370,6 +373,7 @@ export default function Resume() {
                   className="text-secondary"
                 >
                   <u>General Assembly</u>
+                  <img className="ms-2" src="/assets/experience/ga.png" alt="General Assembly" width="25" />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Sep 2022 - Dec 2022</h6>
@@ -405,6 +409,7 @@ export default function Resume() {
                   className="text-secondary"
                 >
                   <u>Fashion Institute of Technology</u>
+                  <img className="ms-2" src="/assets/experience/fit.png" alt="Fashion Institute of Technology" width="25" />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Jul 2019 - Aug 2022</h6>
