@@ -12,7 +12,7 @@ export default function Home({ handleMouseEnter }) {
         <div className="col-12 col-lg-6">
           <img className="aeh-ai" src="/assets/aeh-ai-2.png" alt="" />
         </div>
-        <div className="col-12 col-lg-6 ms-5 p-0 text-start d-flex flex-column align-items-start">
+        <div className="col-12 col-md-9 col-lg-6 ms-5 p-0 text-start d-flex flex-column align-items-start">
           <h1 className="lh-1">
             <span className="fs-4 opacity-50">Alex E. Houston</span>
             <br />

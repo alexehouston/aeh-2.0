@@ -37,7 +37,7 @@ export default function Nav({ handleMouseEnter }) {
           <a href="mailto:alexehouston@gmail.com" className="col-6 col-lg-10">
             Get In Touch <FontAwesomeIcon icon={faEnvelope} className="ms-1" />
           </a>
-          <div className="d-flex col-6 col-lg-1 justify-content-between m-0">
+          <div className="d-flex col-6 col-md-3 col-lg-1 justify-content-between m-0">
             <a
               href="https://github.com/alexehouston"
               target="_blank"
