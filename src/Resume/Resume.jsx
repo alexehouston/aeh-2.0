@@ -174,7 +174,7 @@ export default function Resume() {
       </div>
       <div className="row m-0 mt-2">
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white me-2 p-4">
+          <div className="border border-dark bg-white right-margin p-4">
             <div className="d-flex justify-content-between align-items-center">
               <h6 className="m-0">
                 Junior Web Developer —{" "}
@@ -244,7 +244,7 @@ export default function Resume() {
           </div>
         </div>
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white ms-2 p-4">
+          <div className="border border-dark bg-white left-margin top-margin p-4">
             <div className="d-flex justify-content-between align-items-center">
               <h6 className="m-0">
                 Team Lead / Academy On-Site Coordinator —{" "}
@@ -302,7 +302,7 @@ export default function Resume() {
           </div>
         </div>
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white me-2 mt-3 p-4">
+          <div className="border border-dark bg-white right-margin mt-3 p-4">
             <div className="d-flex justify-content-between align-items-center">
               <h6 className="m-0">
                 Graphic Designer —{" "}
@@ -362,7 +362,7 @@ export default function Resume() {
       </div>
       <div className="row m-0 mt-2">
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white me-2 p-4">
+          <div className="border border-dark bg-white right-margin p-4">
             <div className="d-flex justify-content-between align-items-center">
               <h6 className="m-0">
                 Certificate in Software Engineering —{" "}
@@ -398,7 +398,7 @@ export default function Resume() {
           </div>
         </div>
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white ms-2 p-4">
+          <div className="border border-dark bg-white left-margin top-margin p-4">
             <div className="d-flex justify-content-between align-items-center">
               <h6 className="m-0">
                 Bachelor&apos;s Degree —{" "}

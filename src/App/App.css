@@ -24,9 +24,9 @@ html,
 body {
   background-color: var(--aeh-bg);
   color: var(--aeh-txt);
-  font-family: 'Helvetica Bold', sans-serif;
+  font-family: "Helvetica Bold", sans-serif;
   text-transform: uppercase;
-  font-size: .9rem;
+  font-size: 0.9rem;
   scroll-behavior: smooth;
 }
 
@@ -39,7 +39,8 @@ a {
   text-decoration: none;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -53,4 +54,23 @@ ul, li {
 
 .neon-bg {
   background-color: var(--neon);
+}
+
+.right-margin {
+  margin-right: .5rem;
+}
+
+.left-margin {
+  margin-left: .5rem;
+}
+
+@media screen and (max-width: 567px) {
+  .right-margin,
+  .left-margin {
+    margin: 0;
+  }
+
+  .top-margin {
+    margin-top: 1rem !important;
+  }
 }

@@ -5,6 +5,7 @@
 .portfolio-img {
   height: 25rem;
   overflow: hidden;
+  border-right: 1px solid black;
 }
 
 .portfolio-img img {
@@ -59,10 +60,13 @@
   .portfolio-img {
     height: 15rem;
     width: 100% !important;
+    border-right: none;
+    border-bottom: 1px solid black;
   }
 
   .portfolio-img img {
-    margin-left: 0rem;
+    margin-left: -1rem;
+    height: 115%;
   }
 
   .technology {

@@ -10,8 +10,8 @@ export default function Portfolio() {
       </h4>
       <div className="d-flex flex-wrap">
         <div className="col-12 col-lg-6">
-          <div className="portfolio-item border border-dark bg-white me-2 d-flex align-items-center">
-            <div className="portfolio-img col-6 border-end border-dark">
+          <div className="portfolio-item right-margin border border-dark bg-white d-flex align-items-center">
+            <div className="portfolio-img col-6 border-dark">
               <img src="/assets/squiz/gameplay.gif" alt="" />
             </div>
             <div className="item-inner col-12 col-lg-6 px-4">
@@ -67,8 +67,8 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-12 col-lg-6">
-          <div className="portfolio-item border border-dark bg-white ms-2 d-flex align-items-center">
-            <div className="portfolio-img col-6 border-end border-dark">
+          <div className="portfolio-item left-margin top-margin border border-dark bg-white d-flex align-items-center">
+            <div className="portfolio-img col-6 border-dark">
               <img src="/assets/cr8tiveelements/cr8tiveelements.gif" alt="" />
             </div>
             <div className="item-inner col-12 col-lg-6 px-4">
@@ -109,8 +109,8 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-12 col-lg-6">
-          <div className="portfolio-item border border-dark bg-white me-2 mt-3 d-flex align-items-center">
-            <div className="portfolio-img col-6 border-end border-dark">
+          <div className="portfolio-item right-margin border border-dark bg-white mt-3 d-flex align-items-center">
+            <div className="portfolio-img col-6 border-dark">
               <img src="/assets/eliagal/eg-desktop.gif" alt="" />
             </div>
             <div className="item-inner col-12 col-lg-6 px-4">
@@ -146,8 +146,8 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-12 col-lg-6">
-          <div className="portfolio-item border border-dark bg-white ms-2 mt-3 d-flex align-items-center">
-            <div className="portfolio-img col-6 border-end border-dark">
+          <div className="portfolio-item left-margin border border-dark bg-white mt-3 d-flex align-items-center">
+            <div className="portfolio-img col-6 border-dark">
               <img src="/assets/kphaircolor/kphaircolor.gif" alt="" />
             </div>
             <div className="item-inner col-12 col-lg-6 px-4">
@@ -188,8 +188,8 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-12 col-lg-6">
-          <div className="portfolio-item border border-dark bg-white me-2 mt-3 d-flex align-items-center">
-            <div className="portfolio-img col-6 border-end border-dark">
+          <div className="portfolio-item right-margin border border-dark bg-white mt-3 d-flex align-items-center">
+            <div className="portfolio-img col-6 border-dark">
               <img src="/assets/kpxaeh/desktop-home.png" alt="" />
             </div>
             <div className="item-inner col-12 col-lg-6 px-4">
@@ -226,8 +226,8 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-12 col-lg-6">
-          <div className="portfolio-item border border-dark bg-white ms-2 mt-3 d-flex align-items-center">
-            <div className="portfolio-img col-6 border-end border-dark">
+          <div className="portfolio-item left-margin border border-dark bg-white mt-3 d-flex align-items-center">
+            <div className="portfolio-img col-6 border-dark">
               <img
                 src="/assets/danielsunghoonkim/dsk-desktop-home.gif"
                 alt=""
@@ -271,8 +271,8 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-12 col-lg-6">
-          <div className="portfolio-item border border-dark bg-white me-2 mt-3 d-flex align-items-center">
-            <div className="portfolio-img col-6 border-end border-dark">
+          <div className="portfolio-item right-margin border border-dark bg-white mt-3 d-flex align-items-center">
+            <div className="portfolio-img col-6 border-dark">
               <img src="/assets/cineflix/home-screenshot.gif" alt="" />
             </div>
             <div className="item-inner col-12 col-lg-6 px-4">
@@ -318,8 +318,8 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-12 col-lg-6">
-          <div className="portfolio-item border border-dark bg-white ms-2 mt-3 d-flex align-items-center">
-            <div className="portfolio-img col-6 border-end border-dark">
+          <div className="portfolio-item left-margin border border-dark bg-white mt-3 d-flex align-items-center">
+            <div className="portfolio-img col-6 border-dark">
               <img src="/assets/hamstera/home.png" alt="" />
             </div>
             <div className="item-inner col-12 col-lg-6 px-4">
@@ -357,8 +357,8 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-12 col-lg-6">
-          <div className="portfolio-item border border-dark bg-white me-2 mt-3 d-flex align-items-center">
-            <div className="portfolio-img col-6 border-end border-dark">
+          <div className="portfolio-item right-margin border border-dark bg-white mt-3 d-flex align-items-center">
+            <div className="portfolio-img col-6 border-dark">
               <img src="/assets/pokebank/pokebank.gif" alt="" />
             </div>
             <div className="item-inner col-12 col-lg-6 px-4">
@@ -404,8 +404,8 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="col-12 col-lg-6">
-          <div className="portfolio-item border border-dark bg-white ms-2 mt-3 d-flex align-items-center">
-            <div className="portfolio-img col-6 border-end border-dark">
+          <div className="portfolio-item left-margin border border-dark bg-white mt-3 d-flex align-items-center">
+            <div className="portfolio-img col-6 border-dark">
               <img src="/assets/concentration/concentration.gif" alt="" />
             </div>
             <div className="item-inner col-12 col-lg-6 px-4">
