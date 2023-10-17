@@ -6,6 +6,12 @@
   width: 10%;
 }
 
+@media screen and (max-width: 990px) {
+  .aeh-img {
+    width: 60%;
+  }
+}
+
 @media screen and (max-width: 567px) {
   .aeh-img {
     width: 100%;

@@ -15,7 +15,7 @@ export default function Portfolio({ handleMouseEnter }) {
             <div className="portfolio-img col-6 border-dark">
               <img src="/assets/squiz/gameplay.gif" alt="" />
             </div>
-            <div className="item-inner col-12 col-lg-6 px-4">
+            <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
                 <p className="bg-mongo rounded-pill text-center py-1 px-2 pb-2 mb-2">
                   MongoDB
@@ -76,7 +76,7 @@ export default function Portfolio({ handleMouseEnter }) {
             <div className="portfolio-img col-6 border-dark">
               <img src="/assets/cr8tiveelements/cr8tiveelements.gif" alt="" />
             </div>
-            <div className="item-inner col-12 col-lg-6 px-4">
+            <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
                 <p className="bg-react rounded-pill text-center py-1 px-2 pb-2 mb-2">
                   React.js
@@ -122,7 +122,7 @@ export default function Portfolio({ handleMouseEnter }) {
             <div className="portfolio-img col-6 border-dark">
               <img src="/assets/eliagal/eg-desktop.gif" alt="" />
             </div>
-            <div className="item-inner col-12 col-lg-6 px-4">
+            <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
                 <p className="bg-react rounded-pill text-center py-1 px-2 pb-2 mb-2">
                   React.js
@@ -161,7 +161,7 @@ export default function Portfolio({ handleMouseEnter }) {
             <div className="portfolio-img col-6 border-dark">
               <img src="/assets/kphaircolor/kphaircolor.gif" alt="" />
             </div>
-            <div className="item-inner col-12 col-lg-6 px-4">
+            <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
                 <p className="bg-react rounded-pill text-center py-1 px-2 pb-2 mb-2">
                   React.js
@@ -207,7 +207,7 @@ export default function Portfolio({ handleMouseEnter }) {
             <div className="portfolio-img col-6 border-dark">
               <img src="/assets/kpxaeh/desktop-home.png" alt="" />
             </div>
-            <div className="item-inner col-12 col-lg-6 px-4">
+            <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
                 <p className="bg-react rounded-pill text-center py-1 px-2 pb-2 mb-2">
                   React.js
@@ -250,7 +250,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 alt=""
               />
             </div>
-            <div className="item-inner col-12 col-lg-6 px-4">
+            <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
                 <p className="bg-react rounded-pill text-center py-1 px-2 pb-2 mb-2">
                   React.js
@@ -296,7 +296,7 @@ export default function Portfolio({ handleMouseEnter }) {
             <div className="portfolio-img col-6 border-dark">
               <img src="/assets/cineflix/home-screenshot.gif" alt="" />
             </div>
-            <div className="item-inner col-12 col-lg-6 px-4">
+            <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
                 <p className="bg-django rounded-pill text-center py-1 px-2 pb-2 mb-2">
                   Django
@@ -347,7 +347,7 @@ export default function Portfolio({ handleMouseEnter }) {
             <div className="portfolio-img col-6 border-dark">
               <img src="/assets/hamstera/home.png" alt="" />
             </div>
-            <div className="item-inner col-12 col-lg-6 px-4">
+            <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
                 <p className="bg-django rounded-pill text-center py-1 px-2 pb-2 mb-2">
                   Django
@@ -388,7 +388,7 @@ export default function Portfolio({ handleMouseEnter }) {
             <div className="portfolio-img col-6 border-dark">
               <img src="/assets/pokebank/pokebank.gif" alt="" />
             </div>
-            <div className="item-inner col-12 col-lg-6 px-4">
+            <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
                 <p className="bg-node rounded-pill text-center py-1 px-2 pb-2 mb-2">
                   Node.js
@@ -439,7 +439,7 @@ export default function Portfolio({ handleMouseEnter }) {
             <div className="portfolio-img col-6 border-dark">
               <img src="/assets/concentration/concentration.gif" alt="" />
             </div>
-            <div className="item-inner col-12 col-lg-6 px-4">
+            <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
                 <p className="bg-js rounded-pill text-center py-1 px-2 pb-2 mb-2">
                   JavaScript

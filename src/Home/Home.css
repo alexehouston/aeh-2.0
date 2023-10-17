@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 990px) {
   .home-inner {
     flex-direction: column-reverse;
     text-align: center !important;
