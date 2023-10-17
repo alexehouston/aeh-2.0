@@ -1,7 +1,19 @@
 #resume {
-    scroll-margin-top: 5.5rem;
+  scroll-margin-top: 5.5rem;
 }
 
 .react-tooltip {
-    font-size: .9rem !important;
+  font-size: 0.9rem !important;
+}
+
+@media screen and (max-width: 990px) {
+  .colored {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .colored {
+    padding: 0.5rem;
+  }
 }
