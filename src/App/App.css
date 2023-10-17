@@ -4,8 +4,18 @@
 }
 
 @font-face {
-  font-family: "Stretch Pro";
-  src: url(/fonts/StretchPro.otf);
+  font-family: "BB-Regular";
+  src: url(/fonts/bb-manual-mono-regular.otf);
+}
+
+@font-face {
+  font-family: "BB-Semibold";
+  src: url(/fonts/bb-manual-mono-semi-bold.otf);
+}
+
+@font-face {
+  font-family: "BB-Light";
+  src: url(/fonts/bb-manual-mono-light.otf);
 }
 
 :root {
@@ -24,10 +34,14 @@ html,
 body {
   background-color: var(--aeh-bg);
   color: var(--aeh-txt);
-  font-family: "Helvetica Bold", sans-serif;
+  font-family: "BB-Regular", sans-serif;
   text-transform: uppercase;
   font-size: 0.9rem;
   scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, .semibold {
+  font-family: 'BB-Semibold';
 }
 
 a {
@@ -45,7 +59,7 @@ li {
   scrollbar-width: none;
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar { 
   display: none;
 }
 

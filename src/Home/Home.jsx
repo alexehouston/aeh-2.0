@@ -22,7 +22,7 @@ export default function Home({ handleMouseEnter }) {
             <br />
             + Artist
           </h1>
-          <p className="w-75">
+          <p className="w-75 mt-4">
             I&apos;m a passionate Web Developer based in Houston, Texas. For me, coding is a canvas for art, and I thrive at
             the intersection of technology and creativity. Explore my portfolio
             and join me on GitHub as we embark on an exciting journey of

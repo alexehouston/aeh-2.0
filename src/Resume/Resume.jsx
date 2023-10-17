@@ -178,8 +178,8 @@ export default function Resume({ handleMouseEnter }) {
       </div>
       <div className="row m-0 mt-2">
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white right-margin p-4">
-            <div className="d-flex justify-content-between align-items-center">
+          <div className="border border-dark bg-white right-margin">
+            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3">
               <h6 className="m-0">
                 Junior Web Developer —{" "}
                 <a
@@ -198,13 +198,13 @@ export default function Resume({ handleMouseEnter }) {
                     className="ms-2"
                     src="/assets/experience/iir.png"
                     alt="Industrial Info Resources"
-                    width="30"
+                    height="25"
                   />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">May 2023 - Present</h6>
             </div>
-            <ul className="m-0 p-0 mt-5">
+            <ul className="m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -258,8 +258,8 @@ export default function Resume({ handleMouseEnter }) {
           </div>
         </div>
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white left-margin top-margin p-4">
-            <div className="d-flex justify-content-between align-items-center">
+          <div className="border border-dark bg-white left-margin top-margin">
+            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3">
               <h6 className="m-0">
                 Team Lead / Academy On-Site Coordinator —{" "}
                 <a
@@ -275,13 +275,13 @@ export default function Resume({ handleMouseEnter }) {
                     className="ms-2"
                     src="/assets/experience/act.png"
                     alt="ACT, Inc."
-                    width="20"
+                    height="25"
                   />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Jul 2019 - Aug 2022</h6>
             </div>
-            <ul className="m-0 p-0 mt-5">
+            <ul className="m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -323,8 +323,8 @@ export default function Resume({ handleMouseEnter }) {
           </div>
         </div>
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white right-margin mt-3 p-4">
-            <div className="d-flex justify-content-between align-items-center">
+          <div className="border border-dark bg-white right-margin mt-3">
+            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3">
               <h6 className="m-0">
                 Graphic Designer —{" "}
                 <a
@@ -340,13 +340,13 @@ export default function Resume({ handleMouseEnter }) {
                     className="ms-2"
                     src="/assets/experience/fresh.png"
                     alt="Fresh, Inc."
-                    width="40"
+                    height="25"
                   />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Sep 2016 - Aug 2018</h6>
             </div>
-            <ul className="m-0 p-0 mt-5">
+            <ul className="m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -390,8 +390,8 @@ export default function Resume({ handleMouseEnter }) {
       </div>
       <div className="row m-0 mt-2">
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white right-margin p-4">
-            <div className="d-flex justify-content-between align-items-center">
+          <div className="border border-dark bg-white right-margin">
+            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3">
               <h6 className="m-0">
                 Certificate in Software Engineering —{" "}
                 <a
@@ -410,13 +410,13 @@ export default function Resume({ handleMouseEnter }) {
                     className="ms-2"
                     src="/assets/experience/ga.png"
                     alt="General Assembly"
-                    width="25"
+                    height="25"
                   />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Sep 2022 - Dec 2022</h6>
             </div>
-            <ul className="m-0 p-0 mt-5">
+            <ul className="m-0 p-3 mt-3">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -436,8 +436,8 @@ export default function Resume({ handleMouseEnter }) {
           </div>
         </div>
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white left-margin top-margin p-4">
-            <div className="d-flex justify-content-between align-items-center">
+          <div className="border border-dark bg-white left-margin top-margin">
+            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3">
               <h6 className="m-0">
                 Bachelor&apos;s Degree —{" "}
                 <a
@@ -456,13 +456,13 @@ export default function Resume({ handleMouseEnter }) {
                     className="ms-2"
                     src="/assets/experience/fit.png"
                     alt="Fashion Institute of Technology"
-                    width="25"
+                    height="25"
                   />
                 </a>
               </h6>
               <h6 className="m-0 opacity-50">Jul 2019 - Aug 2022</h6>
             </div>
-            <ul className="m-0 p-0 mt-5">
+            <ul className="m-0 p-3 mt-3">
               <li className="pb-2">
                 +{" "}
                 <small>
