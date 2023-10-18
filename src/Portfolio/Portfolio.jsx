@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import "./Portfolio.css";
 
 export default function Portfolio({ handleMouseEnter }) {
@@ -54,9 +55,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="repo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   Repo
-                </a>{" "}
+                </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />{" "}
                 /{" "}
                 <a
                   href="https://squiz.herokuapp.com/"
@@ -64,9 +70,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="demo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   Demo
                 </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />
               </div>
             </div>
           </div>
@@ -100,9 +111,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="repo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   repo
-                </a>{" "}
+                </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />{" "}
                 /{" "}
                 <a
                   href="https://cr8tiveelements.com"
@@ -110,9 +126,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="demo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   demo
                 </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />
               </div>
             </div>
           </div>
@@ -145,13 +166,29 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="repo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   repo
-                </a>{" "}
+                </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />{" "}
                 /{" "}
-                <a href="https://eliagal.com" target="_blank" rel="noreferrer">
+                <a
+                  href="https://eliagal.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  data-text="demo"
+                  onMouseEnter={handleMouseEnter}
+                  className="semibold"
+                >
                   demo
                 </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />
               </div>
             </div>
           </div>
@@ -185,9 +222,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="repo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   repo
-                </a>{" "}
+                </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />{" "}
                 /{" "}
                 <a
                   href="https://kphaircolor.netlify.app/"
@@ -195,9 +237,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="demo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   demo
                 </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />
               </div>
             </div>
           </div>
@@ -231,13 +278,29 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="repo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   repo
-                </a>{" "}
+                </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />{" "}
                 /{" "}
-                <a href="https://kpxaeh.com/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://kpxaeh.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  data-text="demo"
+                  onMouseEnter={handleMouseEnter}
+                  className="semibold"
+                >
                   demo
                 </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />
               </div>
             </div>
           </div>
@@ -274,9 +337,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="repo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   repo
-                </a>{" "}
+                </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />{" "}
                 /{" "}
                 <a
                   href="https://danielsunghoonkim.com/"
@@ -284,9 +352,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="demo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   demo
                 </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />
               </div>
             </div>
           </div>
@@ -325,9 +398,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="repo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   repo
-                </a>{" "}
+                </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />{" "}
                 /{" "}
                 <a
                   href="https://cineflixapp.herokuapp.com/"
@@ -335,9 +413,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="demo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   demo
                 </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />
               </div>
             </div>
           </div>
@@ -376,9 +459,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="repo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   repo
                 </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />
               </div>
             </div>
           </div>
@@ -417,9 +505,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="repo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   repo
-                </a>{" "}
+                </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />{" "}
                 /{" "}
                 <a
                   href="https://poke-bank.herokuapp.com/"
@@ -427,9 +520,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="demo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   demo
                 </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />
               </div>
             </div>
           </div>
@@ -466,9 +564,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="repo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   repo
-                </a>{" "}
+                </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />{" "}
                 /{" "}
                 <a
                   href="https://alexehouston.github.io/concentration/"
@@ -476,9 +579,14 @@ export default function Portfolio({ handleMouseEnter }) {
                   rel="noreferrer"
                   data-text="demo"
                   onMouseEnter={handleMouseEnter}
+                  className="semibold"
                 >
                   demo
                 </a>
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="ps-2 small opacity-75"
+                />
               </div>
             </div>
           </div>
