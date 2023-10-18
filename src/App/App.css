@@ -1,6 +1,11 @@
 @font-face {
-  font-family: "Helvetica Bold";
-  src: url(/fonts/Helvetica-Bold.ttf);
+  font-family: "BB-Thin";
+  src: url(/fonts/bb-manual-mono-thin.otf);
+}
+
+@font-face {
+  font-family: "BB-Light";
+  src: url(/fonts/bb-manual-mono-light.otf);
 }
 
 @font-face {
@@ -14,8 +19,13 @@
 }
 
 @font-face {
-  font-family: "BB-Light";
-  src: url(/fonts/bb-manual-mono-light.otf);
+  font-family: "BB-Bold";
+  src: url(/fonts/bb-manual-mono-bold.otf);
+}
+
+@font-face {
+  font-family: "BB-Super";
+  src: url(/fonts/bb-manual-mono-super.otf);
 }
 
 :root {
@@ -40,7 +50,11 @@ body {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, .semibold {
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'BB-Bold';
+}
+
+.semibold {
   font-family: 'BB-Semibold';
 }
 

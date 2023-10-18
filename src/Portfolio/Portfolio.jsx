@@ -17,19 +17,19 @@ export default function Portfolio({ handleMouseEnter }) {
             </div>
             <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
-                <p className="bg-mongo rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-mongo rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   MongoDB
                 </p>
-                <p className="bg-express rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-express rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   Express.js
                 </p>
-                <p className="bg-react rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-react rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   React.js
                 </p>
-                <p className="bg-node rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-node rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   Node.js
                 </p>
-                <p className="bg-js rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-js rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   JavaScript
                 </p>
               </div>
@@ -78,10 +78,10 @@ export default function Portfolio({ handleMouseEnter }) {
             </div>
             <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
-                <p className="bg-react rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-react rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   React.js
                 </p>
-                <p className="bg-js rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-js rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   JavaScript
                 </p>
               </div>
@@ -124,10 +124,10 @@ export default function Portfolio({ handleMouseEnter }) {
             </div>
             <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
-                <p className="bg-react rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-react rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   React.js
                 </p>
-                <p className="bg-js rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-js rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   JavaScript
                 </p>
               </div>
@@ -163,10 +163,10 @@ export default function Portfolio({ handleMouseEnter }) {
             </div>
             <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
-                <p className="bg-react rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-react rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   React.js
                 </p>
-                <p className="bg-js rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-js rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   JavaScript
                 </p>
               </div>
@@ -209,10 +209,10 @@ export default function Portfolio({ handleMouseEnter }) {
             </div>
             <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
-                <p className="bg-react rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-react rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   React.js
                 </p>
-                <p className="bg-js rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-js rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   JavaScript
                 </p>
               </div>
@@ -252,10 +252,10 @@ export default function Portfolio({ handleMouseEnter }) {
             </div>
             <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
-                <p className="bg-react rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-react rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   React.js
                 </p>
-                <p className="bg-js rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-js rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   JavaScript
                 </p>
               </div>
@@ -298,10 +298,10 @@ export default function Portfolio({ handleMouseEnter }) {
             </div>
             <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
-                <p className="bg-django rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-django rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   Django
                 </p>
-                <p className="bg-python rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-python rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   Python
                 </p>
               </div>
@@ -349,10 +349,10 @@ export default function Portfolio({ handleMouseEnter }) {
             </div>
             <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
-                <p className="bg-django rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-django rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   Django
                 </p>
-                <p className="bg-python rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-python rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   Python
                 </p>
               </div>
@@ -390,10 +390,10 @@ export default function Portfolio({ handleMouseEnter }) {
             </div>
             <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
-                <p className="bg-node rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-node rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   Node.js
                 </p>
-                <p className="bg-js rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-js rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   JavaScript
                 </p>
               </div>
@@ -441,7 +441,7 @@ export default function Portfolio({ handleMouseEnter }) {
             </div>
             <div className="item-inner col-12 col-md-6 col-lg-6 px-4">
               <div className="technology d-flex flex-wrap">
-                <p className="bg-js rounded-pill text-center py-2 px-2 me-2 mb-2">
+                <p className="bg-js rounded-pill semibold text-center py-2 px-2 me-2 mb-2">
                   JavaScript
                 </p>
               </div>

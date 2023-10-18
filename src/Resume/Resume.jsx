@@ -197,7 +197,7 @@ export default function Resume({ handleMouseEnter }) {
                     <u
                       data-text="Industrial Info Resources"
                       onMouseEnter={handleMouseEnter}
-                      className="small opacity-50"
+                      className="small opacity-50 semibold"
                     >
                       Industrial Info Resources
                     </u>
@@ -279,7 +279,7 @@ export default function Resume({ handleMouseEnter }) {
                     <u
                       data-text="ACT, Inc."
                       onMouseEnter={handleMouseEnter}
-                      className="small opacity-50"
+                      className="small opacity-50 semibold"
                     >
                       ACT, Inc.
                     </u>
@@ -349,7 +349,7 @@ export default function Resume({ handleMouseEnter }) {
                     <u
                       data-text="Fresh, Inc."
                       onMouseEnter={handleMouseEnter}
-                      className="small opacity-50"
+                      className="small opacity-50 semibold"
                     >
                       Fresh, Inc.
                     </u>
@@ -421,7 +421,7 @@ export default function Resume({ handleMouseEnter }) {
                     <u
                       data-text="General Assembly"
                       onMouseEnter={handleMouseEnter}
-                      className="small opacity-50"
+                      className="small opacity-50 semibold"
                     >
                       General Assembly
                     </u>
@@ -469,7 +469,7 @@ export default function Resume({ handleMouseEnter }) {
                     <u
                       data-text="Fashion Institute of Technology"
                       onMouseEnter={handleMouseEnter}
-                      className="small opacity-50"
+                      className="small opacity-50 semibold"
                     >
                       Fashion Institute of Technology
                     </u>
