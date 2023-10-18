@@ -14,7 +14,7 @@ export default function Home({ handleMouseEnter }) {
         </div>
         <div className="home-text col-12 col-md-9 col-lg-6 p-0 text-start d-flex flex-column">
           <h1 className="lh-1">
-            <span className="fs-4 opacity-50">Alex E. Houston</span>
+            <span className="alex opacity-50">Alex E. Houston</span>
             <br />
             Software <FontAwesomeIcon icon={faCode} className="fs-1 opacity-50" />
             <br />
