@@ -2,7 +2,11 @@ import PropTypes from "prop-types";
 import { Tooltip } from "react-tooltip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile, faFileCode } from "@fortawesome/free-regular-svg-icons";
-import { faBriefcase, faSchool, faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBriefcase,
+  faSchool,
+  faArrowUpRightFromSquare,
+} from "@fortawesome/free-solid-svg-icons";
 import "./Resume.css";
 
 export default function Resume({ handleMouseEnter }) {
@@ -193,18 +197,21 @@ export default function Resume({ handleMouseEnter }) {
                     href="https://www.industrialinfo.com/"
                     target="_blank"
                     rel="noreferrer"
+                    className="small opacity-50 semibold pt-1"
                   >
                     <span
                       data-text="Industrial Info Resources"
                       onMouseEnter={handleMouseEnter}
-                      className="small opacity-50 semibold"
                     >
-                      Industrial Info Resources <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                      Industrial Info Resources
                     </span>
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2" />
                   </a>
                 </h6>
               </div>
-              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">May 2023 - Present</h6>
+              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">
+                May 2023 - Present
+              </h6>
             </div>
             <ul className="m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
@@ -275,18 +282,21 @@ export default function Resume({ handleMouseEnter }) {
                     href="https://www.anhcotran.com/"
                     target="_blank"
                     rel="noreferrer"
+                    className="small opacity-50 semibold pt-1"
                   >
                     <span
                       data-text="ACT, Inc."
                       onMouseEnter={handleMouseEnter}
-                      className="small opacity-50 semibold"
                     >
-                      ACT, Inc. <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                      ACT, Inc.
                     </span>
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2" />
                   </a>
                 </h6>
               </div>
-              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">Jul 2019 - Aug 2022</h6>
+              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">
+                Jul 2019 - Aug 2022
+              </h6>
             </div>
             <ul className="m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
@@ -345,18 +355,21 @@ export default function Resume({ handleMouseEnter }) {
                     href="https://www.fresh.com/"
                     target="_blank"
                     rel="noreferrer"
+                    className="small opacity-50 semibold pt-1"
                   >
                     <span
                       data-text="Fresh, Inc."
                       onMouseEnter={handleMouseEnter}
-                      className="small opacity-50 semibold"
                     >
-                      Fresh, Inc. <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                      Fresh, Inc.
                     </span>
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2" />
                   </a>
                 </h6>
               </div>
-              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">Sep 2016 - Aug 2018</h6>
+              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">
+                Sep 2016 - Aug 2018
+              </h6>
             </div>
             <ul className="m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
@@ -417,18 +430,21 @@ export default function Resume({ handleMouseEnter }) {
                     href="https://www.fresh.com/"
                     target="_blank"
                     rel="noreferrer"
+                    className="small opacity-50 semibold pt-1"
                   >
                     <span
                       data-text="General Assembly"
                       onMouseEnter={handleMouseEnter}
-                      className="small opacity-50 semibold"
                     >
-                      General Assembly <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                      General Assembly
                     </span>
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2" />
                   </a>
                 </h6>
               </div>
-              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">Sep 2022 - Dec 2022</h6>
+              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">
+                Sep 2022 - Dec 2022
+              </h6>
             </div>
             <ul className="m-0 p-3 mt-3">
               <li className="pb-2">
@@ -465,18 +481,21 @@ export default function Resume({ handleMouseEnter }) {
                     href="https://www.fresh.com/"
                     target="_blank"
                     rel="noreferrer"
+                    className="small opacity-50 semibold pt-1"
                   >
                     <span
                       data-text="Fashion Institute of Technology"
                       onMouseEnter={handleMouseEnter}
-                      className="small opacity-50 semibold"
                     >
-                      Fashion Institute of Technology <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                      Fashion Institute of Technology
                     </span>
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2" />
                   </a>
                 </h6>
               </div>
-              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">Jul 2019 - Aug 2022</h6>
+              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">
+                Jul 2019 - Aug 2022
+              </h6>
             </div>
             <ul className="m-0 p-3 mt-3">
               <li className="pb-2">
