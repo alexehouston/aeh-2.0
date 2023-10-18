@@ -16,7 +16,7 @@ export default function Nav({ handleMouseEnter }) {
           <a href="/" className="col-4 col-lg-10">
             <img className="aeh-img" src="/assets/aeh-small.png" alt="" />
           </a>
-          <div className="d-flex col-7 col-lg-2 m-0 d-flex justify-content-end">
+          <div className="d-flex col-7 col-lg-2 m-0 d-flex justify-content-end semibold">
             <a href="#portfolio" className="text-end">
               <FontAwesomeIcon icon={faFolder} className="pe-1" />
               <span data-text="Portfolio" onMouseEnter={handleMouseEnter}>
@@ -32,16 +32,17 @@ export default function Nav({ handleMouseEnter }) {
           </div>
         </div>
       </div>
-      <div className="navbar m-0 px-4 py-2 border-top border-dark position-fixed bottom-0 bg-aeh vw-100">
+      <div className="navbar m-0 px-4 py-3 border-top border-dark position-fixed bottom-0 bg-aeh vw-100 semibold">
         <div className="container-fluid p-0">
           <a href="mailto:alexehouston@gmail.com" className="col-6 col-lg-10">
-            Get In Touch <FontAwesomeIcon icon={faEnvelope} className="ms-1" />
+            <span data-text="Get In Touch" onMouseEnter={handleMouseEnter}>Get In Touch</span> <FontAwesomeIcon icon={faEnvelope} className="ms-1" />
           </a>
-          <div className="d-flex col-6 col-md-3 col-lg-1 justify-content-between m-0">
+          <div className="d-flex col-6 col-md-3 col-lg-2 justify-content-end">
             <a
               href="https://github.com/alexehouston"
               target="_blank"
               rel="noreferrer"
+              className="text-end"
             >
               <FontAwesomeIcon className="text-black" icon={faGithub} />{" "}
               <span data-text="GitHub" onMouseEnter={handleMouseEnter}>
@@ -52,6 +53,7 @@ export default function Nav({ handleMouseEnter }) {
               href="https://www.linkedin.com/in/alexehouston/"
               target="_blank"
               rel="noreferrer"
+              className="text-end ms-4"
             >
               <FontAwesomeIcon icon={faLinkedin} className="linkedin" />{" "}
               <span data-text="LinkedIn" onMouseEnter={handleMouseEnter}>

@@ -7,7 +7,7 @@ import "./Resume.css";
 
 export default function Resume({ handleMouseEnter }) {
   return (
-    <div id="resume" className="Resume my-4">
+    <div id="resume" className="Resume mt-4 mb-5">
       <div className="row">
         <h4 className="col-6">+ Resume</h4>
         <h6 className="col-6 text-end">
@@ -179,30 +179,32 @@ export default function Resume({ handleMouseEnter }) {
       <div className="row m-0 mt-2">
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white right-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3">
-              <h6 className="m-0">
-                Junior Web Developer —{" "}
-                <a
-                  href="https://www.industrialinfo.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-secondary"
-                >
-                  <u
-                    data-text="Industrial Info Resources"
-                    onMouseEnter={handleMouseEnter}
+            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
+              <div className="col-8 col-lg-6 d-flex align-items-center">
+                <img
+                  className="resume-logo me-2"
+                  src="/assets/experience/iir.png"
+                  alt="Industrial Info Resources"
+                />
+                <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
+                  Junior Web Developer
+                  <br />
+                  <a
+                    href="https://www.industrialinfo.com/"
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    Industrial Info Resources
-                  </u>
-                  <img
-                    className="ms-2"
-                    src="/assets/experience/iir.png"
-                    alt="Industrial Info Resources"
-                    height="25"
-                  />
-                </a>
-              </h6>
-              <h6 className="m-0 opacity-50">May 2023 - Present</h6>
+                    <u
+                      data-text="Industrial Info Resources"
+                      onMouseEnter={handleMouseEnter}
+                      className="small opacity-50"
+                    >
+                      Industrial Info Resources
+                    </u>
+                  </a>
+                </h6>
+              </div>
+              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">May 2023 - Present</h6>
             </div>
             <ul className="m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
@@ -259,27 +261,32 @@ export default function Resume({ handleMouseEnter }) {
         </div>
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white left-margin top-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3">
-              <h6 className="m-0">
-                Team Lead / Academy On-Site Coordinator —{" "}
-                <a
-                  href="https://www.anhcotran.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-secondary"
-                >
-                  <u data-text="ACT, Inc." onMouseEnter={handleMouseEnter}>
-                    ACT, Inc.
-                  </u>
-                  <img
-                    className="ms-2"
-                    src="/assets/experience/act.png"
-                    alt="ACT, Inc."
-                    height="25"
-                  />
-                </a>
-              </h6>
-              <h6 className="m-0 opacity-50">Jul 2019 - Aug 2022</h6>
+            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
+              <div className="col-8 col-lg-6 d-flex align-items-center">
+                <img
+                  className="resume-logo me-2"
+                  src="/assets/experience/act.png"
+                  alt="ACT, Inc."
+                />
+                <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
+                  Team Lead / Academy On-Site Coordinator
+                  <br />
+                  <a
+                    href="https://www.anhcotran.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <u
+                      data-text="ACT, Inc."
+                      onMouseEnter={handleMouseEnter}
+                      className="small opacity-50"
+                    >
+                      ACT, Inc.
+                    </u>
+                  </a>
+                </h6>
+              </div>
+              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">Jul 2019 - Aug 2022</h6>
             </div>
             <ul className="m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
@@ -324,27 +331,32 @@ export default function Resume({ handleMouseEnter }) {
         </div>
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white right-margin mt-3">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3">
-              <h6 className="m-0">
-                Graphic Designer —{" "}
-                <a
-                  href="https://www.fresh.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-secondary"
-                >
-                  <u data-text="Fresh" onMouseEnter={handleMouseEnter}>
-                    Fresh
-                  </u>
-                  <img
-                    className="ms-2"
-                    src="/assets/experience/fresh.png"
-                    alt="Fresh, Inc."
-                    height="25"
-                  />
-                </a>
-              </h6>
-              <h6 className="m-0 opacity-50">Sep 2016 - Aug 2018</h6>
+            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
+              <div className="col-8 col-lg-6 d-flex align-items-center">
+                <img
+                  className="resume-logo ms-1 me-3"
+                  src="/assets/experience/fresh.png"
+                  alt="Fresh, Inc."
+                />
+                <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
+                  Graphic Designer
+                  <br />
+                  <a
+                    href="https://www.fresh.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <u
+                      data-text="Fresh, Inc."
+                      onMouseEnter={handleMouseEnter}
+                      className="small opacity-50"
+                    >
+                      Fresh, Inc.
+                    </u>
+                  </a>
+                </h6>
+              </div>
+              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">Sep 2016 - Aug 2018</h6>
             </div>
             <ul className="m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
@@ -391,30 +403,32 @@ export default function Resume({ handleMouseEnter }) {
       <div className="row m-0 mt-2">
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white right-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3">
-              <h6 className="m-0">
-                Certificate in Software Engineering —{" "}
-                <a
-                  href="https://generalassemb.ly/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-secondary"
-                >
-                  <u
-                    data-text="General Assembly"
-                    onMouseEnter={handleMouseEnter}
+            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
+              <div className="col-8 col-lg-6 d-flex align-items-center">
+                <img
+                  className="resume-logo me-2"
+                  src="/assets/experience/ga.png"
+                  alt="General Assembly"
+                />
+                <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
+                  Certificate in Software Engineering
+                  <br />
+                  <a
+                    href="https://www.fresh.com/"
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    General Assembly
-                  </u>
-                  <img
-                    className="ms-2"
-                    src="/assets/experience/ga.png"
-                    alt="General Assembly"
-                    height="25"
-                  />
-                </a>
-              </h6>
-              <h6 className="m-0 opacity-50">Sep 2022 - Dec 2022</h6>
+                    <u
+                      data-text="General Assembly"
+                      onMouseEnter={handleMouseEnter}
+                      className="small opacity-50"
+                    >
+                      General Assembly
+                    </u>
+                  </a>
+                </h6>
+              </div>
+              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">Sep 2022 - Dec 2022</h6>
             </div>
             <ul className="m-0 p-3 mt-3">
               <li className="pb-2">
@@ -437,30 +451,32 @@ export default function Resume({ handleMouseEnter }) {
         </div>
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white left-margin top-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3">
-              <h6 className="m-0">
-                Bachelor&apos;s Degree —{" "}
-                <a
-                  href="https://www.fitnyc.edu/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-secondary"
-                >
-                  <u
-                    data-text="Fashion Institute of Technology"
-                    onMouseEnter={handleMouseEnter}
+            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
+              <div className="col-8 col-lg-6 d-flex align-items-center">
+                <img
+                  className="resume-logo me-2"
+                  src="/assets/experience/fit.png"
+                  alt="Fashion Institute of Technology"
+                />
+                <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
+                  Bachelor&apos;s Degree
+                  <br />
+                  <a
+                    href="https://www.fresh.com/"
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    Fashion Institute of Technology
-                  </u>
-                  <img
-                    className="ms-2"
-                    src="/assets/experience/fit.png"
-                    alt="Fashion Institute of Technology"
-                    height="25"
-                  />
-                </a>
-              </h6>
-              <h6 className="m-0 opacity-50">Jul 2019 - Aug 2022</h6>
+                    <u
+                      data-text="Fashion Institute of Technology"
+                      onMouseEnter={handleMouseEnter}
+                      className="small opacity-50"
+                    >
+                      Fashion Institute of Technology
+                    </u>
+                  </a>
+                </h6>
+              </div>
+              <h6 className="col-3 col-lg-6 text-end m-0 me-2 opacity-50">Jul 2019 - Aug 2022</h6>
             </div>
             <ul className="m-0 p-3 mt-3">
               <li className="pb-2">
