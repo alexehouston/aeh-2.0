@@ -3,7 +3,9 @@
 }
 
 .react-tooltip {
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
+  padding: .5rem !important;
+  border-radius: 10px !important;
 }
 
 .resume-logo {

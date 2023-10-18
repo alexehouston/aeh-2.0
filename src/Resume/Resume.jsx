@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { Tooltip } from "react-tooltip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile, faFileCode } from "@fortawesome/free-regular-svg-icons";
-import { faBriefcase, faSchool } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faSchool, faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import "./Resume.css";
 
 export default function Resume({ handleMouseEnter }) {
@@ -194,13 +194,13 @@ export default function Resume({ handleMouseEnter }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <u
+                    <span
                       data-text="Industrial Info Resources"
                       onMouseEnter={handleMouseEnter}
                       className="small opacity-50 semibold"
                     >
-                      Industrial Info Resources
-                    </u>
+                      Industrial Info Resources <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                    </span>
                   </a>
                 </h6>
               </div>
@@ -276,13 +276,13 @@ export default function Resume({ handleMouseEnter }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <u
+                    <span
                       data-text="ACT, Inc."
                       onMouseEnter={handleMouseEnter}
                       className="small opacity-50 semibold"
                     >
-                      ACT, Inc.
-                    </u>
+                      ACT, Inc. <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                    </span>
                   </a>
                 </h6>
               </div>
@@ -346,13 +346,13 @@ export default function Resume({ handleMouseEnter }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <u
+                    <span
                       data-text="Fresh, Inc."
                       onMouseEnter={handleMouseEnter}
                       className="small opacity-50 semibold"
                     >
-                      Fresh, Inc.
-                    </u>
+                      Fresh, Inc. <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                    </span>
                   </a>
                 </h6>
               </div>
@@ -418,13 +418,13 @@ export default function Resume({ handleMouseEnter }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <u
+                    <span
                       data-text="General Assembly"
                       onMouseEnter={handleMouseEnter}
                       className="small opacity-50 semibold"
                     >
-                      General Assembly
-                    </u>
+                      General Assembly <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                    </span>
                   </a>
                 </h6>
               </div>
@@ -466,13 +466,13 @@ export default function Resume({ handleMouseEnter }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <u
+                    <span
                       data-text="Fashion Institute of Technology"
                       onMouseEnter={handleMouseEnter}
                       className="small opacity-50 semibold"
                     >
-                      Fashion Institute of Technology
-                    </u>
+                      Fashion Institute of Technology <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                    </span>
                   </a>
                 </h6>
               </div>
