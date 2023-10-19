@@ -13,6 +13,10 @@
   margin-left: -5rem;
 }
 
+.description {
+  font-size: 1.4vmin;
+}
+
 .bg-react,
 .bg-mongo,
 .bg-express,
@@ -21,7 +25,7 @@
 .bg-python,
 .bg-react,
 .bg-django {
-  font-size: 0.75rem;
+  font-size: 1.2vmin;
 }
 
 .bg-react {
@@ -131,7 +135,7 @@
 
   .portfolio-img img {
     margin-left: -1rem;
-    height: 115%;
+    height: 120%;
   }
 
   .technology {

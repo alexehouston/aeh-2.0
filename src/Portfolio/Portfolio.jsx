@@ -11,7 +11,7 @@ export default function Portfolio({ handleMouseEnter }) {
         <FontAwesomeIcon icon={faCode} className="opacity-50" /> Portfolio
       </h4>
       <div className="d-flex flex-wrap">
-        <div className="col-12 col-lg-6">
+        <div className="portolio-item col-12 col-lg-6">
           <div className="portfolio-item right-margin border border-dark bg-white d-flex align-items-center">
             <div className="portfolio-img col-6 border-dark">
               <img src="/assets/squiz/gameplay.gif" alt="" />
@@ -35,7 +35,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </p>
               </div>
               <h5 className="my-4">Squiz</h5>
-              <p className="opacity-50">
+              <p className="description opacity-50">
                 Squiz is a full MERN-stack single-page web application & quiz
                 game created with React.js. Squiz tests your knowledge on
                 software development and makes learning fun. This application
@@ -97,7 +97,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </p>
               </div>
               <h5 className="my-4">Cr8tive Elements Hair Studio</h5>
-              <p className="opacity-50">
+              <p className="description opacity-50">
                 Here you can view the website of Cr8tive Elements Hair Studio in
                 Scottsdale, Arizona. This website was created using React.js and
                 provides the salon&apos; clients a place to browse past works
@@ -153,7 +153,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </p>
               </div>
               <h5 className="my-4">Elia Gal</h5>
-              <p className="opacity-50">
+              <p className="description opacity-50">
                 Here you can view the personal website of hair stylist Elia Gal.
                 This website was created using React.js and provides Elia&apos;s
                 clients a place to browse past works and book appointments.
@@ -208,7 +208,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </p>
               </div>
               <h5 className="my-4">KP Hair Color</h5>
-              <p className="opacity-50">
+              <p className="description opacity-50">
                 Here you can view the personal website of hair colorist Kristen
                 Pennington. This website was created using React.js and provides
                 Kristen&apos;s clients a place to browse past works and book
@@ -264,7 +264,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </p>
               </div>
               <h5 className="my-4">KP x AEH</h5>
-              <p className="opacity-50">
+              <p className="description opacity-50">
                 Here you can view the React.js application that houses the
                 collaboration between hair stylists Alex Houston and Kristen
                 Pennington. Clients are able to navigate to the site in order to
@@ -323,7 +323,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </p>
               </div>
               <h5 className="my-4">Daniel Sunghoon Kim</h5>
-              <p className="opacity-50">
+              <p className="description opacity-50">
                 Here you can view the personal website of hair stylist Daniel
                 Sung Hoon Kim. This website was created using React.js and
                 provides Daniel&apos;s clients a place to browse past works and
@@ -379,7 +379,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </p>
               </div>
               <h5 className="my-4">Cinéflix</h5>
-              <p className="opacity-50">
+              <p className="description opacity-50">
                 Cinéflix is a social media-based web application designed for
                 bringing movie-lovers together to share their passion & opinions
                 on cinema. This application was created during my time at{" "}
@@ -440,7 +440,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </p>
               </div>
               <h5 className="my-4">Hamstera</h5>
-              <p className="opacity-50">
+              <p className="description opacity-50">
                 Hamstera is a Django-based web application designed to collect
                 all of the cute hamsters from the Hamtaro animated series. This
                 application was created during my time at{" "}
@@ -486,7 +486,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </p>
               </div>
               <h5 className="my-4">Pokébank</h5>
-              <p className="opacity-50">
+              <p className="description opacity-50">
                 Pokébank is a full-stack Node.js web page application where
                 users can log & store their Pokémon-related data. This
                 application was created during my time at{" "}
@@ -544,7 +544,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </p>
               </div>
               <h5 className="my-4">Concentration</h5>
-              <p className="opacity-50">
+              <p className="description opacity-50">
                 Concentration is a Javascript-based browser game (with a Sailor
                 Moon twist) in which cards are face down until all pairs of
                 matching cards have been flipped. This application was created
