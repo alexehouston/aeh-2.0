@@ -213,7 +213,7 @@ export default function Resume({ handleMouseEnter }) {
                 May 2023 - Present
               </h6>
             </div>
-            <ul className="m-0 p-3 mt-3 mb-3">
+            <ul className="description m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -298,7 +298,7 @@ export default function Resume({ handleMouseEnter }) {
                 Jul 2019 - Aug 2022
               </h6>
             </div>
-            <ul className="m-0 p-3 mt-3 mb-3">
+            <ul className="description m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -371,7 +371,7 @@ export default function Resume({ handleMouseEnter }) {
                 Sep 2016 - Aug 2018
               </h6>
             </div>
-            <ul className="m-0 p-3 mt-3 mb-3">
+            <ul className="description m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -446,7 +446,7 @@ export default function Resume({ handleMouseEnter }) {
                 Sep 2022 - Dec 2022
               </h6>
             </div>
-            <ul className="m-0 p-3 mt-3">
+            <ul className="description m-0 p-3 mt-3">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -497,7 +497,7 @@ export default function Resume({ handleMouseEnter }) {
                 Jul 2019 - Aug 2022
               </h6>
             </div>
-            <ul className="m-0 p-3 mt-3">
+            <ul className="description m-0 p-3 mt-3">
               <li className="pb-2">
                 +{" "}
                 <small>
