@@ -13,10 +13,6 @@
   margin-left: -5rem;
 }
 
-.description {
-  font-size: 1.4vmin;
-}
-
 .bg-react,
 .bg-mongo,
 .bg-express,
@@ -25,11 +21,11 @@
 .bg-python,
 .bg-react,
 .bg-django {
-  font-size: 1.2vmin;
+  font-size: .75rem;
 }
 
 .bg-react {
-  background-color: rgba(138, 237, 255, 0.4);
+  background-color: rgb(208, 248, 255);
   box-shadow: rgb(138, 237, 255, 0.4) 0px 5px, rgb(138, 237, 255, 0.3) 0px 10px,
     rgb(138, 237, 255, 0.2) 0px 15px, rgb(138, 237, 255, 0.1) 0px 20px,
     rgb(138, 237, 255, 0.05) 0px 25px,
@@ -40,7 +36,7 @@
 }
 
 .bg-mongo {
-  background-color: rgb(82, 255, 154, 0.4);
+  background-color: rgb(185, 255, 214);
   box-shadow: rgb(82, 255, 154, 0.4) 0px 5px, rgb(82, 255, 154, 0.3) 0px 10px,
     rgb(82, 255, 154, 0.2) 0px 15px, rgb(82, 255, 154, 0.1) 0px 20px,
     rgb(82, 255, 154, 0.05) 0px 25px,
@@ -51,7 +47,7 @@
 }
 
 .bg-node {
-  background-color: rgb(185, 233, 90, 0.4);
+  background-color: rgb(227, 246, 189);
   box-shadow: rgb(185, 233, 90, 0.4) 0px 5px, rgb(185, 233, 90, 0.3) 0px 10px,
     rgb(185, 233, 90, 0.2) 0px 15px, rgb(185, 233, 90, 0.1) 0px 20px,
     rgb(185, 233, 90, 0.05) 0px 25px,
@@ -62,7 +58,7 @@
 }
 
 .bg-express {
-  background-color: rgb(209, 154, 255, 0.4);
+  background-color: rgb(237, 214, 255);
   box-shadow: rgb(209, 154, 255, 0.4) 0px 5px, rgb(209, 154, 255, 0.3) 0px 10px,
     rgb(209, 154, 255, 0.2) 0px 15px, rgb(209, 154, 255, 0.1) 0px 20px,
     rgb(209, 154, 255, 0.05) 0px 25px,
@@ -73,7 +69,7 @@
 }
 
 .bg-django {
-  background-color: rgb(255, 163, 163, 0.4);
+  background-color: rgb(255, 218, 218);
   box-shadow: rgb(255, 163, 163, 0.4) 0px 5px, rgb(255, 163, 163, 0.3) 0px 10px,
     rgb(255, 163, 163, 0.2) 0px 15px, rgb(255, 163, 163, 0.1) 0px 20px,
     rgb(255, 163, 163, 0.05) 0px 25px,
@@ -84,7 +80,7 @@
 }
 
 .bg-python {
-  background-color: rgb(142, 204, 255, 0.4);
+  background-color: rgb(210, 235, 255);
   box-shadow: rgb(142, 204, 255, 0.4) 0px 5px, rgb(142, 204, 255, 0.3) 0px 10px,
     rgb(142, 204, 255, 0.2) 0px 15px, rgb(142, 204, 255, 0.1) 0px 20px,
     rgb(142, 204, 255, 0.05) 0px 25px,
@@ -102,6 +98,22 @@
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.125) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.15) 0px -2px 6px 0px inset;
+}
+
+@media screen and (max-width: 1500px) {
+  .description {
+    font-size: .75rem;
+  }
+  .bg-react,
+  .bg-mongo,
+  .bg-express,
+  .bg-js,
+  .bg-node,
+  .bg-python,
+  .bg-react,
+  .bg-django {
+    font-size: 0.64rem;
+  }
 }
 
 @media screen and (max-width: 990px) {
