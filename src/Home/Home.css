@@ -11,6 +11,11 @@
   width: 100%;
 }
 
+.fa-code {
+  top: 18%;
+  padding-left: 1rem;
+}
+
 .alex {
   font-size: 1.5rem;
 }
