@@ -26,4 +26,8 @@
   .colored {
     padding: 0.5rem;
   }
+
+  .dates {
+    font-size: .8rem;
+  }
 }

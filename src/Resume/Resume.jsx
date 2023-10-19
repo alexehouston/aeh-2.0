@@ -209,7 +209,7 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
                 May 2023 - Present
               </h6>
             </div>
@@ -294,7 +294,7 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
                 Jul 2019 - Aug 2022
               </h6>
             </div>
@@ -367,7 +367,7 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
                 Sep 2016 - Aug 2018
               </h6>
             </div>
@@ -442,7 +442,7 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
                 Sep 2022 - Dec 2022
               </h6>
             </div>
@@ -493,7 +493,7 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
                 Jul 2019 - Aug 2022
               </h6>
             </div>
