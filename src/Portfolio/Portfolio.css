@@ -102,8 +102,9 @@
 
 @media screen and (max-width: 1500px) {
   .description {
-    font-size: .75rem;
+    font-size: .85rem;
   }
+
   .bg-react,
   .bg-mongo,
   .bg-express,

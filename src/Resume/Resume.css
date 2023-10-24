@@ -12,6 +12,16 @@
   height: 40px;
 }
 
+.description-block {
+  height: 15rem;
+}
+
+@media screen and (max-width: 1650px) {
+  .description-block {
+    height: 20rem;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .colored {
     padding: 1rem;

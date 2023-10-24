@@ -213,7 +213,7 @@ export default function Resume({ handleMouseEnter }) {
                 May 2023 - Present
               </h6>
             </div>
-            <ul className="description m-0 p-3 mt-3 mb-3">
+            <ul className="description description-block m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -246,7 +246,7 @@ export default function Resume({ handleMouseEnter }) {
                 +{" "}
                 <small>
                   Assist in the debugging and troubleshooting of website issues,
-                  identifying and resolving bugs /compatibility issues.
+                  identifying and resolving bugs/compatibility issues.
                 </small>
               </li>
               <li className="pb-2">
@@ -269,7 +269,7 @@ export default function Resume({ handleMouseEnter }) {
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white left-margin top-margin">
             <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
-              <div className="col-8 col-lg-6 d-flex align-items-center">
+              <div className="col-8 col-lg-8 d-flex align-items-center">
                 <img
                   className="resume-logo me-2"
                   src="/assets/experience/act.png"
@@ -294,11 +294,11 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-3 col-lg-4 text-end m-0 opacity-50 pe-2">
                 Jul 2019 - Aug 2022
               </h6>
             </div>
-            <ul className="description m-0 p-3 mt-3 mb-3">
+            <ul className="description description-block m-0 p-3 mt-3 mb-3">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -327,22 +327,20 @@ export default function Resume({ handleMouseEnter }) {
                   creative director of a major haircare brand.
                 </small>
               </li>
-              <li className="pb-2">
+              <li>
                 +{" "}
                 <small>
                   Supported the CEO with their strategic vision and managing
                   day-to-day tasks.
                 </small>
               </li>
-              <li className="pb-2">&nbsp;</li>
-              <li>&nbsp;</li>
             </ul>
           </div>
         </div>
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white right-margin mt-3">
             <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
-              <div className="col-8 col-lg-6 d-flex align-items-center">
+              <div className="col-8 col-lg-8 d-flex align-items-center">
                 <img
                   className="resume-logo ms-1 me-3"
                   src="/assets/experience/fresh.png"
@@ -367,7 +365,7 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-3 col-lg-4 text-end m-0 opacity-50 pe-2">
                 Sep 2016 - Aug 2018
               </h6>
             </div>
@@ -375,15 +373,7 @@ export default function Resume({ handleMouseEnter }) {
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Conceptualized and executed visually captivating designs for
-                  packaging, labels, and promotional materials, ensuring brand
-                  consistency and adherence to industry regulations.
-                </small>
-              </li>
-              <li className="pb-2">
-                +{" "}
-                <small>
-                  Conceptualized and executed visually captivating designs for
+                  Conceptualized and executed designs for
                   packaging, labels, and promotional materials, ensuring brand
                   consistency and adherence to industry regulations.
                 </small>
@@ -494,7 +484,7 @@ export default function Resume({ handleMouseEnter }) {
                 </h6>
               </div>
               <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
-                Jul 2019 - Aug 2022
+                Aug 2014 - May 2017
               </h6>
             </div>
             <ul className="description m-0 p-3 mt-3">
