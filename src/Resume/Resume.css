@@ -40,4 +40,12 @@
   .dates {
     font-size: .8rem;
   }
+
+  .description-block, .description {
+    height: 100%;
+  }
+  
+  .description li:not(:last-child) {
+    padding-bottom: 1.5rem !important;
+  }
 }
