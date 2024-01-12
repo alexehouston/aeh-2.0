@@ -210,7 +210,7 @@ export default function Resume({ handleMouseEnter }) {
                 </h6>
               </div>
               <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
-                May 2023 - Present
+                Apr 2023 - Present
               </h6>
             </div>
             <ul className="description description-block m-0 p-3 mt-3 mb-3">
