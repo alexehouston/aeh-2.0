@@ -191,7 +191,7 @@ export default function Resume({ handleMouseEnter }) {
                   alt="Industrial Info Resources"
                 />
                 <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
-                  Junior Web Developer
+                  Web Developer
                   <br />
                   <a
                     href="https://www.industrialinfo.com/"
