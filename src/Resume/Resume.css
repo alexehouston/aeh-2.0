@@ -12,14 +12,8 @@
   height: 40px;
 }
 
-.description-block {
-  height: 15rem;
-}
-
-@media screen and (max-width: 1650px) {
-  .description-block {
-    height: 20rem;
-  }
+.transparent {
+  color: transparent;
 }
 
 @media screen and (max-width: 990px) {
@@ -39,10 +33,6 @@
 
   .dates {
     font-size: .8rem;
-  }
-
-  .description-block, .description {
-    height: 100%;
   }
   
   .description li:not(:last-child) {

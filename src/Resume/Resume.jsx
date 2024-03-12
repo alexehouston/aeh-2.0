@@ -218,48 +218,45 @@ export default function Resume({ handleMouseEnter }) {
                 +{" "}
                 <small>
                   Collaborate with cross-functional teams to develop/maintain
-                  responsive websites.
+                  website.
                 </small>
               </li>
+              <hr />
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Ensure optimal user experience across multiple devices and
-                  browsers.
+                  Assist in the implementation of web-based applications + 
+                  projects.
                 </small>
               </li>
+              <hr />
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Assist in the implementation of front-end web development
-                  projects, including HTML, CSS, Java and JavaScript.
+                  Optimize website and code base in order to
+                  improve site performance + loading speeds.
                 </small>
               </li>
+              <hr />
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Support website optimization efforts by optimizing code to
-                  improve site performance and loading speed.
+                  Debug + troubleshoot in order to identify + resolve various bugs/compatibility issues.
                 </small>
               </li>
+              <hr />
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Assist in the debugging and troubleshooting of website issues,
-                  identifying and resolving bugs/compatibility issues.
+                  Conduct testing to ensure
+                  intended functionality of web-based applications.
                 </small>
               </li>
-              <li className="pb-2">
-                +{" "}
-                <small>
-                  Conduct testing and quality assurance to ensure proper
-                  functionality and responsiveness of websites.
-                </small>
-              </li>
+              <hr />
               <li>
                 +{" "}
                 <small>
-                  Assist in the documentation and maintenance of code
+                  Document + maintain code
                   repositories, ensuring proper version control.
                 </small>
               </li>
@@ -276,7 +273,7 @@ export default function Resume({ handleMouseEnter }) {
                   alt="ACT, Inc."
                 />
                 <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
-                  Team Lead / Academy On-Site Coordinator
+                  Team Lead / Academy Coordinator
                   <br />
                   <a
                     href="https://www.anhcotran.com/"
@@ -302,36 +299,46 @@ export default function Resume({ handleMouseEnter }) {
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Provided haircutting and styling services to
+                  Provided hair services to
                   a diverse clientele within fast-paced environments.
                 </small>
               </li>
+              <hr />
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Led a team of stylists, both on-site and remotely across the
-                  globe, for various events and projects.
+                  Led a team of stylists across the
+                  globe, for various events + projects.
                 </small>
               </li>
+              <hr />
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Traveled globally to assist in teaching modern haircutting
-                  techniques and styles to professional stylists.
+                  Traveled globally to teach modern haircutting
+                  techniques + styles to professional stylists.
                 </small>
               </li>
+              <hr />
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Collaborated closely with the CEO, who also served as the
-                  creative director of a major haircare brand.
+                  Collaborated closely with CEO on various projects, photoshoots + social media engagements.
                 </small>
               </li>
-              <li>
+              <hr />
+              <li className="pb-2">
                 +{" "}
                 <small>
-                  Supported the CEO with their strategic vision and managing
+                  Supported CEO with strategic visioning as well as managing
                   day-to-day tasks.
+                </small>
+              </li>
+              <hr className="transparent" />
+              <li className="transparent">
+                +{" "}
+                <small>
+                  &nbsp;
                 </small>
               </li>
             </ul>
@@ -373,25 +380,27 @@ export default function Resume({ handleMouseEnter }) {
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Conceptualized and executed designs for
-                  packaging, labels, and promotional materials, ensuring brand
-                  consistency and adherence to industry regulations.
+                  Conceptualized + executed designs for
+                  packaging, labels, + promotional materials, ensuring brand
+                  consistency + adherence to industry regulations.
                 </small>
               </li>
+              <hr />
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Designed and implemented effective brand identity elements,
-                  such as logos, business cards, and brand assets, reflecting
-                  the brand&apos;s essence and positioning in the market.
+                  Designed + implemented effective brand identity elements,
+                  such as logos, business cards, + brand assets, reflecting
+                  the brand&apos;s essence + positioning in the market.
                 </small>
               </li>
+              <hr />
               <li>
                 +{" "}
                 <small>
-                  Contributed to the development and execution of product launch
-                  campaigns, providing creative support and delivering designs
-                  that drove product awareness and sales.
+                  Contributed to the development + execution of product launch
+                  campaigns, providing creative support + delivering designs
+                  that drove product awareness + sales.
                 </small>
               </li>
             </ul>
@@ -444,6 +453,7 @@ export default function Resume({ handleMouseEnter }) {
                   instruction on the tech industry&apos;s most in-demand skills.
                 </small>
               </li>
+              <hr />
               <li>
                 +{" "}
                 <small>
@@ -451,7 +461,6 @@ export default function Resume({ handleMouseEnter }) {
                   displaying proficiency in full-stack web development.
                 </small>
               </li>
-              <li>&nbsp;</li>
             </ul>
           </div>
         </div>
@@ -491,17 +500,16 @@ export default function Resume({ handleMouseEnter }) {
               <li className="pb-2">
                 +{" "}
                 <small>
-                  AAS degree in Advertising and Marketing Communications,
-                  followed by a BFA degree in Graphic Design.
+                  AAS degree in Advertising + Marketing Communications,
+                  followed by a BFA degree in Graphic Design. <span className="transparent">-------------------------</span>
                 </small>
               </li>
+              <hr />
               <li>
                 +{" "}
                 <small>
-                  Integrated foundational knowledge gained during both degree
-                  programs, specializing in advertising, marketing
-                  communications, and graphic design to develop a well-rounded
-                  skill set.
+                  Integrated knowledge from both marketing + graphic design
+                  programs to develop a well-rounded skill set.
                 </small>
               </li>
             </ul>
