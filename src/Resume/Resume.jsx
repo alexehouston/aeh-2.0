@@ -1,8 +1,10 @@
 import PropTypes from "prop-types";
 import { Tooltip } from "react-tooltip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFile, faFileCode } from "@fortawesome/free-regular-svg-icons";
 import {
+  faCode,
+  faFile,
+  faFileCode,
   faBriefcase,
   faSchool,
   faArrowUpRightFromSquare,
@@ -13,7 +15,7 @@ export default function Resume({ handleMouseEnter }) {
   return (
     <div id="resume" className="Resume mt-4 mb-5">
       <div className="row">
-        <h4 className="col-6">+ Resume</h4>
+        <h4 className="col-6"><FontAwesomeIcon icon={faCode} /> Resume</h4>
         <h6 className="col-6 text-end">
           <a
             href="https://www.canva.com/design/DAFvlHNDnqk/5_XBPIUahiJ6q0zpApJrAg/view?utm_content=DAFvlHNDnqk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
@@ -184,7 +186,7 @@ export default function Resume({ handleMouseEnter }) {
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white right-margin">
             <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
-              <div className="col-8 col-lg-6 d-flex align-items-center">
+              <div className="col-7 col-lg-6 d-flex align-items-center">
                 <img
                   className="resume-logo me-2"
                   src="/assets/experience/iir.png"
@@ -197,23 +199,24 @@ export default function Resume({ handleMouseEnter }) {
                     href="https://www.industrialinfo.com/"
                     target="_blank"
                     rel="noreferrer"
-                    className="small opacity-50 semibold pt-1"
+                    className="small semibold pt-1"
                   >
                     <span
+                      className="opacity-50"
                       data-text="Industrial Info Resources"
                       onMouseEnter={handleMouseEnter}
                     >
                       Industrial Info Resources
                     </span>
-                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2" />
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2 small" />
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-5 col-lg-6 text-end m-0 opacity-50 pe-2">
                 Apr 2023 - Present
               </h6>
             </div>
-            <ul className="description description-block m-0 p-3 mt-3 mb-3">
+            <ul className="description description-block m-0 p-3 mt-0 mt-lg-2 mb-2">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -266,7 +269,7 @@ export default function Resume({ handleMouseEnter }) {
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white left-margin top-margin">
             <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
-              <div className="col-8 col-lg-8 d-flex align-items-center">
+              <div className="col-7 col-lg-8 d-flex align-items-center">
                 <img
                   className="resume-logo me-2"
                   src="/assets/experience/act.png"
@@ -279,23 +282,24 @@ export default function Resume({ handleMouseEnter }) {
                     href="https://www.anhcotran.com/"
                     target="_blank"
                     rel="noreferrer"
-                    className="small opacity-50 semibold pt-1"
+                    className="small semibold pt-1"
                   >
                     <span
+                      className="opacity-50"
                       data-text="ACT, Inc."
                       onMouseEnter={handleMouseEnter}
                     >
                       ACT, Inc.
                     </span>
-                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2" />
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2 small" />
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-3 col-lg-4 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-5 col-lg-4 text-end m-0 opacity-50 pe-2">
                 Jul 2019 - Aug 2022
               </h6>
             </div>
-            <ul className="description description-block m-0 p-3 mt-3 mb-3">
+            <ul className="description description-block m-0 p-3 mt-0 mt-lg-2 mb-2">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -315,8 +319,8 @@ export default function Resume({ handleMouseEnter }) {
               <li className="pb-2">
                 +{" "}
                 <small>
-                  Traveled globally to teach modern haircutting
-                  techniques + styles to professional stylists.
+                  Traveled globally, teaching modern haircutting
+                  techniques to professional stylists.
                 </small>
               </li>
               <hr />
@@ -327,7 +331,7 @@ export default function Resume({ handleMouseEnter }) {
                 </small>
               </li>
               <hr />
-              <li className="pb-2">
+              <li className="pb-0 pb-lg-2">
                 +{" "}
                 <small>
                   Supported CEO with strategic visioning as well as managing
@@ -347,7 +351,7 @@ export default function Resume({ handleMouseEnter }) {
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white right-margin mt-3">
             <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
-              <div className="col-8 col-lg-8 d-flex align-items-center">
+              <div className="col-7 col-lg-8 d-flex align-items-center">
                 <img
                   className="resume-logo ms-1 me-3"
                   src="/assets/experience/fresh.png"
@@ -360,23 +364,24 @@ export default function Resume({ handleMouseEnter }) {
                     href="https://www.fresh.com/"
                     target="_blank"
                     rel="noreferrer"
-                    className="small opacity-50 semibold pt-1"
+                    className="small semibold pt-1"
                   >
                     <span
+                      className="opacity-50"
                       data-text="Fresh, Inc."
                       onMouseEnter={handleMouseEnter}
                     >
                       Fresh, Inc.
                     </span>
-                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2" />
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2 small" />
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-3 col-lg-4 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-5 col-lg-4 text-end m-0 opacity-50 pe-2">
                 Sep 2016 - Aug 2018
               </h6>
             </div>
-            <ul className="description m-0 p-3 mt-3 mb-3">
+            <ul className="description m-0 p-3 mt-0 mt-lg-2 mb-3">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -416,7 +421,7 @@ export default function Resume({ handleMouseEnter }) {
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white right-margin">
             <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
-              <div className="col-8 col-lg-6 d-flex align-items-center">
+              <div className="col-7 d-flex align-items-center">
                 <img
                   className="resume-logo me-2"
                   src="/assets/experience/ga.png"
@@ -429,23 +434,24 @@ export default function Resume({ handleMouseEnter }) {
                     href="https://www.fresh.com/"
                     target="_blank"
                     rel="noreferrer"
-                    className="small opacity-50 semibold pt-1"
+                    className="small semibold pt-1"
                   >
                     <span
+                      className="opacity-50"
                       data-text="General Assembly"
                       onMouseEnter={handleMouseEnter}
                     >
                       General Assembly
                     </span>
-                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2" />
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2 small" />
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-5 text-end m-0 opacity-50 pe-2">
                 Sep 2022 - Dec 2022
               </h6>
             </div>
-            <ul className="description m-0 p-3 mt-3">
+            <ul className="description m-0 p-3 mt-0 mt-lg-2">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -467,7 +473,7 @@ export default function Resume({ handleMouseEnter }) {
         <div className="col-12 col-lg-6 p-0">
           <div className="border border-dark bg-white left-margin top-margin">
             <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
-              <div className="col-8 col-lg-6 d-flex align-items-center">
+              <div className="col-7 col-lg-7 d-flex align-items-center">
                 <img
                   className="resume-logo me-2"
                   src="/assets/experience/fit.png"
@@ -480,23 +486,24 @@ export default function Resume({ handleMouseEnter }) {
                     href="https://www.fresh.com/"
                     target="_blank"
                     rel="noreferrer"
-                    className="small opacity-50 semibold pt-1"
+                    className="small semibold pt-1"
                   >
                     <span
+                      className="opacity-50"
                       data-text="Fashion Institute of Technology"
                       onMouseEnter={handleMouseEnter}
                     >
                       Fashion Institute of Technology
                     </span>
-                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2" />
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2 small" />
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-3 col-lg-6 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates col-5 col-lg-5 text-end m-0 opacity-50 pe-2">
                 Aug 2014 - May 2017
               </h6>
             </div>
-            <ul className="description m-0 p-3 mt-3">
+            <ul className="description m-0 p-3 mt-0 mt-lg-2">
               <li className="pb-2">
                 +{" "}
                 <small>
@@ -509,7 +516,7 @@ export default function Resume({ handleMouseEnter }) {
                 +{" "}
                 <small>
                   Integrated knowledge from both marketing + graphic design
-                  programs to develop a well-rounded skill set.
+                  programs to develop a well-rounded skill set. <span className="transparent">-------------------------</span>
                 </small>
               </li>
             </ul>

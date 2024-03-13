@@ -97,6 +97,10 @@ li {
   margin-left: 0.5rem;
 }
 
+.svg-inline--fa {
+  color: rgb(157, 151, 211);
+}
+
 @media screen and (max-width: 990px) {
   .right-margin,
   .left-margin {

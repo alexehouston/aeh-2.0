@@ -13,7 +13,7 @@ export default function Home({ handleMouseEnter }) {
           <img className="aeh-ai" src="/assets/aeh-ai-2.png" alt="" />
         </div>
         <div className="home-text col-12 col-md-9 col-lg-6 p-0 text-start d-flex flex-column">
-          <span className="lh-1 alex opacity-50 pb-2">Alex E. Houston</span>
+          <span className="lh-1 alex opacity-50">Alex E. Houston</span>
           <h1 className="lh-1 position-relative h-50">
             Software{" "}
             <FontAwesomeIcon
@@ -25,7 +25,7 @@ export default function Home({ handleMouseEnter }) {
             <br />
             + Artist
           </h1>
-          <p className="intro-text w-75 mt-2 mb-4">
+          <p className="intro-text w-75 my-3">
             I&apos;m a passionate Web Developer based in Houston, Texas. For me,
             coding is a canvas for art, and I thrive at the intersection of
             technology and creativity. Explore my portfolio and join me on

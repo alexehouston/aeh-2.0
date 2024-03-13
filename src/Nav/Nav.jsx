@@ -4,7 +4,7 @@ import {
   faEnvelope,
   faFile,
   faFolder,
-} from "@fortawesome/free-regular-svg-icons";
+} from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./Nav.css";
 

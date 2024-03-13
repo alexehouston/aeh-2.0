@@ -8,7 +8,7 @@ export default function Portfolio({ handleMouseEnter }) {
   return (
     <div id="portfolio" className="Portfolio border-bottom border-black pb-5">
       <h4 className="mb-4">
-        <FontAwesomeIcon icon={faCode} className="opacity-50" /> Portfolio
+        <FontAwesomeIcon icon={faCode} /> Portfolio
       </h4>
       <div className="d-flex flex-wrap">
         <div className="portolio-item col-12 col-lg-6">
@@ -61,7 +61,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />{" "}
                 /{" "}
                 <a
@@ -76,7 +76,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />
               </div>
             </div>
@@ -117,7 +117,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />{" "}
                 /{" "}
                 <a
@@ -132,7 +132,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />
               </div>
             </div>
@@ -172,7 +172,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />{" "}
                 /{" "}
                 <a
@@ -187,7 +187,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />
               </div>
             </div>
@@ -228,7 +228,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />{" "}
                 /{" "}
                 <a
@@ -243,7 +243,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />
               </div>
             </div>
@@ -284,7 +284,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />{" "}
                 /{" "}
                 <a
@@ -299,7 +299,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />
               </div>
             </div>
@@ -343,7 +343,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />{" "}
                 /{" "}
                 <a
@@ -358,7 +358,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />
               </div>
             </div>
@@ -404,7 +404,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />{" "}
                 /{" "}
                 <a
@@ -419,7 +419,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />
               </div>
             </div>
@@ -465,7 +465,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />
               </div>
             </div>
@@ -511,7 +511,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />{" "}
                 /{" "}
                 <a
@@ -526,7 +526,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />
               </div>
             </div>
@@ -570,7 +570,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />{" "}
                 /{" "}
                 <a
@@ -585,7 +585,7 @@ export default function Portfolio({ handleMouseEnter }) {
                 </a>
                 <FontAwesomeIcon
                   icon={faArrowUpRightFromSquare}
-                  className="ps-2 small opacity-75"
+                  className="ps-2 small"
                 />
               </div>
             </div>
