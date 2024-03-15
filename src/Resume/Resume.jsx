@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./Resume.css";
 
-export default function Resume({ handleMouseEnter }) {
+export default function Resume({ handleMouseEnter, theme }) {
   return (
     <div id="resume" className="Resume mt-4 mb-5">
       <div className="row">
@@ -35,7 +35,7 @@ export default function Resume({ handleMouseEnter }) {
           <FontAwesomeIcon icon={faFileCode} /> Technical Skills
         </h6>
       </div>
-      <div className="row bg-white border border-black m-0 p-3 mt-2">
+      <div className="row bg-box border border-aeh m-0 p-3 mt-2">
         <div className="d-flex flex-wrap justify-content-between fs-2">
           <Tooltip id="html" />
           <i
@@ -184,11 +184,15 @@ export default function Resume({ handleMouseEnter }) {
       </div>
       <div className="row m-0 mt-2">
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white right-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
+          <div className="border border-aeh bg-box right-margin">
+            <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
               <div className="col-7 col-lg-6 d-flex align-items-center">
                 <img
-                  className="resume-logo me-2"
+                  style={{
+                    backgroundColor: theme === 'dark' ? 'white' : 'transparent',
+                    borderRadius: theme === 'dark' ? '20%' : '0%',
+                  }}
+                  className="resume-logo me-3"
                   src="/assets/experience/iir.png"
                   alt="Industrial Info Resources"
                 />
@@ -212,13 +216,13 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-5 col-lg-6 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates accent-txt col-5 col-lg-6 text-end m-0 pe-2">
                 Apr 2023 - Present
               </h6>
             </div>
             <ul className="description description-block m-0 p-3 mt-0 mt-lg-2 mb-2">
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Collaborate with cross-functional teams to develop/maintain
                   website.
@@ -226,7 +230,7 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr />
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Assist in the implementation of web-based applications + 
                   projects.
@@ -234,7 +238,7 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr />
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Optimize website and code base in order to
                   improve site performance + loading speeds.
@@ -242,14 +246,14 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr />
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Debug + troubleshoot in order to identify + resolve various bugs/compatibility issues.
                 </small>
               </li>
               <hr />
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Conduct testing to ensure
                   intended functionality of web-based applications.
@@ -257,7 +261,7 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr />
               <li>
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Document + maintain code
                   repositories, ensuring proper version control.
@@ -267,11 +271,15 @@ export default function Resume({ handleMouseEnter }) {
           </div>
         </div>
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white left-margin top-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
+          <div className="border border-aeh bg-box left-margin top-margin">
+            <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
               <div className="col-7 col-lg-8 d-flex align-items-center">
                 <img
-                  className="resume-logo me-2"
+                  style={{
+                    backgroundColor: theme === 'dark' ? 'white' : 'transparent',
+                    borderRadius: theme === 'dark' ? '20%' : '0%',
+                  }}
+                  className="resume-logo me-3"
                   src="/assets/experience/act.png"
                   alt="ACT, Inc."
                 />
@@ -295,13 +303,13 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-5 col-lg-4 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates accent-txt col-5 col-lg-4 text-end m-0 pe-2">
                 Jul 2019 - Aug 2022
               </h6>
             </div>
             <ul className="description description-block m-0 p-3 mt-0 mt-lg-2 mb-2">
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Provided hair services to
                   a diverse clientele within fast-paced environments.
@@ -309,7 +317,7 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr />
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Led a team of stylists across the
                   globe, for various events + projects.
@@ -317,7 +325,7 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr />
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Traveled globally, teaching modern haircutting
                   techniques to professional stylists.
@@ -325,14 +333,14 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr />
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Collaborated closely with CEO on various projects, photoshoots + social media engagements.
                 </small>
               </li>
               <hr />
               <li className="pb-0 pb-lg-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Supported CEO with strategic visioning as well as managing
                   day-to-day tasks.
@@ -340,7 +348,6 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr className="transparent" />
               <li className="transparent">
-                +{" "}
                 <small>
                   &nbsp;
                 </small>
@@ -349,11 +356,15 @@ export default function Resume({ handleMouseEnter }) {
           </div>
         </div>
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white right-margin mt-3">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
+          <div className="border border-aeh bg-box right-margin mt-3">
+            <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
               <div className="col-7 col-lg-8 d-flex align-items-center">
                 <img
-                  className="resume-logo ms-1 me-3"
+                  style={{
+                    backgroundColor: theme === 'dark' ? 'white' : 'transparent',
+                    borderRadius: theme === 'dark' ? '20%' : '0%',
+                  }}
+                  className="resume-logo me-3"
                   src="/assets/experience/fresh.png"
                   alt="Fresh, Inc."
                 />
@@ -377,13 +388,13 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-5 col-lg-4 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates accent-txt col-5 col-lg-4 text-end m-0 pe-2">
                 Sep 2016 - Aug 2018
               </h6>
             </div>
             <ul className="description m-0 p-3 mt-0 mt-lg-2 mb-3">
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Conceptualized + executed designs for
                   packaging, labels, + promotional materials, ensuring brand
@@ -392,7 +403,7 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr />
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Designed + implemented effective brand identity elements,
                   such as logos, business cards, + brand assets, reflecting
@@ -401,7 +412,7 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr />
               <li>
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Contributed to the development + execution of product launch
                   campaigns, providing creative support + delivering designs
@@ -419,11 +430,15 @@ export default function Resume({ handleMouseEnter }) {
       </div>
       <div className="row m-0 mt-2">
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white right-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
+          <div className="border border-aeh bg-box right-margin">
+            <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
               <div className="col-7 d-flex align-items-center">
                 <img
-                  className="resume-logo me-2"
+                  style={{
+                    backgroundColor: theme === 'dark' ? 'white' : 'transparent',
+                    borderRadius: theme === 'dark' ? '20%' : '0%',
+                  }}
+                  className="resume-logo me-3"
                   src="/assets/experience/ga.png"
                   alt="General Assembly"
                 />
@@ -447,13 +462,13 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-5 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates accent-txt col-5 text-end m-0 pe-2">
                 Sep 2022 - Dec 2022
               </h6>
             </div>
             <ul className="description m-0 p-3 mt-0 mt-lg-2">
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Completed 420+ hours of fully-immersive, expert-led
                   instruction on the tech industry&apos;s most in-demand skills.
@@ -461,7 +476,7 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr />
               <li>
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Developed five projects over the course of 12 weeks; all
                   displaying proficiency in full-stack web development.
@@ -471,11 +486,15 @@ export default function Resume({ handleMouseEnter }) {
           </div>
         </div>
         <div className="col-12 col-lg-6 p-0">
-          <div className="border border-dark bg-white left-margin top-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-dark p-3 pb-4">
+          <div className="border border-aeh bg-box left-margin top-margin">
+            <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
               <div className="col-7 col-lg-7 d-flex align-items-center">
                 <img
-                  className="resume-logo me-2"
+                  style={{
+                    backgroundColor: theme === 'dark' ? 'white' : 'transparent',
+                    borderRadius: theme === 'dark' ? '20%' : '0%',
+                  }}
+                  className="resume-logo me-3"
                   src="/assets/experience/fit.png"
                   alt="Fashion Institute of Technology"
                 />
@@ -499,13 +518,13 @@ export default function Resume({ handleMouseEnter }) {
                   </a>
                 </h6>
               </div>
-              <h6 className="dates col-5 col-lg-5 text-end m-0 opacity-50 pe-2">
+              <h6 className="dates accent-txt col-5 col-lg-5 text-end m-0 pe-2">
                 Aug 2014 - May 2017
               </h6>
             </div>
             <ul className="description m-0 p-3 mt-0 mt-lg-2">
               <li className="pb-2">
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   AAS degree in Advertising + Marketing Communications,
                   followed by a BFA degree in Graphic Design. <span className="transparent">-------------------------</span>
@@ -513,7 +532,7 @@ export default function Resume({ handleMouseEnter }) {
               </li>
               <hr />
               <li>
-                +{" "}
+                <span className="accent-txt">+</span>{" "}
                 <small>
                   Integrated knowledge from both marketing + graphic design
                   programs to develop a well-rounded skill set. <span className="transparent">-------------------------</span>
@@ -528,5 +547,6 @@ export default function Resume({ handleMouseEnter }) {
 }
 
 Resume.propTypes = {
-  handleMouseEnter: PropTypes.func.isRequired,
+  handleMouseEnter: PropTypes.any,
+  theme: PropTypes.any
 };

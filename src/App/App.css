@@ -31,7 +31,18 @@
 :root {
   --aeh-bg: #eee;
   --aeh-txt: #333;
-  --neon: #d9f149;
+  --aeh-accent: rgb(157, 151, 211);
+  --aeh-box: #fff;
+  --aeh-border: #000;
+  --aeh-btntxt: #333;
+}
+
+[data-theme="dark"] {
+  --aeh-bg: #2e2e2e;
+  --aeh-txt: #eee;
+  --aeh-accent: #d9f149;
+  --aeh-box: #1d1d1d;
+  --aeh-border: #555;
 }
 
 * {
@@ -42,12 +53,15 @@
 
 html,
 body {
-  background-color: var(--aeh-bg);
-  color: var(--aeh-txt);
   font-family: "BB-Regular", sans-serif;
   text-transform: uppercase;
   font-size: 0.9rem;
   scroll-behavior: smooth;
+}
+
+.App {
+  background-color: var(--aeh-bg);
+  color: var(--aeh-txt);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -81,12 +95,32 @@ li {
   background-color: var(--aeh-bg);
 }
 
-.neon-txt {
-  color: var(--neon);
+.txt-aeh {
+  color: var(--aeh-txt);
 }
 
-.neon-bg {
-  background-color: var(--neon);
+.btn-txt {
+  color: var(--aeh-btntxt) !important;
+}
+
+.accent-txt {
+  color: var(--aeh-accent);
+}
+
+.bg-accent {
+  background-color: var(--aeh-accent);
+}
+
+.bg-box {
+  background-color: var(--aeh-box);
+}
+
+.border-aeh {
+  border-color: var(--aeh-border) !important;
+}
+
+.transparent {
+  color: transparent;
 }
 
 .right-margin {
@@ -98,7 +132,7 @@ li {
 }
 
 .svg-inline--fa {
-  color: rgb(157, 151, 211);
+  color: var(--aeh-accent);
 }
 
 @media screen and (max-width: 990px) {

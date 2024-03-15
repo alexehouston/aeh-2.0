@@ -1,4 +1,5 @@
 import { Routes, Route, useLocation } from "react-router-dom";
+import useLocalStorage from "use-local-storage";
 import Nav from "../Nav/Nav";
 import Home from "../Home/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -51,12 +52,15 @@ export default function App() {
     shuffleText(element, originalText);
   };
 
+  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+
   return (
-    <div className="App">
-      <Nav handleMouseEnter={handleMouseEnter} />
+    <div className="App" data-theme={theme}>
+      <Nav handleMouseEnter={handleMouseEnter} theme={theme} setTheme={setTheme} />
 
       <Routes location={location} key={location.pathname}>
-        <Route path="/" index element={<Home handleMouseEnter={handleMouseEnter} />} />
+        <Route path="/" index element={<Home handleMouseEnter={handleMouseEnter} theme={theme} />} />
       </Routes>
     </div>
   );
