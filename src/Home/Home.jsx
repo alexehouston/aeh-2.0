@@ -8,7 +8,7 @@ import "./Home.css";
 export default function Home({ handleMouseEnter, theme }) {
   return (
     <div className="Home p-4">
-      <div className="home-inner mb-5 d-flex justify-content-center align-items-center border-bottom border-dark">
+      <div className="home-inner mb-5 d-flex justify-content-center align-items-center border-bottom border-aeh">
         <div className="col-12 col-lg-6">
           {theme === 'dark' ? <img className="aeh-ai" src="/assets/aeh-ai-2-dark.png" alt="" /> : <img className="aeh-ai" src="/assets/aeh-ai-2.png" alt="" />}
         </div>
@@ -25,7 +25,7 @@ export default function Home({ handleMouseEnter, theme }) {
             <br />
             + Artist
           </h1>
-          <p className="intro-text w-75 my-3">
+          <p className="intro-text w-75 my-4">
             I&apos;m a passionate Web Developer based in Houston, Texas. For me,
             coding is a canvas for art, and I thrive at the intersection of
             technology and creativity. Explore my portfolio and join me on
