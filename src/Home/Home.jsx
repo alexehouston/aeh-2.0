@@ -31,8 +31,8 @@ export default function Home({ handleMouseEnter, theme }) {
             technology and creativity. Explore my portfolio and join me on
             GitHub as we embark on an exciting journey of innovation.
           </p>
-          <p className="explore-btn col-6 col-md-3 col-lg-3 rounded-pill text-center py-2 mb-0">
-            <a className="btn-txt" href="#portfolio">
+          <p className={`col-6 col-md-3 col-lg-3 rounded-pill text-center py-2 mb-0 ${theme === 'dark' ? 'explore-btn-dark' : 'explore-btn'}`}>
+            <a href="#portfolio">
               Explore <FontAwesomeIcon icon={faChevronDown} />
             </a>
           </p>
