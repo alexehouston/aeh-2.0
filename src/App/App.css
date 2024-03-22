@@ -135,6 +135,16 @@ li {
   color: var(--aeh-accent);
 }
 
+.description {
+  font-size: .85rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .description {
+    font-size: .75rem;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .right-margin,
   .left-margin {
