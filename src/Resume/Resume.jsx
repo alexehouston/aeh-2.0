@@ -61,12 +61,6 @@ export default function Resume({ handleMouseEnter, theme }) {
             data-tooltip-id="java"
             data-tooltip-content="Java"
           ></i>
-          <Tooltip id="jquery" />
-          <i
-            className="devicon-jquery-plain colored"
-            data-tooltip-id="jquery"
-            data-tooltip-content="JQuery"
-          ></i>
           <Tooltip id="cplus" />
           <i
             className="devicon-cplusplus-plain colored"
@@ -121,23 +115,11 @@ export default function Resume({ handleMouseEnter, theme }) {
             data-tooltip-id="postgresql"
             data-tooltip-content="PostgreSQL"
           ></i>
-          <Tooltip id="aws" />
-          <i
-            className="devicon-amazonwebservices-plain colored"
-            data-tooltip-id="aws"
-            data-tooltip-content="AWS"
-          ></i>
           <Tooltip id="git" />
           <i
             className="devicon-git-plain colored"
             data-tooltip-id="git"
             data-tooltip-content="Git"
-          ></i>
-          <Tooltip id="tortoise" />
-          <i
-            className="devicon-tortoisegit-plain colored"
-            data-tooltip-id="tortoise"
-            data-tooltip-content="TortoiseGit"
           ></i>
           <Tooltip id="gitlab" />
           <i
