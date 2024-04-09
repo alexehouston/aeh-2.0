@@ -139,6 +139,11 @@ li {
   font-size: .85rem;
 }
 
+.svg-inline--fa path {
+  stroke: var(--aeh-txt);
+  stroke-width: 10;
+}
+
 @media screen and (max-width: 1500px) {
   .description {
     font-size: .75rem;
