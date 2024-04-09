@@ -14,13 +14,13 @@ export default function Home({ handleMouseEnter, theme }) {
         </div>
         <div className="home-text col-12 col-md-9 col-lg-6 p-0 text-start d-flex flex-column">
           <span className="lh-1 alex opacity-50 ps-2">Alex E. Houston</span>
-          <h1 className="lh-1 my-2">
+          <h1 className="lh-1 my-1">
             <span className="d-inline">Software</span>
             <FontAwesomeIcon icon={faCode} className="fa-code fs-1 pb-2" />
             <br />
             Developer
           </h1>
-          <p className="intro-text w-75 mb-3 pe-lg-5 ps-1">
+          <p className="intro-text w-75 my-4 pe-lg-5 ps-1">
             I&apos;m a passionate Web Developer based in Houston, Texas. For me,
             coding is a canvas for art, and I thrive at the intersection of
             technology and creativity. Explore my portfolio and join me on
