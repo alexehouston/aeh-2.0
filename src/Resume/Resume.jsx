@@ -75,7 +75,7 @@ export default function Resume({ handleMouseEnter, theme }) {
               } ${index > 1 ? 'top-margin' : ''} flex-grow-1`}
             >
               <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
-                <div className="col-7 col-lg-8 d-flex align-items-center">
+                <div className="col-9 col-lg-8 d-flex align-items-center">
                   <img
                     style={{
                       backgroundColor:
@@ -109,7 +109,7 @@ export default function Resume({ handleMouseEnter, theme }) {
                     </a>
                   </h6>
                 </div>
-                <h6 className="dates accent-txt semibold col-4 col-lg-4 text-end m-0 pe-2">
+                <h6 className="dates accent-txt semibold col-3 col-lg-4 text-end m-0 pe-2">
                   {resume.timeframe}
                 </h6>
               </div>
@@ -139,7 +139,7 @@ export default function Resume({ handleMouseEnter, theme }) {
               } ${index > 1 ? 'top-margin' : ''} flex-grow-1`}
             >
               <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-4">
-                <div className="col-7 d-flex align-items-center">
+                <div className="col-9 d-flex align-items-center">
                   <img
                     style={{
                       backgroundColor:
@@ -173,7 +173,7 @@ export default function Resume({ handleMouseEnter, theme }) {
                     </a>
                   </h6>
                 </div>
-                <h6 className="dates accent-txt semibold col-4 text-end m-0 pe-2">
+                <h6 className="dates accent-txt semibold col-3 text-end m-0 pe-2">
                   {education.timeframe}
                 </h6>
               </div>
