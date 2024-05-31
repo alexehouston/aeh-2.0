@@ -1,6 +1,7 @@
-import PropTypes from "prop-types";
-import { Tooltip } from "react-tooltip";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import PropTypes from 'prop-types';
+import React from 'react';
+import { Tooltip } from 'react-tooltip';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCode,
   faFile,
@@ -8,521 +9,185 @@ import {
   faBriefcase,
   faSchool,
   faArrowUpRightFromSquare,
-} from "@fortawesome/free-solid-svg-icons";
-import "./Resume.css";
+} from '@fortawesome/free-solid-svg-icons';
+import data from '../json/aeh.json';
+import './Resume.css';
 
 export default function Resume({ handleMouseEnter, theme }) {
+  const { technologies, resume, education } = data;
+  const techArray = Object.values(technologies);
+
   return (
     <div id="resume" className="Resume mt-4 mb-5">
       <div className="row">
-        <h4 className="col-6"><FontAwesomeIcon icon={faCode} /> Resume</h4>
-        <h6 className="col-6 text-end">
-          <a
-            href="https://www.canva.com/design/DAFvlHNDnqk/5_XBPIUahiJ6q0zpApJrAg/view?utm_content=DAFvlHNDnqk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
-            target="_blank"
-            rel="noreferrer"
-            className="text-uppercase"
-          >
-            <FontAwesomeIcon icon={faFile} />{" "}
-            <span data-text="View PDF" onMouseEnter={handleMouseEnter}>
-              View PDF
-            </span>
-          </a>
-        </h6>
+        <div className="col-7 px-0">
+          <h3>
+            <FontAwesomeIcon icon={faCode} className="fs-4" /> Ressume
+          </h3>
+        </div>
+        <div className="col-5">
+          <h6 className="text-end">
+            <a
+              href="https://www.canva.com/design/DAFvlHNDnqk/5_XBPIUahiJ6q0zpApJrAg/view?utm_content=DAFvlHNDnqk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+              target="_blank"
+              rel="noreferrer"
+              className="text-uppercase"
+            >
+              <FontAwesomeIcon icon={faFile} />{' '}
+              <span
+                className="bb small"
+                data-text="View PDF"
+                onMouseEnter={handleMouseEnter}
+              >
+                View PDF
+              </span>
+            </a>
+          </h6>
+        </div>
       </div>
-      <div className="row">
-        <h6 className="mt-5">
-          <FontAwesomeIcon icon={faFileCode} /> Technical Skills
-        </h6>
-      </div>
-      <div className="row bg-box border border-aeh m-0 p-3 mt-2">
+      <div className="row bg-box rounded shadow m-0 p-3 mt-4">
         <div className="d-flex flex-wrap justify-content-between fs-2">
-          <Tooltip id="html" />
-          <i
-            className="devicon-html5-plain colored"
-            data-tooltip-id="html"
-            data-tooltip-content="HTML5"
-          ></i>
-          <Tooltip id="css" />
-          <i
-            className="devicon-css3-plain colored"
-            data-tooltip-id="css"
-            data-tooltip-content="CSS3"
-          ></i>
-          <Tooltip id="js" />
-          <i
-            className="devicon-javascript-plain colored"
-            data-tooltip-id="js"
-            data-tooltip-content="JavaScript"
-          ></i>
-          <Tooltip id="java" />
-          <i
-            className="devicon-java-plain colored"
-            data-tooltip-id="java"
-            data-tooltip-content="Java"
-          ></i>
-          <Tooltip id="cplus" />
-          <i
-            className="devicon-cplusplus-plain colored"
-            data-tooltip-id="cplus"
-            data-tooltip-content="C++"
-          ></i>
-          <Tooltip id="type" />
-          <i
-            className="devicon-typescript-plain colored"
-            data-tooltip-id="type"
-            data-tooltip-content="TypeScript"
-          ></i>
-          <Tooltip id="python" />
-          <i
-            className="devicon-python-plain colored"
-            data-tooltip-id="python"
-            data-tooltip-content="Python"
-          ></i>
-          <Tooltip id="django" />
-          <i
-            className="devicon-django-plain colored"
-            data-tooltip-id="django"
-            data-tooltip-content="Django"
-          ></i>
-          <Tooltip id="node" />
-          <i
-            className="devicon-nodejs-plain colored"
-            data-tooltip-id="node"
-            data-tooltip-content="Node"
-          ></i>
-          <Tooltip id="express" />
-          <i
-            className="devicon-express-original colored"
-            data-tooltip-id="express"
-            data-tooltip-content="Express"
-          ></i>
-          <Tooltip id="react" />
-          <i
-            className="devicon-react-plain colored"
-            data-tooltip-id="react"
-            data-tooltip-content="React"
-          ></i>
-          <Tooltip id="mongo" />
-          <i
-            className="devicon-mongodb-plain colored"
-            data-tooltip-id="mongo"
-            data-tooltip-content="MongoDB"
-          ></i>
-          <Tooltip id="postgresql" />
-          <i
-            className="devicon-postgresql-plain colored"
-            data-tooltip-id="postgresql"
-            data-tooltip-content="PostgreSQL"
-          ></i>
-          <Tooltip id="git" />
-          <i
-            className="devicon-git-plain colored"
-            data-tooltip-id="git"
-            data-tooltip-content="Git"
-          ></i>
-          <Tooltip id="gitlab" />
-          <i
-            className="devicon-gitlab-plain colored"
-            data-tooltip-id="gitlab"
-            data-tooltip-content="GitLab"
-          ></i>
-          <Tooltip id="vscode" />
-          <i
-            className="devicon-vscode-plain colored"
-            data-tooltip-id="vscode"
-            data-tooltip-content="VS Code"
-          ></i>
-          <Tooltip id="git" />
-          <i
-            className="devicon-git-plain colored"
-            data-tooltip-id="git"
-            data-tooltip-content="Git"
-          ></i>
-          <Tooltip id="figma" />
-          <i
-            className="devicon-figma-plain colored"
-            data-tooltip-id="figma"
-            data-tooltip-content="Figma"
-          ></i>
-          <Tooltip id="ai" />
-          <i
-            className="devicon-illustrator-plain colored"
-            data-tooltip-id="ai"
-            data-tooltip-content="Illustrator"
-          ></i>
-          <Tooltip id="ps" />
-          <i
-            className="devicon-photoshop-plain colored"
-            data-tooltip-id="ps"
-            data-tooltip-content="Photoshop"
-          ></i>
+          {techArray.map((tech) => (
+            <React.Fragment key={tech.id}>
+              <Tooltip id={tech.id} />
+              <i
+                className={`devicon-${tech.icon}-${
+                  tech.icon === 'express' ? 'original' : 'plain'
+                } colored`}
+                data-tooltip-id={tech.id}
+                data-tooltip-content={tech.name}
+              ></i>
+            </React.Fragment>
+          ))}
         </div>
       </div>
       <div className="row">
-        <h6 className="mt-5">
-          <FontAwesomeIcon icon={faBriefcase} /> Experience
+        <h6 className="stretch mt-5">
+          <FontAwesomeIcon icon={faBriefcase} /> Experieence
         </h6>
       </div>
-      <div className="row m-0 mt-2">
-        <div className="col-12 col-lg-6 p-0">
-          <div className="border border-aeh bg-box right-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
-              <div className="col-7 col-lg-6 d-flex align-items-center">
-                <img
-                  style={{
-                    backgroundColor: theme === 'dark' ? 'white' : 'transparent',
-                    borderRadius: theme === 'dark' ? '20%' : '0%',
-                  }}
-                  className="resume-logo me-3"
-                  src="/assets/experience/iir.png"
-                  alt="Industrial Info Resources"
-                />
-                <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
-                  Web Developer
-                  <br />
-                  <a
-                    href="https://www.industrialinfo.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="small semibold pt-1"
-                  >
-                    <span
-                      className="opacity-50"
-                      data-text="Industrial Info Resources"
-                      onMouseEnter={handleMouseEnter}
+      <div className="row mt-1 g-3">
+        {resume.map((resume, index) => (
+          <div key={index} className="col-12 col-lg-6 d-flex">
+            <div
+              className={`portfolio-item shadow rounded ${
+                index % 2 === 0 ? 'right-margin' : 'left-margin'
+              } ${index > 1 ? 'top-margin' : ''} flex-grow-1`}
+            >
+              <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
+                <div className="col-7 col-lg-8 d-flex align-items-center">
+                  <img
+                    style={{
+                      backgroundColor:
+                        theme === 'dark' ? 'white' : 'transparent',
+                      borderRadius: theme === 'dark' ? '20%' : '0%',
+                    }}
+                    className="resume-logo me-3"
+                    src={resume.logo}
+                    alt={resume.company}
+                  />
+                  <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
+                    {resume.title}
+                    <br />
+                    <a
+                      href={resume.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="small semibold pt-1"
                     >
-                      Industrial Info Resources
-                    </span>
-                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2 small" />
-                  </a>
+                      <span
+                        className="opacity-50"
+                        data-text={resume.company}
+                        onMouseEnter={handleMouseEnter}
+                      >
+                        {resume.company}
+                      </span>
+                      <FontAwesomeIcon
+                        icon={faArrowUpRightFromSquare}
+                        className="ps-2 small"
+                      />
+                    </a>
+                  </h6>
+                </div>
+                <h6 className="dates accent-txt col-5 col-lg-4 text-end m-0 pe-2">
+                  {resume.timeframe}
                 </h6>
               </div>
-              <h6 className="dates accent-txt col-5 col-lg-6 text-end m-0 pe-2">
-                Apr 2023 - Present
-              </h6>
+              <ul className="description description-block m-0 p-3 mt-0 mt-lg-2 mb-2">
+                {resume.description.map((desc, i) => (
+                  <React.Fragment key={i}>
+                    <li className="pb-2">{desc}</li>
+                    {i < resume.description.length - 1 && <hr />}
+                  </React.Fragment>
+                ))}
+              </ul>
             </div>
-            <ul className="description description-block m-0 p-3 mt-0 mt-lg-2 mb-2">
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Collaborate with cross-functional teams to develop/maintain
-                  website.
-                </small>
-              </li>
-              <hr />
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Assist in the implementation of web-based applications + 
-                  projects.
-                </small>
-              </li>
-              <hr />
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Optimize website and code base in order to
-                  improve site performance + loading speeds.
-                </small>
-              </li>
-              <hr />
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Debug + troubleshoot in order to identify + resolve various bugs/compatibility issues.
-                </small>
-              </li>
-              <hr />
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Conduct testing to ensure
-                  intended functionality of web-based applications.
-                </small>
-              </li>
-              <hr />
-              <li>
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Document + maintain code
-                  repositories, ensuring proper version control.
-                </small>
-              </li>
-            </ul>
           </div>
-        </div>
-        <div className="col-12 col-lg-6 p-0">
-          <div className="border border-aeh bg-box left-margin top-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
-              <div className="col-7 col-lg-8 d-flex align-items-center">
-                <img
-                  style={{
-                    backgroundColor: theme === 'dark' ? 'white' : 'transparent',
-                    borderRadius: theme === 'dark' ? '20%' : '0%',
-                  }}
-                  className="resume-logo me-3"
-                  src="/assets/experience/act.png"
-                  alt="ACT, Inc."
-                />
-                <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
-                  Team Lead / Academy Coordinator
-                  <br />
-                  <a
-                    href="https://www.anhcotran.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="small semibold pt-1"
-                  >
-                    <span
-                      className="opacity-50"
-                      data-text="ACT, Inc."
-                      onMouseEnter={handleMouseEnter}
-                    >
-                      ACT, Inc.
-                    </span>
-                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2 small" />
-                  </a>
-                </h6>
-              </div>
-              <h6 className="dates accent-txt col-5 col-lg-4 text-end m-0 pe-2">
-                Jul 2019 - Aug 2022
-              </h6>
-            </div>
-            <ul className="description description-block m-0 p-3 mt-0 mt-lg-2 mb-2">
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Provided hair services to
-                  a diverse clientele within fast-paced environments.
-                </small>
-              </li>
-              <hr />
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Led a team of stylists across the
-                  globe, for various events + projects.
-                </small>
-              </li>
-              <hr />
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Traveled globally, teaching modern haircutting
-                  techniques to professional stylists.
-                </small>
-              </li>
-              <hr />
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Collaborated closely with CEO on various projects, photoshoots + social media engagements.
-                </small>
-              </li>
-              <hr />
-              <li className="pb-0 pb-lg-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Supported CEO with strategic visioning as well as managing
-                  day-to-day tasks.
-                </small>
-              </li>
-              <hr className="transparent" />
-              <li className="transparent">
-                <small>
-                  &nbsp;
-                </small>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-12 col-lg-6 p-0">
-          <div className="border border-aeh bg-box right-margin mt-3">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
-              <div className="col-7 col-lg-8 d-flex align-items-center">
-                <img
-                  style={{
-                    backgroundColor: theme === 'dark' ? 'white' : 'transparent',
-                    borderRadius: theme === 'dark' ? '20%' : '0%',
-                  }}
-                  className="resume-logo me-3"
-                  src="/assets/experience/fresh.png"
-                  alt="Fresh, Inc."
-                />
-                <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
-                  Graphic Designer
-                  <br />
-                  <a
-                    href="https://www.fresh.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="small semibold pt-1"
-                  >
-                    <span
-                      className="opacity-50"
-                      data-text="Fresh, Inc."
-                      onMouseEnter={handleMouseEnter}
-                    >
-                      Fresh, Inc.
-                    </span>
-                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2 small" />
-                  </a>
-                </h6>
-              </div>
-              <h6 className="dates accent-txt col-5 col-lg-4 text-end m-0 pe-2">
-                Sep 2016 - Aug 2018
-              </h6>
-            </div>
-            <ul className="description m-0 p-3 mt-0 mt-lg-2 mb-3">
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Conceptualized + executed designs for
-                  packaging, labels, + promotional materials, ensuring brand
-                  consistency + adherence to industry regulations.
-                </small>
-              </li>
-              <hr />
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Designed + implemented effective brand identity elements,
-                  such as logos, business cards, + brand assets, reflecting
-                  the brand&apos;s essence + positioning in the market.
-                </small>
-              </li>
-              <hr />
-              <li>
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Contributed to the development + execution of product launch
-                  campaigns, providing creative support + delivering designs
-                  that drove product awareness + sales.
-                </small>
-              </li>
-            </ul>
-          </div>
-        </div>
+        ))}
       </div>
       <div className="row">
-        <h6 className="mt-5">
-          <FontAwesomeIcon icon={faSchool} /> Education
+        <h6 className="stretch mt-5">
+          <FontAwesomeIcon icon={faSchool} /> Eduucatioon
         </h6>
       </div>
-      <div className="row m-0 mt-2">
-        <div className="col-12 col-lg-6 p-0">
-          <div className="border border-aeh bg-box right-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
-              <div className="col-7 d-flex align-items-center">
-                <img
-                  style={{
-                    backgroundColor: theme === 'dark' ? 'white' : 'transparent',
-                    borderRadius: theme === 'dark' ? '20%' : '0%',
-                  }}
-                  className="resume-logo me-3"
-                  src="/assets/experience/ga.png"
-                  alt="General Assembly"
-                />
-                <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
-                  Certificate in Software Engineering
-                  <br />
-                  <a
-                    href="https://www.fresh.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="small semibold pt-1"
-                  >
-                    <span
-                      className="opacity-50"
-                      data-text="General Assembly"
-                      onMouseEnter={handleMouseEnter}
+      <div className="row mt-1 g-3 pb-5 d-flex flex-wrap">
+        {education.map((education, index) => (
+          <div key={index} className="col-12 col-lg-6 d-flex">
+            <div
+              className={`portfolio-item shadow rounded ${
+                index % 2 === 0 ? 'right-margin' : 'left-margin'
+              } ${index > 1 ? 'top-margin' : ''} flex-grow-1`}
+            >
+              <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-4">
+                <div className="col-7 d-flex align-items-center">
+                  <img
+                    style={{
+                      backgroundColor:
+                        theme === 'dark' ? 'white' : 'transparent',
+                      borderRadius: theme === 'dark' ? '20%' : '0%',
+                    }}
+                    className="resume-logo me-3"
+                    src={education.logo}
+                    alt={education.school}
+                  />
+                  <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
+                    {education.achievement}
+                    <br />
+                    <a
+                      href={education.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="small semibold pt-1"
                     >
-                      General Assembly
-                    </span>
-                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2 small" />
-                  </a>
+                      <span
+                        className="opacity-50"
+                        data-text={education.school}
+                        onMouseEnter={handleMouseEnter}
+                      >
+                        {education.school}
+                      </span>
+                      <FontAwesomeIcon
+                        icon={faArrowUpRightFromSquare}
+                        className="ps-2 small"
+                      />
+                    </a>
+                  </h6>
+                </div>
+                <h6 className="dates accent-txt col-5 text-end m-0 pe-2">
+                  {education.timeframe}
                 </h6>
               </div>
-              <h6 className="dates accent-txt col-5 text-end m-0 pe-2">
-                Sep 2022 - Dec 2022
-              </h6>
+              <ul className="description m-0 p-4 mt-0 mt-lg-2">
+                {education.description.map((desc, i) => (
+                  <React.Fragment key={i}>
+                    <li className="pb-2">{desc}</li>
+                    {i < education.description.length - 1 && <hr />}
+                  </React.Fragment>
+                ))}
+              </ul>
             </div>
-            <ul className="description m-0 p-3 mt-0 mt-lg-2">
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Completed 420+ hours of fully-immersive, expert-led
-                  instruction on the tech industry&apos;s most in-demand skills.
-                </small>
-              </li>
-              <hr />
-              <li>
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Developed five projects over the course of 12 weeks; all
-                  displaying proficiency in full-stack web development.
-                </small>
-              </li>
-            </ul>
           </div>
-        </div>
-        <div className="col-12 col-lg-6 p-0">
-          <div className="border border-aeh bg-box left-margin top-margin">
-            <div className="d-flex justify-content-between align-items-center border-bottom border-aeh p-3 pb-4">
-              <div className="col-7 col-lg-7 d-flex align-items-center">
-                <img
-                  style={{
-                    backgroundColor: theme === 'dark' ? 'white' : 'transparent',
-                    borderRadius: theme === 'dark' ? '20%' : '0%',
-                  }}
-                  className="resume-logo me-3"
-                  src="/assets/experience/fit.png"
-                  alt="Fashion Institute of Technology"
-                />
-                <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
-                  Bachelor&apos;s Degree
-                  <br />
-                  <a
-                    href="https://www.fresh.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="small semibold pt-1"
-                  >
-                    <span
-                      className="opacity-50"
-                      data-text="Fashion Institute of Technology"
-                      onMouseEnter={handleMouseEnter}
-                    >
-                      Fashion Institute of Technology
-                    </span>
-                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="ps-2 small" />
-                  </a>
-                </h6>
-              </div>
-              <h6 className="dates accent-txt col-5 col-lg-5 text-end m-0 pe-2">
-                Aug 2014 - May 2017
-              </h6>
-            </div>
-            <ul className="description m-0 p-3 mt-0 mt-lg-2">
-              <li className="pb-2">
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  AAS degree in Advertising + Marketing Communications,
-                  followed by a BFA degree in Graphic Design. <span className="transparent">-------------------------</span>
-                </small>
-              </li>
-              <hr />
-              <li>
-                <span className="accent-txt">+</span>{" "}
-                <small>
-                  Integrated knowledge from both marketing + graphic design
-                  programs to develop a well-rounded skill set. <span className="transparent">-------------------------</span>
-                </small>
-              </li>
-            </ul>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
@@ -530,5 +195,5 @@ export default function Resume({ handleMouseEnter, theme }) {
 
 Resume.propTypes = {
   handleMouseEnter: PropTypes.any,
-  theme: PropTypes.any
+  theme: PropTypes.any,
 };

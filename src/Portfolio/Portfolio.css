@@ -7,101 +7,40 @@
 }
 
 .portfolio-img {
-  height: 25rem;
+  height: 15rem;
   overflow: hidden;
-  border-right: 1px solid var(--aeh-txt);
 }
 
 .portfolio-img img {
-  height: 100%;
-  margin-left: -5rem;
-}
-
-.bg-react,
-.bg-mongo,
-.bg-express,
-.bg-js,
-.bg-node,
-.bg-python,
-.bg-react,
-.bg-django {
-  font-size: .75rem;
+  margin-top: -3rem;
 }
 
 .bg-react {
   background-color: rgb(208, 248, 255);
-  box-shadow: rgb(138, 237, 255, 0.4) 0px 5px, rgb(138, 237, 255, 0.3) 0px 10px,
-    rgb(138, 237, 255, 0.2) 0px 15px, rgb(138, 237, 255, 0.1) 0px 20px,
-    rgb(138, 237, 255, 0.05) 0px 25px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.125) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.15) 0px -2px 6px 0px inset;
 }
 
 .bg-mongo {
   background-color: rgb(185, 255, 214);
-  box-shadow: rgb(82, 255, 154, 0.4) 0px 5px, rgb(82, 255, 154, 0.3) 0px 10px,
-    rgb(82, 255, 154, 0.2) 0px 15px, rgb(82, 255, 154, 0.1) 0px 20px,
-    rgb(82, 255, 154, 0.05) 0px 25px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.125) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.15) 0px -2px 6px 0px inset;
 }
 
 .bg-node {
   background-color: rgb(227, 246, 189);
-  box-shadow: rgb(185, 233, 90, 0.4) 0px 5px, rgb(185, 233, 90, 0.3) 0px 10px,
-    rgb(185, 233, 90, 0.2) 0px 15px, rgb(185, 233, 90, 0.1) 0px 20px,
-    rgb(185, 233, 90, 0.05) 0px 25px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.125) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.15) 0px -2px 6px 0px inset;
 }
 
 .bg-express {
   background-color: rgb(237, 214, 255);
-  box-shadow: rgb(209, 154, 255, 0.4) 0px 5px, rgb(209, 154, 255, 0.3) 0px 10px,
-    rgb(209, 154, 255, 0.2) 0px 15px, rgb(209, 154, 255, 0.1) 0px 20px,
-    rgb(209, 154, 255, 0.05) 0px 25px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.125) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.15) 0px -2px 6px 0px inset;
 }
 
 .bg-django {
   background-color: rgb(255, 218, 218);
-  box-shadow: rgb(255, 163, 163, 0.4) 0px 5px, rgb(255, 163, 163, 0.3) 0px 10px,
-    rgb(255, 163, 163, 0.2) 0px 15px, rgb(255, 163, 163, 0.1) 0px 20px,
-    rgb(255, 163, 163, 0.05) 0px 25px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.125) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.15) 0px -2px 6px 0px inset;
 }
 
 .bg-python {
   background-color: rgb(210, 235, 255);
-  box-shadow: rgb(142, 204, 255, 0.4) 0px 5px, rgb(142, 204, 255, 0.3) 0px 10px,
-    rgb(142, 204, 255, 0.2) 0px 15px, rgb(142, 204, 255, 0.1) 0px 20px,
-    rgb(142, 204, 255, 0.05) 0px 25px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.125) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.15) 0px -2px 6px 0px inset;
 }
 
 .bg-js {
   background-color: rgb(255, 245, 153);
-  box-shadow: rgb(255, 230, 0, 0.4) 0px 5px, rgb(255, 230, 0, 0.3) 0px 10px,
-    rgb(255, 230, 0, 0.2) 0px 15px, rgb(255, 230, 0, 0.1) 0px 20px,
-    rgb(255, 230, 0, 0.05) 0px 25px, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.125) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.15) 0px -2px 6px 0px inset;
 }
 
 @media screen and (max-width: 1500px) {
@@ -140,15 +79,11 @@
   }
 
   .portfolio-img {
-    height: 15rem;
-    width: 100% !important;
-    border-right: none;
-    border-bottom: 1px solid black;
+    height: 8rem;
   }
 
   .portfolio-img img {
-    margin-left: -1rem;
-    height: 120%;
+    margin-top: -2rem;
   }
 
   .technology {

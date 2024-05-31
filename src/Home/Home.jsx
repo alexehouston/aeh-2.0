@@ -7,35 +7,34 @@ import "./Home.css";
 
 export default function Home({ handleMouseEnter, theme }) {
   return (
-    <div className="Home p-4">
-      <div className="home-inner mb-5 d-flex justify-content-center align-items-center border-bottom border-aeh">
+    <section className="Home container p-4">
+      <div className="row mx-auto my-5 d-flex flex-column-reverse flex-lg-row justify-content-center align-items-center border-bottom border-aeh">
         <div className="col-12 col-lg-6">
-          {theme === 'dark' ? <img className="aeh-ai" src="/assets/aeh-ai-2-dark.png" alt="" /> : <img className="aeh-ai" src="/assets/aeh-ai-2.png" alt="" />}
+          <img className="w-100" src="/assets/aeh-ai.png" alt="" />
         </div>
-        <div className="home-text col-12 col-md-9 col-lg-6 p-0 text-start d-flex flex-column">
-          <span className="lh-1 alex opacity-50 ps-2">Alex E. Houston</span>
-          <h1 className="lh-1 my-1">
-            <span className="d-inline">Software</span>
+        <div className="home-text col-12 col-md-9 col-lg-6 ps-0 text-center text-lg-start d-flex flex-column">
+          <span className="lh-1 alex opacity-75">Alex E. Houston</span>
+          <h1 className="lh-1 my-3">
+            <span className="d-inline">Sooftware</span>
             <FontAwesomeIcon icon={faCode} className="fa-code fs-1 pb-2" />
             <br />
-            Developer
+            Develooper
           </h1>
-          <p className="intro-text w-75 my-4 pe-lg-5 ps-1">
-            I&apos;m a passionate Web Developer based in Houston, Texas. For me,
+          <p className="home-bio mx-auto ms-lg-0 px-4 ps-lg-0 pe-lg-5">
+            I'm a passionate Web Developer based in Houston, Texas. For me,
             coding is a canvas for art, and I thrive at the intersection of
-            technology and creativity. Explore my portfolio and join me on
-            GitHub as we embark on an exciting journey of innovation.
+            technology and creativity.
           </p>
-          <p className={`col-6 col-md-3 col-lg-3 rounded-pill text-center py-2 mb-0 ${theme === 'dark' ? 'explore-btn-dark' : 'explore-btn'}`}>
+          <p className="col-7 col-md-6 col-lg-5 mx-auto ms-lg-0 fs-5 bg-box shadow rounded-pill text-center stretch py-3 lh-1 mb-0 mt-2">
             <a href="#portfolio">
-              Explore <FontAwesomeIcon icon={faChevronDown} />
+              Exploore <FontAwesomeIcon icon={faChevronDown} />
             </a>
           </p>
         </div>
       </div>
       <Portfolio handleMouseEnter={handleMouseEnter} theme={theme} />
       <Resume handleMouseEnter={handleMouseEnter} theme={theme} />
-    </div>
+    </section>
   );
 }
 

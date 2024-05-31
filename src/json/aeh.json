@@ -1,0 +1,248 @@
+{
+  "technologies": {
+    "ai": {
+      "id": "ai",
+      "name": "Illustrator",
+      "icon": "illustrator"
+    },
+    "cplus": {
+      "id": "cplus",
+      "name": "C++",
+      "icon": "cplusplus"
+    },
+    "css": {
+      "id": "css",
+      "name": "CSS",
+      "icon": "css3"
+    },
+    "django": {
+      "id": "django",
+      "name": "Django",
+      "icon": "django"
+    },
+    "express": {
+      "id": "express",
+      "name": "Express",
+      "icon": "express"
+    },
+    "figma": {
+      "id": "figma",
+      "name": "Figma",
+      "icon": "figma"
+    },
+    "git": {
+      "id": "git",
+      "name": "Git",
+      "icon": "git"
+    },
+    "gitlab": {
+      "id": "gitlab",
+      "name": "GitLab",
+      "icon": "gitlab"
+    },
+    "html": {
+      "id": "html",
+      "name": "HTML",
+      "icon": "html5"
+    },
+    "java": {
+      "id": "java",
+      "name": "Java",
+      "icon": "java"
+    },
+    "js": {
+      "id": "js",
+      "name": "JS",
+      "icon": "javascript"
+    },
+    "mongo": {
+      "id": "mongo",
+      "name": "MongoDB",
+      "icon": "mongodb"
+    },
+    "node": {
+      "id": "node",
+      "name": "Node",
+      "icon": "nodejs"
+    },
+    "ps": {
+      "id": "ps",
+      "name": "Photoshop",
+      "icon": "photoshop"
+    },
+    "psql": {
+      "id": "psql",
+      "name": "PostgreSQL",
+      "icon": "postgresql"
+    },
+    "python": {
+      "id": "python",
+      "name": "Python",
+      "icon": "python"
+    },
+    "react": {
+      "id": "react",
+      "name": "React",
+      "icon": "react"
+    },
+    "ts": {
+      "id": "ts",
+      "name": "TypeScript",
+      "icon": "typescript"
+    },
+    "vscode": {
+      "id": "vscode",
+      "name": "VS Code",
+      "icon": "vscode"
+    }
+  },
+  "portfolio": [
+    {
+      "title": "Sqquiz",
+      "description": "Squiz is a MERN-stack single-page application & quiz game. Squiz tests your knowledge on software development and makes learning fun. This application was created as my final project during my time at General Assembly.",
+      "image": "/assets/squiz/gameplay.gif",
+      "stack": ["mongo", "express", "react", "node", "js"],
+      "repo": "https://github.com/alexehouston/squiz",
+      "demo": "https://squiz.herokuapp.com/"
+    },
+    {
+      "title": "Ccr8tive Eleements",
+      "description": "Here you can view the website of Cr8tive Elements Hair Studio in Scottsdale, Arizona. This website was created using React.js and provides the salon' clients a place to browse past works and book appointments.",
+      "image": "/assets/cr8tiveelements/cr8tiveelements.gif",
+      "stack": ["react", "js"],
+      "repo": "https://github.com/alexehouston/cr8tivehair",
+      "demo": "https://cr8tiveelements.com"
+    },
+    {
+      "title": "Eelia Gaal",
+      "description": "Here you can view the personal website of hair stylist Elia Gal. This website was created using React.js and provides Elia's clients a place to browse past works and book appointments.",
+      "image": "/assets/eliagal/eg-desktop.gif",
+      "stack": ["react", "js"],
+      "repo": "https://github.com/alexehouston/elia-gal",
+      "demo": "https://eliagal.com"
+    },
+    {
+      "title": "KPP Hair Coolor",
+      "description": "Here you can view the personal website of hair colorist Kristen Pennington. This website was created using React.js and provides Kristen's clients a place to browse past works and book appointments.",
+      "image": "/assets/kphaircolor/kphaircolor.gif",
+      "stack": ["react", "js"],
+      "repo": "https://github.com/alexehouston/kphaircolor",
+      "demo": "https://kphaircolor.netlify.app/"
+    },
+    {
+      "title": "KPP x AEEH",
+      "description": "Here you can view the React.js application that houses the collaboration between hair stylists Alex Houston and Kristen Pennington. Clients are able to navigate to the site in order to book appointments.",
+      "image": "/assets/kpxaeh/desktop-home.png",
+      "stack": ["react", "js"],
+      "repo": "https://github.com/alexehouston/kpxaeh",
+      "demo": "https://kpxaeh.com/"
+    },
+    {
+      "title": "Daaniel Sunghoon Kim",
+      "description": "Here you can view the personal website of hair stylist Daniel Sung Hoon Kim. This website was created using React.js and provides Daniel's clients a place to browse past works and book appointments.",
+      "image": "/assets/danielsunghoonkim/dsk-desktop-home.gif",
+      "stack": ["react", "js"],
+      "repo": "https://github.com/alexehouston/danielsunghoonkim",
+      "demo": "https://danielsunghoonkim.com/"
+    },
+    {
+      "title": "Ccinéflix",
+      "description": "Cinéflix is a social media-based web application designed for bringing movie-lovers together to share their passion & opinions on cinema. This application was created during my time at General Assembly.",
+      "image": "/assets/cineflix/home-screenshot.gif",
+      "stack": ["django", "python"],
+      "repo": "https://github.com/alexehouston/cineflix",
+      "demo": "https://cineflixapp.herokuapp.com/"
+    },
+    {
+      "title": "Haamsteera",
+      "description": "Hamstera is a Django-based web application designed to collect all of the cute hamsters from the Hamtaro animated series. This application was created during my time at General Assembly.",
+      "image": "/assets/hamstera/home.png",
+      "stack": ["django", "python"],
+      "repo": "https://github.com/alexehouston/hamstera",
+      "demo": ""
+    },
+    {
+      "title": "Pookébank",
+      "description": "Pokébank is a full-stack Node.js web page application where users can log & store their Pokémon-related data. This application was created during my time at General Assembly.",
+      "image": "/assets/pokebank/pokebank.gif",
+      "stack": ["node", "js"],
+      "repo": "https://github.com/alexehouston/pokebank",
+      "demo": "https://poke-bank.herokuapp.com/"
+    },
+    {
+      "title": "Cooncentratioon",
+      "description": "Concentration is a Javascript-based browser game (with a Sailor Moon twist) in which cards are face down until all pairs of matching cards have been flipped. This application was created during my time at General Assembly.",
+      "image": "/assets/concentration/concentration.gif",
+      "stack": ["js"],
+      "repo": "https://github.com/alexehouston/concentration",
+      "demo": "https://alexehouston.github.io/concentration/"
+    }
+  ],
+  "resume": [
+    {
+      "title": "Web Developer",
+      "company": "Industrial Info Resources",
+      "link": "https://www.industrialinfo.com/",
+      "logo": "/assets/experience/iir.png",
+      "timeframe": "Apr 2023 - Present",
+      "description": [
+        "Collaborate with cross-functional teams to develop/maintainwebsite.",
+        "Assist in the implementation of web-based applications + projects.",
+        "Optimize website and code base in order to improve site performance + loading speeds.",
+        "Debug + troubleshoot in order to identify + resolve various bugs/compatibility issues.",
+        "Conduct testing to ensure intended functionality of web-based applications.",
+        "Document + maintain code repositories, ensuring proper version control."
+      ]
+    },
+    {
+      "title": "Team Lead / Academy Coordinator",
+      "company": "ACT, Inc.",
+      "link": "https://www.anhcotran.com/",
+      "logo": "/assets/experience/act.png",
+      "timeframe": "Jul 2019 - Aug 2022",
+      "description": [
+        "Provided hair services to a diverse clientele within fast-paced environments.",
+        "Led a team of stylists across the globe, for various events + projects.",
+        "Traveled globally, teaching modern haircutting techniques to professional stylists.",
+        "Collaborated closely with CEO on various projects, photoshoots + social media engagements.",
+        "Supported CEO with strategic visioning as well as managing day-to-day tasks."
+      ]
+    },
+    {
+      "title": "Graphic Designer",
+      "company": "Fresh, Inc.",
+      "link": "https://www.fresh.com/",
+      "logo": "/assets/experience/fresh.png",
+      "timeframe": "Sep 2016 - Aug 2018",
+      "description": [
+        "Conceptualized + executed designs for packaging, labels, + promotional materials, ensuring brand consistency + adherence to industry regulations.",
+        "Designed + implemented effective brand identity elements, such as logos, business cards, + brand assets, reflecting the brand's essence + positioning in the market.",
+        "Contributed to the development + execution of product launch campaigns, providing creative support + delivering designs that drove product awareness + sales."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "achievement": "Certificate in Software Engineering",
+      "school": "General Assembly",
+      "link": "https://www.generalassemb.ly/",
+      "logo": "/assets/experience/ga.png",
+      "timeframe": "Sep 2022 - Dec 2022",
+      "description": [
+        "Completed 420+ hours of fully-immersive, expert-led instruction on the tech industry's most in-demand skills.",
+        "Developed five projects over the course of 12 weeks; all displaying proficiency in full-stack web development."
+      ]
+    },
+    {
+      "achievement": "Bachelor's Degree",
+      "school": "Fashion Institute of Technology",
+      "link": "https://www.fitnyc.edu/",
+      "logo": "/assets/experience/fit.png",
+      "timeframe": "Aug 2014 - May 2017",
+      "description": [
+        "AAS degree in Advertising + Marketing Communications, followed by a BFA degree in Graphic Design.",
+        "Integrated knowledge from both marketing + graphic design programs to develop a well-rounded skill set."
+      ]
+    }
+  ]
+}
