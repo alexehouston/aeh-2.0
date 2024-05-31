@@ -87,7 +87,7 @@ export default function Resume({ handleMouseEnter, theme }) {
                     alt={resume.company}
                   />
                   <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
-                    {resume.title}
+                    <span className="stretch">{resume.title}</span>
                     <br />
                     <a
                       href={resume.link}
@@ -109,7 +109,7 @@ export default function Resume({ handleMouseEnter, theme }) {
                     </a>
                   </h6>
                 </div>
-                <h6 className="dates accent-txt col-5 col-lg-4 text-end m-0 pe-2">
+                <h6 className="dates accent-txt semibold col-4 col-lg-4 text-end m-0 pe-2">
                   {resume.timeframe}
                 </h6>
               </div>
@@ -151,7 +151,7 @@ export default function Resume({ handleMouseEnter, theme }) {
                     alt={education.school}
                   />
                   <h6 className="m-0 d-flex align-items-start flex-column justify-content-center">
-                    {education.achievement}
+                    <span className="stretch">{education.achievement}</span>
                     <br />
                     <a
                       href={education.link}
@@ -173,7 +173,7 @@ export default function Resume({ handleMouseEnter, theme }) {
                     </a>
                   </h6>
                 </div>
-                <h6 className="dates accent-txt col-5 text-end m-0 pe-2">
+                <h6 className="dates accent-txt semibold col-4 text-end m-0 pe-2">
                   {education.timeframe}
                 </h6>
               </div>
