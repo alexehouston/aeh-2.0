@@ -46,14 +46,14 @@ export default function Resume({ handleMouseEnter, theme }) {
         </div>
       </div>
       <div className="row bg-box rounded shadow m-0 p-3 mt-4">
-        <div className="d-flex flex-wrap justify-content-between fs-2">
+        <div className="d-flex flex-wrap justify-content-center justify-content-lg-between fs-2">
           {techArray.map((tech) => (
             <React.Fragment key={tech.id}>
               <Tooltip id={tech.id} />
               <i
                 className={`devicon-${tech.icon}-${
                   tech.icon === 'express' ? 'original' : 'plain'
-                } colored`}
+                } colored text-center`}
                 data-tooltip-id={tech.id}
                 data-tooltip-content={tech.name}
               ></i>
