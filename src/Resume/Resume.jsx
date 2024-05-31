@@ -109,7 +109,7 @@ export default function Resume({ handleMouseEnter, theme }) {
                     </a>
                   </h6>
                 </div>
-                <h6 className="dates accent-txt semibold col-2 col-lg-4 text-end m-0 pe-2">
+                <h6 className="dates accent-txt semibold col-3 col-lg-4 text-end m-0 pe-2">
                   {resume.timeframe}
                 </h6>
               </div>
@@ -173,7 +173,7 @@ export default function Resume({ handleMouseEnter, theme }) {
                     </a>
                   </h6>
                 </div>
-                <h6 className="dates accent-txt semibold col-2 text-end m-0 pe-2">
+                <h6 className="dates accent-txt semibold col-3 text-end m-0 pe-2">
                   {education.timeframe}
                 </h6>
               </div>
