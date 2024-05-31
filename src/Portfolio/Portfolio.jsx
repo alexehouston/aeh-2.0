@@ -33,7 +33,7 @@ export default function Portfolio({ handleMouseEnter, theme }) {
                     return (
                       <p
                         key={technology.id}
-                        className={`bg-${technology.id} btn-txt small col-2 semibold rounded-pill text-center pt-1 pb-2 me-2 mb-2`}
+                        className={`bg-${technology.id} btn-txt small col-2 semibold rounded-pill text-center py-1 me-2 mb-2`}
                       >
                         {technology.name}
                       </p>
