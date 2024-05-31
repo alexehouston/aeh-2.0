@@ -20,7 +20,7 @@ export default function Nav({ handleMouseEnter, theme, setTheme }) {
     <div className="Nav">
       <div className="navbar fixed-top mt-3 px-3">
         <div className="container py-2 px-4 bg-nav border border-aeh rounded-pill">
-          <div className="col-6 mx-auto ps-md-2 ps-lg-2 d-flex align-items-center">
+          <div className="col-6 mx-auto ps-md-2 ps-lg-2 d-flex justify-content-center justify-content-lg-start align-items-center">
             <h4 className="mb-0 py-2">aaeehh</h4>
             {theme === 'dark' ? (
               <FontAwesomeIcon

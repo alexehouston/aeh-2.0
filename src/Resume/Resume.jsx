@@ -113,7 +113,7 @@ export default function Resume({ handleMouseEnter, theme }) {
                   {resume.timeframe}
                 </h6>
               </div>
-              <ul className="m-0 p-3 mt-0 mt-lg-2 mb-2">
+              <ul className="m-0 p-4 mt-0 mt-lg-2 mb-2">
                 {resume.description.map((desc, i) => (
                   <React.Fragment key={i}>
                     <li>{desc}</li>
@@ -177,7 +177,7 @@ export default function Resume({ handleMouseEnter, theme }) {
                   {education.timeframe}
                 </h6>
               </div>
-              <ul className="description m-0 p-4 mt-0 mt-lg-2">
+              <ul className="m-0 p-4 mt-0 mt-lg-2">
                 {education.description.map((desc, i) => (
                   <React.Fragment key={i}>
                     <li>{desc}</li>
