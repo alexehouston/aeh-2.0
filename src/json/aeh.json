@@ -119,7 +119,7 @@
       "image": "/assets/eliagal/eg-desktop.gif",
       "stack": ["react", "js"],
       "repo": "https://github.com/alexehouston/elia-gal",
-      "demo": "https://eliagal.com"
+      "demo": "https://eliagal.netlify.app"
     },
     {
       "title": "KPP Hair Coolor",
