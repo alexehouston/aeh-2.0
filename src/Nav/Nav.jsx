@@ -36,7 +36,7 @@ export default function Nav({ handleMouseEnter, theme, setTheme }) {
               />
             )}
           </div>
-          <div className="col-6 pe-2 d-none d-lg-flex justify-content-end fs-5 pb-2">
+          <div className="col-6 pe-2 d-none d-lg-flex justify-content-end fs-5">
             <a href="#portfolio">
               <FontAwesomeIcon icon={faCode} />
               <span
